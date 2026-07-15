@@ -1,0 +1,20 @@
+# Ignore Obsidian user settings (per-machine, not shared)
+/.obsidian
+.obsidian/
+.obsidian/workspace.json
+
+# Ignore Smart Environment folder (per-machine)
+.smart-env
+
+# Secrets
+.webui_secret_key
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# NEVER commit agent secrets / PAT / credentials
+Memoria/.secrets/
+*.secret
+*.token

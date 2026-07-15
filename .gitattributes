@@ -1,0 +1,19 @@
+# Normalizar CRLF (repo multiplataforma)
+* text=auto eol=crlf
+
+# Markdown siempre texto
+*.md text eol=crlf
+
+# Scripts PowerShell texto
+*.ps1 text eol=crlf
+
+# JSON texto
+*.json text eol=crlf
+
+# Imagenes binarias
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.xopp binary
