@@ -30,6 +30,29 @@ Esto permite que `git push` dispare un diálogo nativo de Windows la primera vez
 
 ---
 
+## Configuración de Obsidian (una sola vez)
+
+Settings → abre estas tres configs para que el flujo encaje con la estructura del vault:
+
+### 1. Notas diarias → carpeta `Journal/`
+**Settings → Daily notes** (o el plugin "Periodic Notes" si lo usas):
+- **New file location**: `Journal`
+- **Date format**: `YYYY-MM-DD` (ej: `2026-07-21.md`)
+- **Template file** (opcional): apunta a `Zettelkasten/PlantillaEstudio.md` si quieres diary con estructura.
+
+### 2. Nuevas notas → carpeta `Inbox/`
+**Settings → Files & Links → Default location for new notes**:
+- Selecciona **"In a specific folder"** y pon `Inbox` — todas las notas nuevas caen ahí primero, las procesas después (`/archive-vault` las mueve al archivar).
+
+### 3. Imágenes pegadas → carpeta raíz (recomendado), NO en `Imagenes/`
+**Settings → Files & Links → Default location for new attachments**:
+- **Recomendado:** **"Same folder as current file"** (la imagen cae al lado de la nota) o **"Vault folder"** = raíz del vault.
+- **No recomendado:** poner `Imagenes/` aquí. Motivo: el índice de `Imagenes/` crece (cientos de archivos `Pasted image YYYYMMDD...`), y buscar una imagen específica para compartirla fuera de Obsidian se vuelve difícil.
+
+El comando `/archive-vault` se encarga de mover los PNG sueltos de la raíz a `Imagenes/` cuando archivas — así tienes lo mejor de ambos: visibilidad mientras trabajas, consolidación al archivar. Las referencias `![[archivo.png]]` siguen resolviendo desde cualquier carpeta.
+
+---
+
 ## Flujo Zettelkasten
 ```
 Journal → Inbox → Input → Zettelkasten → Output
