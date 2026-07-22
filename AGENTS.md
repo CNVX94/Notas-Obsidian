@@ -38,6 +38,9 @@ Journal → Inbox → Input → Zettelkasten → Output
 ### MOCs
 Viven en `Zettelkasten/` con prefijo `MOC - <tema>.md`. Índices temáticos. Agrégalos cuando notes acumulen en un área.
 
+### Carpeta de archivado (`_Archivo/`)
+Todo el histórico del vault vive en **una sola carpeta** `_Archivo/` con subcarpetas `Inbox/Input/Journal/Output/` (+ `NotasPlanas/` para notas legacy). No se crean carpetas numeradas `0xxx_Archivo/` nuevas. La guía activa del vault está en `_Archivo/migration.md`.
+
 ---
 
 ## 3. Estilo del agente (personalizar tras clonar)
@@ -70,19 +73,27 @@ La carpeta **`Memoria/`** es la **memoria persistente del agente** — estructur
 
 ## 5. Comando `/archive-vault`
 
-Archivo la iteración actual del vault moviendo `Inbox/`, `Input/`, `Journal/`, `Output/` de la raíz a una nueva `0xxx_Archivo/`, reubicando imágenes sueltas en `Imagenes/`, y recreando las carpetas activas vacías.
+Archivo el contenido activo del vault moviendo `Inbox/`, `Input/`, `Journal/`, `Output/` de la raíz a la carpeta **única** `_Archivo/`, reubicando imágenes sueltas en `Imagenes/`, y recreando las carpetas activas vacías. **No crea carpetas numeradas** — siempre usa `_Archivo/`.
 
 ### Uso
 - `/archive-vault` — **default**: archiva todo (incluido el journal más nuevo y todas sus imágenes → `Imagenes/`).
 - `/archive-vault keep` — excluye el journal más nuevo y sus imágenes referenciadas (se quedan activos en raíz).
 - `/archive-vault all` — alias del default.
 
+### Regla de duplicados
+Si un archivo activo tiene el mismo nombre que uno ya archivado en `_Archivo/`:
+- **Si el activo tiene `mtime` ≥ archivado** → reemplaza (sobreescribe el archivado).
+- **Si el activo tiene `mtime` < archivado** → el script salta el activo (preserva el archivado, que es más reciente).
+
+Principio: la versión más reciente del usuario es la canónica.
+
 El agente corre como subtask: el contexto principal del usuario no se llena con logs.
 
-**Memoria/ NUNCA se archiva.** Permanece intacta entre iteraciones.
+**Memoria/ NUNCA se archiva.** Permanece intacta entre archivados.
+**Imagenes/ permanece intacta** en su estructura (solo recibe PNG sueltos; las referencias `![[Imagenes/...]]` nunca se rompen).
 
 ### Detalle técnico
-Implementa `scripts/Archive-VaultIteration.ps1`. Soporta `-WhatIf` para dry-run. Variables: número iteración siguiente, rango de fechas, conteo de archivos.
+Implementa `scripts/Archive-VaultIteration.ps1`. Soporta `-WhatIf` para dry-run, `-KeepCurrentJournal`, `-JournalDate YYYY-MM-DD`. Compatible con PowerShell 5.1+ y 7+ (pwsh).
 
 ---
 
@@ -103,13 +114,29 @@ El agente opera **exclusivamente a través de la identidad del usuario**:
 
 ---
 
-## 7. Comandos / referencias rápidas
+## 7. MCP de Obsidian (acceso directo al vault)
 
-- `/archive-vault` — ver sección 5.
-- `/git-full` o `/git-full "mensaje"` — ver sección 6.
-- Guía activa del vault: `0001_Archivo/migration.md` (actualizar referencia en cada archivación).
-- Skill del vault: `.opencode/skills/zettelkasten/SKILL.md`.
+El plugin **`obsidian-local-rest-api`** expone un servidor MCP nativo dentro de Obsidian (config en `.opencode/opencode.json`, endpoint `https://127.0.0.1:27124/mcp/`). El agente puede usar sus herramientas cuando Obsidian está abierto con el plugin habilitado.
+
+### Herramientas disponibles
+`vault_list`, `vault_read`, `vault_write`, `vault_append`, `vault_patch`, `vault_delete`, `vault_move`, `vault_get_document_map`, `active_file_get_path`, `periodic_note_get_path`, `search_query`, `search_simple`, `tag_list`, `command_list`, `command_execute`, `open_file`.
+
+### Reglas de uso
+- **Autenticación**: `Authorization: Bearer {env:OBSIDIAN_API_KEY}` — la API key vive SOLO en la variable de entorno del usuario. **Nunca se commitea** (ver sección 6).
+- **Setup del usuario** (una vez): instalar/habilitar el plugin en Obsidian, copiar la API key de Settings → Local REST API, y definir la env var `OBSIDIAN_API_KEY` (scope usuario). Cert autofirmado: confiar el cert de `https://127.0.0.1:27124/obsidian-local-rest-api.crt` o habilitar el servidor HTTP 27123.
+- **Fallback**: si el MCP no responde (Obsidian cerrado / plugin deshabilitado), el agente usa grep/glob/edit directos sobre los archivos del vault. El trabajo no se bloquea.
+- Preferir `vault_patch` para ediciones quirúrgicas (un heading, un campo frontmatter) en vez de reescribir notas completas.
 
 ---
 
-*Última actualización: 2026-07-15 — Versión template inicial*
+## 8. Comandos / referencias rápidas
+
+- `/archive-vault` — ver sección 5.
+- `/git-full` o `/git-full "mensaje"` — ver sección 6.
+- Guía activa del vault: `_Archivo/migration.md` (se actualiza al archivar).
+- Skill del vault: `.opencode/skills/zettelkasten/SKILL.md`.
+- MCP Obsidian: ver sección 7.
+
+---
+
+*Última actualización: 2026-07-21 — Modelo `_Archivo/` único + MCP Obsidian*

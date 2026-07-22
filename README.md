@@ -25,7 +25,7 @@ Esto permite que `git push` dispare un diálogo nativo de Windows la primera vez
 
 ### 4. Flujo diario
 - Escribe notas. Journal en `Journal/YYYY-MM-DD.md`, capturas en `Inbox/`, etc. (ver reglas en `AGENTS.md`).
-- `/archive-vault` cuando el vault crezca → archiva la iteración en `0xxx_Archivo/`.
+- `/archive-vault` cuando el vault crezca → mueve el contenido activo a `_Archivo/` (carpeta única).
 - `/git-full "mensaje"` o `/git-full` → commit + push a GitHub.
 
 ---
@@ -46,7 +46,7 @@ zettelkasten-template/
 ├── AGENTS.md                  ← identidad del agente (personalizable)
 ├── README.md                  ← este archivo
 ├── .gitignore / .gitattributes
-├── 0001_Archivo/              ← iteración 1 (archivado inicial, estructura espejo)
+├── _Archivo/                  ← carpeta ÚNICA de archivado (Inbox/Input/Journal/Output/NotasPlanas)
 │   └── migration.md           ← guía activa del vault
 ├── Imagenes/                  ← todas las imágenes
 ├── Inbox/  Input/  Journal/  Output/   ← carpetas activas (vacías)
@@ -69,13 +69,41 @@ zettelkasten-template/
 
 | Comando | Descripción |
 |---------|-------------|
-| `/archive-vault` | Archiva iteración (default: archiva todo). Mueve Inbox/Input/Journal/Output a nueva `0xxx_Archivo/`, reubica imágenes en `Imagenes/`, recrea carpetas activas. |
+| `/archive-vault` | Archiva todo: mueve Inbox/Input/Journal/Output a `_Archivo/` (carpeta única, no crea numeradas), reubica imágenes en `Imagenes/`, recrea carpetas activas. |
 | `/archive-vault keep` | Igual pero excluye el journal más nuevo y sus imágenes (se quedan activos). |
 | `/archive-vault all` | Alias del default. |
 | `/git-full` | `git add -A` + `commit` + `push`. Setup interactivo si no hay remote. Mensaje default: `vault sync YYYY-MM-DD HH:mm`. |
 | `/git-full "mensaje"` | Igual pero con mensaje custom. |
 
 Ambos corren como **subtask** — el contexto del usuario no se llena con logs.
+
+### Regla de duplicados (`/archive-vault`)
+Si un archivo activo tiene el mismo nombre que uno ya en `_Archivo/`:
+- Si el activo tiene `mtime` ≥ archivado → reemplaza.
+- Si el activo tiene `mtime` < archivado → se salta (preserva el archivado, más reciente).
+
+---
+
+## Conexión MCP a Obsidian
+
+El plugin **`obsidian-local-rest-api`** expone un servidor MCP nativo dentro de Obsidian. Con él, el agente lee/escribe/busca notas y ejecuta comandos de Obsidian directamente (`vault_read`, `vault_write`, `vault_patch`, `search_simple`, `tag_list`, `command_execute`, `open_file`, …).
+
+### Setup (una sola vez)
+1. Instala y habilita el plugin **Local REST API** en Obsidian (Community plugins).
+2. En Obsidian: **Settings → Local REST API → Copy API Key**.
+3. Define la variable de entorno (PowerShell, scope usuario):
+   ```powershell
+   [Environment]::SetEnvironmentVariable('OBSIDIAN_API_KEY','<tu-api-key>','User')
+   ```
+4. Certificado autofirmado: si el cliente rechaza TLS, descarga y confía el cert de `https://127.0.0.1:27124/obsidian-local-rest-api.crt`, o habilita el servidor HTTP en settings y usa `http://127.0.0.1:27123/mcp/`.
+5. **Obsidian debe estar abierto** con el plugin habilitado para que el MCP responda.
+
+La config ya viene en `.opencode/opencode.json` (endpoint `https://127.0.0.1:27124/mcp/`, auth `Bearer {env:OBSIDIAN_API_KEY}`). **La API key nunca se commitea** — vive solo en tu variable de entorno. Si el MCP no responde, el agente hace fallback a grep/glob/edit sobre los archivos.
+
+Verificación rápida (con Obsidian abierto):
+```powershell
+curl.exe -k https://127.0.0.1:27124/
+```
 
 ---
 
@@ -96,4 +124,4 @@ Si en el futuro guardas **mucho código embebido** dentro de notas (snippets lar
 
 ---
 
-*Template inicial — 2026-07-15*
+*Última actualización: 2026-07-21 — Modelo `_Archivo/` único + MCP Obsidian*
