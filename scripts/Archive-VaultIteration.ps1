@@ -64,11 +64,11 @@ foreach ($f in 'Inbox','Input','Journal','Output','Imagenes','Zettelkasten') {
   }
 }
 
-$activeInbox   = Get-ChildItem -LiteralPath 'Inbox'   -File -ErrorAction SilentlyContinue
-$activeInput   = Get-ChildItem -LiteralPath 'Input'   -File -ErrorAction SilentlyContinue
+$activeInbox   = Get-ChildItem -LiteralPath 'Inbox'   -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -ne '.gitkeep' }
+$activeInput   = Get-ChildItem -LiteralPath 'Input'   -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -ne '.gitkeep' }
 $activeInputDirs = Get-ChildItem -LiteralPath 'Input' -Directory -ErrorAction SilentlyContinue
 $activeJournal = Get-ChildItem -LiteralPath 'Journal' -File -Filter *.md -ErrorAction SilentlyContinue
-$activeOutput  = Get-ChildItem -LiteralPath 'Output'   -File -ErrorAction SilentlyContinue
+$activeOutput  = Get-ChildItem -LiteralPath 'Output'   -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -ne '.gitkeep' }
 $activeOutputDirs = Get-ChildItem -LiteralPath 'Output' -Directory -ErrorAction SilentlyContinue
 
 $hasContent = ($activeInbox) -or ($activeInput) -or ($activeInputDirs) -or ($activeJournal) -or ($activeOutput) -or ($activeOutputDirs)
