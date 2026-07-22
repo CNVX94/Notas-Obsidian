@@ -116,7 +116,9 @@ El agente opera **exclusivamente a través de la identidad del usuario**:
 
 ## 7. MCP de Obsidian (acceso directo al vault)
 
-El plugin **`obsidian-local-rest-api`** expone un servidor MCP nativo dentro de Obsidian (config en `.opencode/opencode.json`, endpoint `https://127.0.0.1:27124/mcp/`). El agente puede usar sus herramientas cuando Obsidian está abierto con el plugin habilitado.
+El plugin **`obsidian-local-rest-api`** expone el vault vía REST/MCP. Config por cliente: **opencode** en `.opencode/opencode.json` (MCP nativo del plugin, endpoint `https://127.0.0.1:27124/mcp/`), **Claude Code** en `.mcp.json` raíz (`uvx mcp-obsidian` → REST `https://127.0.0.1:27124`; requiere uv/uvx instalados; auto-setup guiado en `CLAUDE.md`). El agente puede usar sus herramientas cuando Obsidian está abierto con el plugin habilitado.
+
+En Claude Code (vía `mcp-obsidian`) los nombres de herramienta son `obsidian_*`: `obsidian_get_file_contents`, `obsidian_simple_search`, `obsidian_patch_content`, `obsidian_append_content`, `obsidian_list_files_in_vault`, … Aplica la misma regla: preferir `obsidian_patch_content` para ediciones quirúrgicas.
 
 ### Herramientas disponibles
 `vault_list`, `vault_read`, `vault_write`, `vault_append`, `vault_patch`, `vault_delete`, `vault_move`, `vault_get_document_map`, `active_file_get_path`, `periodic_note_get_path`, `search_query`, `search_simple`, `tag_list`, `command_list`, `command_execute`, `open_file`.

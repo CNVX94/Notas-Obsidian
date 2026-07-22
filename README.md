@@ -1,6 +1,6 @@
 # zettelkasten-template
 
-Template de vault Zettelkasten para Obsidian con agente opencode personalizable, comando de archivación periódica (`/archive-vault`), y flujo git sincronizado (`/git-full`).
+Template de vault Zettelkasten para Obsidian con agente personalizable (opencode y Claude Code), MCP de Obsidian preconfigurado para ambos clientes, comando de archivación periódica (`/archive-vault`), y flujo git sincronizado (`/git-full`).
 
 Pensado para usarse con el botón **"Use this template"** de GitHub: genera un repo nuevo, clonar, empezar a escribir.
 
@@ -67,6 +67,8 @@ Ver `AGENTS.md` sección 2 para reglas de enrutamiento.
 ```
 zettelkasten-template/
 ├── AGENTS.md                  ← identidad del agente (personalizable)
+├── CLAUDE.md                  ← auto-setup para Claude Code (apunta a AGENTS.md)
+├── .mcp.json                  ← config MCP para Claude Code (uvx mcp-obsidian)
 ├── README.md                  ← este archivo
 ├── .gitignore / .gitattributes
 ├── _Archivo/                  ← carpeta ÚNICA de archivado (Inbox/Input/Journal/Output/NotasPlanas)
@@ -109,19 +111,31 @@ Si un archivo activo tiene el mismo nombre que uno ya en `_Archivo/`:
 
 ## Conexión MCP a Obsidian
 
-El plugin **`obsidian-local-rest-api`** expone un servidor MCP nativo dentro de Obsidian. Con él, el agente lee/escribe/busca notas y ejecuta comandos de Obsidian directamente (`vault_read`, `vault_write`, `vault_patch`, `search_simple`, `tag_list`, `command_execute`, `open_file`, …).
+El plugin **`obsidian-local-rest-api`** expone el vault por REST/MCP: el agente lee/escribe/busca notas y ejecuta comandos de Obsidian directamente. Nombres de herramienta según cliente: en opencode las nativas del plugin (`vault_read`, `vault_patch`, `search_simple`, `command_execute`, …); en Claude Code las del servidor `mcp-obsidian` (`obsidian_get_file_contents`, `obsidian_patch_content`, `obsidian_simple_search`, …).
 
-### Setup (una sola vez)
+### Setup común (una sola vez)
 1. Instala y habilita el plugin **Local REST API** en Obsidian (Community plugins).
-2. En Obsidian: **Settings → Local REST API → Copy API Key**.
-3. Define la variable de entorno (PowerShell, scope usuario):
+2. **Settings → Local REST API → Copy API Key** y define la variable de entorno (PowerShell, scope usuario):
    ```powershell
    [Environment]::SetEnvironmentVariable('OBSIDIAN_API_KEY','<tu-api-key>','User')
    ```
-4. Certificado autofirmado: si el cliente rechaza TLS, descarga y confía el cert de `https://127.0.0.1:27124/obsidian-local-rest-api.crt`, o habilita el servidor HTTP en settings y usa `http://127.0.0.1:27123/mcp/`.
-5. **Obsidian debe estar abierto** con el plugin habilitado para que el MCP responda.
+   Reinicia el cliente (opencode / Claude Code) para que el proceso herede la variable.
+3. **Obsidian debe estar abierto** con el plugin habilitado para que el MCP responda.
 
-La config ya viene en `.opencode/opencode.json` (endpoint `https://127.0.0.1:27124/mcp/`, auth `Bearer {env:OBSIDIAN_API_KEY}`). **La API key nunca se commitea** — vive solo en tu variable de entorno. Si el MCP no responde, el agente hace fallback a grep/glob/edit sobre los archivos.
+**La API key nunca se commitea** — vive solo en tu variable de entorno. Si el MCP no responde, el agente hace fallback a grep/glob/edit sobre los archivos.
+
+### opencode — ya configurado
+Config en `.opencode/opencode.json` (endpoint `https://127.0.0.1:27124/mcp/`, auth `Bearer {env:OBSIDIAN_API_KEY}`). Si opencode rechaza el TLS del cert autofirmado: confía el cert de `https://127.0.0.1:27124/obsidian-local-rest-api.crt`, o cambia la url a `http://127.0.0.1:27123/mcp/`.
+
+### Claude Code — ya configurado (auto-setup)
+Config en `.mcp.json` (raíz del repo): lanza el servidor **`mcp-obsidian`** con `uvx`, que habla con Local REST API (`https://127.0.0.1:27124`, acepta el cert autofirmado solo). Al abrir el repo, Claude Code detecta el archivo y pregunta si apruebas el servidor — acepta y listo.
+
+**Requisito**: [uv](https://docs.astral.sh/uv/) instalado (`uv --version` / `uvx --version` deben responder). Si falta:
+```powershell
+winget install --id=astral-sh.uv -e
+```
+
+Además, `CLAUDE.md` instruye al agente para completar el setup solo en tu primera sesión: comprueba uv/uvx (te ofrece instalarlos si faltan), verifica la env var `OBSIDIAN_API_KEY` (te la pide si falta y la guarda), y confirma que el plugin responde.
 
 Verificación rápida (con Obsidian abierto):
 ```powershell
@@ -147,4 +161,4 @@ Si en el futuro guardas **mucho código embebido** dentro de notas (snippets lar
 
 ---
 
-*Última actualización: 2026-07-21 — Modelo `_Archivo/` único + MCP Obsidian*
+*Última actualización: 2026-07-22 — MCP Obsidian para Claude Code (`uvx mcp-obsidian` + auto-setup en `CLAUDE.md`) y opencode*
