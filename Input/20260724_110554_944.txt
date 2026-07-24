@@ -1,0 +1,2192 @@
+Online speaker 2026-07-24 11:06:18
+Es que haz de cuenta, ves que ellos tienen códigos postales agregados a lo menso, o sea, tienen por ejemplo 88888 y 9999, eso sí, no pasan de plan, ajá.
+
+Online speaker 2026-07-24 11:06:31
+Es que ahí no tengo yo forma de saber si no son, si son válidos o no esos códigos postales
+
+Online speaker 2026-07-24 11:06:39
+Entonces, por ejemplo, está el que tiene cuatro nueves, no 9999, entonces mi algoritmo lo que hizo es que le agregó un cero y sí existe el 99990, que es Zacatecas.
+
+Online speaker 2026-07-24 11:06:53
+Es lo único que ando viendo ahorita, mira entonces.
+
+Online speaker 2026-07-24 11:06:58
+Ah, deja veo los logs también epson, blogs.
+
+Online speaker 2026-07-24 11:07:05
+Entonces, por ejemplo, me puso 1, que es 999, pero
+
+Online speaker 2026-07-24 11:07:10
+Bien rápido que corrió, tardó y creo 1 minuto.
+
+Online speaker 2026-07-24 11:07:16
+No
+
+Online speaker 2026-07-24 11:07:17
+99, ahí está, entonces, por ejemplo, está este código postal este
+
+Online speaker 2026-07-24 11:07:22
+Déjalo como más grande cuando al Z.
+
+Online speaker 2026-07-24 11:07:26
+Hija, lo hago más grande que el control más
+
+Online speaker 2026-07-24 11:07:30
+Ahí está
+
+Online speaker 2026-07-24 11:07:32
+Entonces está este código postal que de bueno ya mejoré los logs porque ella dice compañía 9 en la tama el distribuidora Nuevo Walmart México en destino a mi bodega ixtap. Entonces ellos le pusieron el código 99999, pero ya usó el algoritmo y 99990 sí lo encontró, pero lo puso como Zacatecas.
+
+Online speaker 2026-07-24 11:07:51
+Pero no es o sí.
+
+Online speaker 2026-07-24 11:07:53
+No, no, porque es este ixtapa es en zihuatanejo
+
+Online speaker 2026-07-24 11:07:58
+En Estado de México.
+
+Online speaker 2026-07-24 11:08:02
+Sí, entonces, pues ahí ya esas excepciones, pues tiene que corregirlos, sí, porque creo también pasa con el 88888 este Ah, sí, mira también el 8888 que tienen avenida Morelos.
+
+Online speaker 2026-07-24 11:08:18
+Bodega ahorrará tlapa este aquí uso el cero y encontró que era Tamaulipas Méndez entonces
+
+Online speaker 2026-07-24 11:08:28
+Méndez, or
+
+Online speaker 2026-07-24 11:08:32
+Sí, pero en principio son a los que hay que ir a vivir, porque si no los conocemos es porque no pasa nada.
+
+Online speaker 2026-07-24 11:08:38
+Porque allá sí viven tranquilos.
+
+Online speaker 2026-07-24 11:08:43
+Hasta en sus pueblos
+
+Online speaker 2026-07-24 11:08:47
+Pero ella
+
+Online speaker 2026-07-24 11:08:51
+Ya la ingesta ya se ve más limpia que ayer es que ayer se veía un poquito cuando me
+
+Online speaker 2026-07-24 11:08:59
+Me dio
+
+Online speaker 2026-07-24 11:09:01
+Mal porque estaba mal agrupada por.
+
+Online speaker 2026-07-24 11:09:05
+Ahorita ya se ve limpia, o sea, ya se ve como el ejemplo que me pasaste de PowerPoint
+
+Online speaker 2026-07-24 11:09:11
+De Liverpool SA de CVY ya tiene sus puntos de destino
+
+Online speaker 2026-07-24 11:09:17
+Entonces ya
+
+Online speaker 2026-07-24 11:09:20
+Ya, ya quedaría esa parte.
+
+Online speaker 2026-07-24 11:09:22
+Nada más que ahorita.
+
+Online speaker 2026-07-24 11:09:25
+Es que el cursor me pasó un prom para hacer la importación y me dijo que con este cambio que iba a hacer iba a ocupar hacer la ingesta otra vez de clientes para borrar los datos. Yo le dije que sí, que como eran datos de QA no pasaba nada.
+
+Online speaker 2026-07-24 11:09:38
+Si borraba, entonces ya me pasó un cuerry que ya había hecho cursor, pero no sé si ahí sabrá jalado lo de tarifas, lo que ahorita estaban viendo de tarifas y a lo mejor.
+
+Online speaker 2026-07-24 11:09:48
+Ya me pasé de becario, ahorita bien que estás de todo, Richie.
+
+Local speaker 2026-07-24 11:09:49
+Este ya les estoy dando de alta.
+
+Online speaker 2026-07-24 11:09:53
+Sí, ya nada más me queda, o sea, me queda asignar las este, los códigos postales pendientes a las zonas y volverlo a ingestar otra vez y ya quedarían todos al 100. Va, va, va.
+
+Local speaker 2026-07-24 11:10:01
+Estaba
+
+Local speaker 2026-07-24 11:10:02
+Estaba muteado, pero ya los estoy, este otra vez este metiendo, bueno, le pedí ayuda a Claudia
+
+Online speaker 2026-07-24 11:10:09
+¿Ah, sí? Es que Bruno.
+
+Local speaker 2026-07-24 11:10:09
+Si es que cuando terminé de darlas de de alta dije no, si me paso yo de de borrarlos a lo que sea, cambiamos de base de datos, cualquier cosa.
+
+Local speaker 2026-07-24 11:10:17
+Mejor ya tener un respaldo de esa información buena
+
+Local speaker 2026-07-24 11:10:21
+Entonces ya ahorita está dando de alta otra vez las zonas, este los carriers vehículos, o sea, todo lo relacionado con las tarifas.
+
+Online speaker 2026-07-24 11:10:22
+Ajá, va.
+
+Local speaker 2026-07-24 11:10:30
+Entonces, ahorita que termine
+
+Online speaker 2026-07-24 11:10:30
+Sí, sí, porque son si si ya estaban bien.
+
+Online speaker 2026-07-24 11:10:33
+¿Y si me ya se ven ahí los puntos de entregar? Está muy bien
+
+Local speaker 2026-07-24 11:10:36
+Sí, y que fue
+
+Online speaker 2026-07-24 11:10:37
+Sí, sí te digo que creo ya quedó más limpia la la ingesta, ahora sí, ya como debe de ser ya nada más la metro. No, no entró.
+
+Online speaker 2026-07-24 11:10:46
+Zona metropolitana
+
+Online speaker 2026-07-24 11:10:50
+Ahí yo me imagino que es porque ajá, ajá
+
+Local speaker 2026-07-24 11:10:53
+Bueno, es que ayer este vez el nuevo model que hiciste, lo de agregar los municipios es que este tenía una duda con zona metropolitana.
+
+Online speaker 2026-07-24 11:11:01
+Ajá.
+
+Local speaker 2026-07-24 11:11:06
+Porque, o sea, ahí vamos
+
+Local speaker 2026-07-24 11:11:11
+A tomar este
+
+Local speaker 2026-07-24 11:11:14
+O sea, bueno, es que sería que este zumpango Toluca este huehuetoca o
+
+Online speaker 2026-07-24 11:11:19
+No es un Banco, es un pango de Toluca.
+
+Local speaker 2026-07-24 11:11:21
+Ah, no, ese es otro, ese es otro
+
+Online speaker 2026-07-24 11:11:23
+Ajá, más bien aquí debería entrar, por ejemplo, este cuautitlán
+
+Online speaker 2026-07-24 11:11:30
+Atizapán.
+
+Online speaker 2026-07-24 11:11:33
+Ecatepec, pero se supone que esto no lo cuando lleguen los puntos de entrega que Richie trae
+
+Online speaker 2026-07-24 11:11:41
+Es que aparecerá
+
+Online speaker 2026-07-24 11:11:43
+Creo lo que me di cuenta de su P 8 es que los códigos postales, que son de zona metropolitana son los que tienen el punto, o sea, los que si de plano no entran y hacomex ni para el algoritmo de cero
+
+Local speaker 2026-07-24 11:11:43
+Ajá
+
+Local speaker 2026-07-24 11:11:53
+OK, si es que por eso esos ya no los di de alta como tenía esa duda, dije, bueno, pues es el único que lo dejo así y ya este las reuniones lo veíamos
+
+Online speaker 2026-07-24 11:12:03
+Pero son estos
+
+Local speaker 2026-07-24 11:12:03
+Por eso no parece
+
+Online speaker 2026-07-24 11:12:05
+A ver, por ejemplo, si pongo este naucalpan
+
+Online speaker 2026-07-24 11:12:08
+Tlalnepantla.
+
+Online speaker 2026-07-24 11:12:11
+Metepec, ese sí, no sé, neza.
+
+Online speaker 2026-07-24 11:12:16
+Cuetzancoalcos Coacalco este sin
+
+Online speaker 2026-07-24 11:12:22
+Tlalnepantla Cuautitlán, Naucalpan, Ecatepec, Lerma, este este va para Toluca.
+
+Online speaker 2026-07-24 11:12:30
+Del río, esos Veracruz.
+
+Online speaker 2026-07-24 11:12:33
+Antizapán de Zaragoza.
+
+Online speaker 2026-07-24 11:12:37
+Ecatepec de Morelos.
+
+Online speaker 2026-07-24 11:12:40
+De hecho, si es signo bastante metropolitana y ejecuto la ingesta otra vez y ya va a ver destino, sonámetros, vamos a hacer la la prueba ajá.
+
+Online speaker 2026-07-24 11:12:50
+El 14 zona metropolitana.
+
+Local speaker 2026-07-24 11:12:55
+Ya tenemos de nuevo tarifas.
+
+Online speaker 2026-07-24 11:12:55
+Ahí está
+
+Online speaker 2026-07-24 11:12:58
+Perfecto, oye, Richie, pero aquí me siguen apareciendo aquí.
+
+Online speaker 2026-07-24 11:13:03
+Es que ahí lo que cambia es el Código Postal, o sea, es como el caso Zapopan, que es Zapopan, tiene varios códigos postales. Ajá, gracias, ya te entendí, ajá, sí, oye, aquí podrías hacer un agrupamiento
+
+Online speaker 2026-07-24 11:13:18
+Si puedo ver si lo hace la IA es que lo que puedo hacer es eso, o por ejemplo, es que dices 63 destinos.
+
+Online speaker 2026-07-24 11:13:24
+Este hay más bien sería los códigos postales, los municipios que abarca ese código postal. Ajá.
+
+Online speaker 2026-07-24 11:13:31
+Ajá. Exacto, municipios, por ejemplo, esos aquí ponerlos en cuautitlán y con una todos no dirían todos.
+
+Online speaker 2026-07-24 11:13:39
+A ver, tlalnepantla.
+
+Online speaker 2026-07-24 11:13:42
+Meza, sí, esa es una metro
+
+Online speaker 2026-07-24 11:13:46
+Acalco
+
+Online speaker 2026-07-24 11:13:51
+No, pero son los mismos. Mira.
+
+Online speaker 2026-07-24 11:13:55
+¿Cuál el los que ya había elegido?
+
+Online speaker 2026-07-24 11:13:58
+A ver, son 500, a ver, vamos a ver si bajamos, no sabe agregar.
+
+Online speaker 2026-07-24 11:14:03
+Colman
+
+Online speaker 2026-07-24 11:14:05
+Ah Reynosa.
+
+Online speaker 2026-07-24 11:14:08
+Juanes, Chihuahua, Lerma
+
+Online speaker 2026-07-24 11:14:18
+Y ordenanlos por por Estado y municipio así
+
+Online speaker 2026-07-24 11:14:23
+Aquí lo tienes a papá.
+
+Online speaker 2026-07-24 11:14:29
+Bueno, agrupale Vanessa, por ejemplo, esto que está acá
+
+Online speaker 2026-07-24 11:14:34
+A ver, una metropolitana 9
+
+Online speaker 2026-07-24 11:14:38
+Debe haber horas
+
+Online speaker 2026-07-24 11:14:41
+4904
+
+Online speaker 2026-07-24 11:14:44
+Sí, mira, no
+
+Online speaker 2026-07-24 11:14:45
+No, como que no me traía el béisbol, es que
+
+Online speaker 2026-07-24 11:14:49
+Bueno, es que creo que ahí lo que hizo este
+
+Local speaker 2026-07-24 11:14:53
+Hola.
+
+Online speaker 2026-07-24 11:14:53
+O sea, si se agregan, pero hay más de 500, pero el tope de solicitud es 500.
+
+Local speaker 2026-07-24 11:15:02
+Sí, bueno, este es que la parte de los pedidos para hacer los filtros que podías este filtrar por clientes.
+
+Local speaker 2026-07-24 11:15:10
+Como eran un b
+
+Local speaker 2026-07-24 11:15:12
+Este lo que hice es que el propio select este fuera como un input, pero mientras yo fuera desplazándome hacia abajo me cargaba los demás, o sea, no lanzaba como que la solicitud de golpe, sino cuando iba bajando, me actualizaba a los demás que faltaban
+
+Online speaker 2026-07-24 11:15:29
+Ah, eso es lo que me falta hacer.
+
+Local speaker 2026-07-24 11:15:29
+No sé si pueda servir, sí, sí, sí, no, así es como está en el de pedidos, porque sí fue lo que me di cuenta, dije, no es que son un buen logo para buscar el nombre, pues mejor tener las dos opciones que puedo buscar en el nombre, pero también me salen en el select y nada más se muestra un loader cuando me carga los resultados porque puse que por defecto me cargará 50. Luego de ahí, cuando bajara me cargara otro 50 y al final ya los tienes todos cargados.
+
+Online speaker 2026-07-24 11:15:33
+Sí, mjm
+
+Online speaker 2026-07-24 11:15:40
+Sí.
+
+Local speaker 2026-07-24 11:15:54
+Pero nada más en el momento para que no fuera tan grande la carga se lo limité.
+
+Online speaker 2026-07-24 11:16:00
+Ahí puedes abrir el modal de zona metropolitana Cris, si debes de ver los que ahorita asignaste ahí en zona metropolitana.
+
+Online speaker 2026-07-24 11:16:10
+Aquí me dice cero
+
+Online speaker 2026-07-24 11:16:12
+Ah, porque no he corrido la consola otra vez, pero
+
+Online speaker 2026-07-24 11:16:16
+Esas son las cartas esos.
+
+Online speaker 2026-07-24 11:16:19
+Ah OK, si entonces sí que traiga todos.
+
+Online speaker 2026-07-24 11:16:23
+Y agrupados no, y ya con eso este se hace más chico, se hace más chico,
+
+Online speaker 2026-07-24 11:16:29
+Sí, porque en sí ya traes el el, el Estado y el municipio.
+
+Online speaker 2026-07-24 11:16:34
+Si, por ejemplo, decir efectivamente no, ya que te ponga estado municipio y todos los códigos postales así
+
+Online speaker 2026-07-24 11:16:39
+No, no en lista, sino que este es también aquí los tengo que agrupar ahorita que voy viendo esta vista, esto de aquí.
+
+Online speaker 2026-07-24 11:16:48
+Pero
+
+Online speaker 2026-07-24 11:16:50
+Sí.
+
+Online speaker 2026-07-24 11:16:53
+Dos, dos veces porque la descripción, pero está bien, o sea, ya esto ya es estética.
+
+Online speaker 2026-07-24 11:16:57
+Perfecto, encontré un poco, déjenselos, se los menciono para que lo vayan apuntando cuando ya.
+
+Online speaker 2026-07-24 11:17:03
+Cuando ya inicié sesión y si me voy al al al login me sigue apareciendo
+
+Online speaker 2026-07-24 11:17:11
+Vale para que lo lo arreglen en esta parte.
+
+Online speaker 2026-07-24 11:17:17
+Sí, sí.
+
+Online speaker 2026-07-24 11:17:18
+Vale, bueno, ese es 1.
+
+Online speaker 2026-07-24 11:17:21
+OK, ya estuve trabajando las las tarifas.
+
+Online speaker 2026-07-24 11:17:26
+Ah, sí, ya aparece sin ruta comercial.
+
+Online speaker 2026-07-24 11:17:34
+Aquí aquí en tarifas, hay que quitar esta este.
+
+Online speaker 2026-07-24 11:17:41
+Columna.
+
+Online speaker 2026-07-24 11:17:47
+Pero en esta
+
+Online speaker 2026-07-24 11:17:54
+No, esta estas no son las tarifas.
+
+Online speaker 2026-07-24 11:17:59
+No, esa es la B 1, es la que según ya no jalaba
+
+Online speaker 2026-07-24 11:18:03
+Pero está también la de B dos y las de
+
+Online speaker 2026-07-24 11:18:08
+Ay cuál era
+
+Online speaker 2026-07-24 11:18:10
+Sí, las tarifaremos, ajá
+
+Online speaker 2026-07-24 11:18:12
+Las tarifas que debemos tener son las de zona zona.
+
+Online speaker 2026-07-24 11:18:15
+Bueno, tenemos así
+
+Online speaker 2026-07-24 11:18:17
+Contrato Contreras.
+
+Local speaker 2026-07-24 11:18:20
+¿Qué viste estas tarifas? Es que yo esas zonas, esas tarifas está dentro de la lista de Tarifarios, no de tarifas ya está mezclado.
+
+Online speaker 2026-07-24 11:18:20
+Hola.
+
+Online speaker 2026-07-24 11:18:30
+Sí.
+
+Local speaker 2026-07-24 11:18:30
+Esa es la visa de tarifarios.
+
+Online speaker 2026-07-24 11:18:33
+Sí es que la tarifa.
+
+Online speaker 2026-07-24 11:18:35
+Más de bueno si el carrier
+
+Local speaker 2026-07-24 11:18:38
+Por eso, de la vista de tarifario está, por ejemplo, Chalco y luego te aparece motocicleta automóvil Ciudad de México, motocicleta, automóvil, por eso es la vista de tarifario, no de tarifas
+
+Online speaker 2026-07-24 11:18:51
+Mhm, exacto
+
+Online speaker 2026-07-24 11:18:54
+Entonces, esta tarif
+
+Online speaker 2026-07-24 11:18:57
+Pues esta se va, no esta vista.
+
+Local speaker 2026-07-24 11:18:59
+Ajá, sí, esa no sé cómo.
+
+Online speaker 2026-07-24 11:19:02
+Sí, sí, porque esta ópera a ver.
+
+Local speaker 2026-07-24 11:19:02
+Con tarifas
+
+Online speaker 2026-07-24 11:19:06
+Y car
+
+Online speaker 2026-07-24 11:19:07
+Sí, porque no hay rutas comerciales creadas eso
+
+Online speaker 2026-07-24 11:19:10
+Ajá, aquí aquí, más bien sería, por ejemplo, la ruta
+
+Online speaker 2026-07-24 11:19:13
+Si quisiéramos marcar las tarifas, aquí tendría que darme, por ejemplo, México.
+
+Online speaker 2026-07-24 11:19:19
+Aguascalientes.
+
+Online speaker 2026-07-24 11:19:21
+Aquí.
+
+Online speaker 2026-07-24 11:19:23
+O sea, esa esa relación.
+
+Local speaker 2026-07-24 11:19:26
+Sí, entonces esto se va porque ya bueno, nos quedamos con la
+
+Local speaker 2026-07-24 11:19:30
+Tarifario, sí.
+
+Online speaker 2026-07-24 11:19:33
+Sí, porque ésta sí es la correcta.
+
+Online speaker 2026-07-24 11:19:36
+Aquí se me estás poniendo un botón por acá, no sé qué sea
+
+Online speaker 2026-07-24 11:19:42
+Acá miren
+
+Online speaker 2026-07-24 11:19:44
+Botón escondi
+
+Local speaker 2026-07-24 11:19:46
+Ya habías bajado los camisas que hay, De hecho, ya se ve distinto porque muestro los extras del transportista.
+
+Local speaker 2026-07-24 11:19:58
+Entonces es que mira, a mí me sale la vista así
+
+Local speaker 2026-07-24 11:20:03
+Dejaban la captura
+
+Local speaker 2026-07-24 11:20:15
+No sé que sea.
+
+Online speaker 2026-07-24 11:20:17
+Ah, es que ese yo lo cambié este Bruno porque se apretaba
+
+Online speaker 2026-07-24 11:20:21
+Mira, yo la puse en en en otro TP
+
+Online speaker 2026-07-24 11:20:24
+¿Ya viste?
+
+Local speaker 2026-07-24 11:20:24
+Ah OK
+
+Online speaker 2026-07-24 11:20:28
+Sí, yo lo puse en nota tap, porque aquí está bien lo del flete.
+
+Online speaker 2026-07-24 11:20:33
+Y kilos accesorios y aquí ya es los accesorios por
+
+Online speaker 2026-07-24 11:20:37
+Este por carrio
+
+Local speaker 2026-07-24 11:20:38
+Ah, sí, ya el desde 11 minutos así, si el que andaba desactualizado era yo
+
+Online speaker 2026-07-24 11:20:43
+Sí, y aquí nada más me ayudan a ustedes a ponerle el logo aquí del
+
+Online speaker 2026-07-24 11:20:48
+Belcar
+
+Online speaker 2026-07-24 11:20:50
+Vale, así como así como aquí.
+
+Online speaker 2026-07-24 11:20:53
+Vale esta matriz está bien, está perfecta.
+
+Online speaker 2026-07-24 11:20:57
+¿Vale, va entonces esta? Esta es la Real, vale.
+
+Local speaker 2026-07-24 11:21:00
+Si la vista de tarifaria
+
+Online speaker 2026-07-24 11:21:02
+Entonces ya hice otra también la de cotizar, estuve revisando esta y ya la trabajé
+
+Online speaker 2026-07-24 11:21:09
+Este tenemos nodos y tenemos una, ahorita mi último cambio que que si bajan ustedes es esta vista.
+
+Online speaker 2026-07-24 11:21:15
+Entonces aquí, por ejemplo, tenemos.
+
+Online speaker 2026-07-24 11:21:20
+Aquí hay un bug, porque no me carga los clientes, se supone que ya están a ver, es lo que iba a revisar.
+
+Online speaker 2026-07-24 11:21:26
+A unos pasos por paso.
+
+Online speaker 2026-07-24 11:21:29
+Pero clientes.
+
+Online speaker 2026-07-24 11:21:35
+Es avisarte, ya la arreglé, pero ahorita subo los cambios.
+
+Online speaker 2026-07-24 11:21:38
+A ver si suelos descargarlos.
+
+Online speaker 2026-07-24 11:21:42
+Pero es que tengas, por ejemplo, los de Claudia Claudia. Ah, no tiene edad. A ver, entonces vamos a ver.
+
+Online speaker 2026-07-24 11:21:48
+K, por ejemplo, Dior sí tiene clientes.
+
+Online speaker 2026-07-24 11:21:55
+Sí, ahí está, miren, entonces este es un punto de entrega, ya vieron.
+
+Online speaker 2026-07-24 11:21:59
+Ahí está
+
+Online speaker 2026-07-24 11:22:02
+Yo puedo hacer una cotización.
+
+Online speaker 2026-07-24 11:22:05
+Con esta información.
+
+Online speaker 2026-07-24 11:22:09
+Y aquí sí, ya me carga porque este los accesorios en una columna aparte.
+
+Online speaker 2026-07-24 11:22:15
+¿Verdad? A eso sí está bien. Ese ese también apenas lo agregue.
+
+Online speaker 2026-07-24 11:22:20
+Pues aquí, por ejemplo, si yo le pongo este voy a mandar algo de 750 kg
+
+Online speaker 2026-07-24 11:22:26
+Ya me quitó, si se dieron cuenta aquí que me falta nada más cambiarle aquí los tipos de transporte, el Legacy.
+
+Online speaker 2026-07-24 11:22:32
+Bueno, el el, la matriz que ya estaba la la quité
+
+Online speaker 2026-07-24 11:22:36
+Vale y me puso otra.
+
+Online speaker 2026-07-24 11:22:38
+Pero nada más me dejó aquí esto y aquí nomás falta los los transportes que no sé si no están cargando o este
+
+Online speaker 2026-07-24 11:22:47
+O no, o no lo sitios, vale.
+
+Online speaker 2026-07-24 11:22:49
+Las aquí
+
+Online speaker 2026-07-24 11:22:52
+Este ustedes seleccionan
+
+Online speaker 2026-07-24 11:22:55
+Este, por ejemplo, y ya crean aquí la cotización
+
+Online speaker 2026-07-24 11:23:03
+Vale, entonces, una maniobra.
+
+Online speaker 2026-07-24 11:23:06
+¿Cantidad
+
+Online speaker 2026-07-24 11:23:12
+Dos
+
+Online speaker 2026-07-24 11:23:14
+Y vista previa.
+
+Online speaker 2026-07-24 11:23:17
+Se supone que aquí es una vista previa de la cotización.
+
+Online speaker 2026-07-24 11:23:21
+Pero no carga.
+
+Online speaker 2026-07-24 11:23:23
+No sé si primero debo guardarla.
+
+Online speaker 2026-07-24 11:23:27
+Esta abriendo PDF.
+
+Online speaker 2026-07-24 11:23:39
+Él se queda como pensando.
+
+Online speaker 2026-07-24 11:23:42
+Creo que ese soy yo
+
+Online speaker 2026-07-24 11:23:47
+¿Por qué es que hizo un cambio? Ya subí cambios, nada más que hizo un cambio en la API y se está liberando ese cambio
+
+Local speaker 2026-07-24 11:23:53
+Ah, pero si se descargó
+
+Online speaker 2026-07-24 11:23:57
+No, pero yo estoy en mi API local Richie.
+
+Online speaker 2026-07-24 11:24:00
+Ah, Ah, bueno, pero como dice Bruno Crosis, se descargó nada más que no se mostró el mensaje, ahí está.
+
+Online speaker 2026-07-24 11:24:08
+Es una ley ha revisado por eso.
+
+Online speaker 2026-07-24 11:24:13
+No es que aquí lo que no me sacó fue el ideal al cliente al que le estoy cotizando.
+
+Online speaker 2026-07-24 11:24:19
+Que precisamente por eso lo seleccioné aquí
+
+Online speaker 2026-07-24 11:24:22
+Pero bueno, eso ya es este, es revisar lo que en esta parte del tarifario.
+
+Online speaker 2026-07-24 11:24:27
+Vean.
+
+Local speaker 2026-07-24 11:24:29
+Adel Cotizador.
+
+Online speaker 2026-07-24 11:24:31
+Ajá, perdón del cotizador
+
+Online speaker 2026-07-24 11:24:33
+Vale, tengo dos sopas por zona.
+
+Online speaker 2026-07-24 11:24:35
+Te digo
+
+Online speaker 2026-07-24 11:24:37
+Si quiero mandar algo.
+
+Online speaker 2026-07-24 11:24:39
+De Ciudad de México a Ciudad de México, ahí están las tarifas, vale, eso es lo que yo necesitaba, porque hace rato lo cargué y no, y no había nada.
+
+Online speaker 2026-07-24 11:24:46
+Es por eso les preguntaba
+
+Online speaker 2026-07-24 11:24:49
+Entonces este
+
+Online speaker 2026-07-24 11:24:51
+Esta esta le dije AA, creo que revisar AA Codecs y Revisara
+
+Online speaker 2026-07-24 11:24:56
+Ahí está, no salía
+
+Online speaker 2026-07-24 11:25:02
+Esto está perfecto.
+
+Online speaker 2026-07-24 11:25:05
+Las tarifas
+
+Online speaker 2026-07-24 11:25:08
+Vale, entonces qué qué es lo que necesitamos
+
+Online speaker 2026-07-24 11:25:11
+A lo mejor yo creo que este offcambals un poquito más grande OO, sí, pero este.
+
+Online speaker 2026-07-24 11:25:20
+Que funcione
+
+Online speaker 2026-07-24 11:25:23
+Aquí, es decir, hagan de cuenta que yo voy a agregar este valor de flete más.
+
+Online speaker 2026-07-24 11:25:30
+Una custodia.
+
+Online speaker 2026-07-24 11:25:33
+Y 3 maniobras, por ejemplo.
+
+Online speaker 2026-07-24 11:25:37
+Vale, y aquí tenemos.
+
+Online speaker 2026-07-24 11:25:40
+Un tema de de accesorios de maniobras y custodias externas.
+
+Online speaker 2026-07-24 11:25:44
+Para eso significamos aquí, ve aquí vice externa.
+
+Online speaker 2026-07-24 11:25:49
+Pero este cuando tenemos.
+
+Online speaker 2026-07-24 11:25:53
+La maniobra con dice fuera de este.
+
+Online speaker 2026-07-24 11:25:58
+Aquí.
+
+Online speaker 2026-07-24 11:25:59
+Este es extra del porteador, el portador que también puede tener custodia.
+
+Online speaker 2026-07-24 11:26:04
+Y también el porteador tiene puede tener maniobra
+
+Online speaker 2026-07-24 11:26:09
+Pero la custodia también puede ser
+
+Online speaker 2026-07-24 11:26:12
+Fecha
+
+Online speaker 2026-07-24 11:26:14
+La la custodia y la maniobra puede ser hecha por un por un otro carrier
+
+Online speaker 2026-07-24 11:26:19
+No se si me explico.
+
+Local speaker 2026-07-24 11:26:21
+Ajá, sí
+
+Online speaker 2026-07-24 11:26:23
+Sale.
+
+Online speaker 2026-07-24 11:26:24
+Entonces, pero la cotización
+
+Online speaker 2026-07-24 11:26:27
+Va hacia el cliente.
+
+Online speaker 2026-07-24 11:26:29
+Ajá.
+
+Online speaker 2026-07-24 11:26:31
+Entonces, para el cliente es transparente decir quién va a ser las maniobras al cliente no le importa si si la maniobra la va a hacer el mismo porteador o alguien externo.
+
+Online speaker 2026-07-24 11:26:43
+Pero este aquí nosotros en la cotización podemos agregar.
+
+Online speaker 2026-07-24 11:26:47
+Por ejemplo, este podemos agregar.
+
+Online speaker 2026-07-24 11:26:49
+La custodia externa, etcétera, no
+
+Online speaker 2026-07-24 11:26:52
+Por eso les digo que este a lo mejor se puede ser más grande, no en un modal
+
+Online speaker 2026-07-24 11:26:56
+Para que esto se pueda ver apreciar mejor
+
+Online speaker 2026-07-24 11:26:59
+Vale, tú ya no sería este cambio
+
+Online speaker 2026-07-24 11:27:01
+Mira, aquí ya tiene dos custodias, vamos a quitarle la custodia del del transportista
+
+Online speaker 2026-07-24 11:27:08
+Gracias
+
+Online speaker 2026-07-24 11:27:10
+Entonces, obviamente aquí el margen del flete va a ser del 10 del 20%
+
+Online speaker 2026-07-24 11:27:18
+Y este margen default completo
+
+Online speaker 2026-07-24 11:27:22
+Aquí, aquí tenemos dos tipos de márgenes
+
+Online speaker 2026-07-24 11:27:24
+Este es el costo que me que me toma el el, el.
+
+Online speaker 2026-07-24 11:27:29
+El.
+
+Online speaker 2026-07-24 11:27:31
+Mi proveedor
+
+Online speaker 2026-07-24 11:27:34
+Vale, pero yo se lo voy a trasladar al cliente con un margen de ganancia.
+
+Online speaker 2026-07-24 11:27:39
+120%
+
+Online speaker 2026-07-24 11:27:42
+Y 20% al al al margen del flete.
+
+Online speaker 2026-07-24 11:27:47
+Ahí está, entonces, háganle cuenta que yo le voy a pagar esto a todos los proveedores en total.
+
+Online speaker 2026-07-24 11:27:53
+Y yo le voy a cobrar esto al cliente.
+
+Online speaker 2026-07-24 11:27:55
+Y este va a ser parte
+
+Online speaker 2026-07-24 11:27:58
+Sale
+
+Online speaker 2026-07-24 11:28:00
+Entonces sí, sí, sí, sí, se entiende esta parte.
+
+Online speaker 2026-07-24 11:28:04
+Ah, sí, vale, pues por eso le digo que a lo mejor esto ayúdenme a ponerle un modal, ya está la base, o sea, ya está hecho la base.
+
+Online speaker 2026-07-24 11:28:11
+Gracias cuestión de que ustedes me ayuden a que justamente cuando yo aquí no hay tanto tema bueno, hay dos formas de de imprimir la cotización
+
+Online speaker 2026-07-24 11:28:20
+Una es cuando yo digo, pues mira, voy a mandar de Ciudad México a Ciudad de México, es decir, un envío local.
+
+Online speaker 2026-07-24 11:28:26
+¿De quién, de qué cliente? Pues no sé, puede ser cualquiera.
+
+Online speaker 2026-07-24 11:28:29
+Vale porque estoy aquí en zonas.
+
+Online speaker 2026-07-24 11:28:32
+Pero si, por ejemplo, yo le voy a decir, Sabes que este le voy a hacer una cotización a Dior
+
+Online speaker 2026-07-24 11:28:38
+Para mandarle algo de Ciudad de México, de sin la avenida ferrocarril de Cuernavaca
+
+Online speaker 2026-07-24 11:28:45
+Vale, entonces este bueno, aquí no tengo
+
+Online speaker 2026-07-24 11:28:49
+Ciudad de México
+
+Online speaker 2026-07-24 11:28:51
+Ced
+
+Online speaker 2026-07-24 11:28:52
+Este no cayó en Ciudad de México.
+
+Online speaker 2026-07-24 11:28:55
+Me cargó la zona, no me cargó la
+
+Online speaker 2026-07-24 11:29:02
+No me cargó la tarifa de ese Código Postal, yo creo que todavía nos agrega verdad.
+
+Online speaker 2026-07-24 11:29:10
+Cases local igual.
+
+Online speaker 2026-07-24 11:29:12
+Todo estos son Ciudad de México, entonces me carga la misma matriz técnicamente porque canso de la misma zona, pero este, por ejemplo, no cayó.
+
+Online speaker 2026-07-24 11:29:19
+Ah, pero ese zapopan
+
+Online speaker 2026-07-24 11:29:23
+Este
+
+Online speaker 2026-07-24 11:29:24
+Vale, entonces aquí yo simulo cuántos kilos vas a mandar.
+
+Online speaker 2026-07-24 11:29:29
+500. Vale entonces aquel que me dice que es que tiene mejores precios, pues es este contra este, entonces elijo este
+
+Online speaker 2026-07-24 11:29:36
+Para entonces
+
+Online speaker 2026-07-24 11:29:36
+Técnicamente en la cotización le estoy diciendo.
+
+Online speaker 2026-07-24 11:29:39
+A ver tu compañía Cristian dos Dior para tu cliente Dior
+
+Online speaker 2026-07-24 11:29:45
+Este 1 es el número de tienda, quiero yo suponer
+
+Online speaker 2026-07-24 11:29:48
+Ajá, que ese que es de Ciudad de México, a Ciudad de México, tu destino es este
+
+Online speaker 2026-07-24 11:29:54
+Para una carga de 50 kg con retorno o de todo esto.
+
+Online speaker 2026-07-24 11:30:00
+Ajá. Este el flete es
+
+Online speaker 2026-07-24 11:30:03
+1400. Pero yo a esto le voy a subir el 20%, más vas a agregar una escolta externa, más vas a agregar una dos maniobras de 350 de de de de nuestro
+
+Online speaker 2026-07-24 11:30:15
+de otro proveedor
+
+Online speaker 2026-07-24 11:30:17
+Vale, entonces tu cotización es esto
+
+Online speaker 2026-07-24 11:30:20
+Vale, y se puede imprimir.
+
+Online speaker 2026-07-24 11:30:22
+Para eso es esto, va.
+
+Online speaker 2026-07-24 11:30:27
+Y lo ideal es de que, por ejemplo, vea aquí en el mapa
+
+Online speaker 2026-07-24 11:30:32
+Mostremos, por ejemplo.
+
+Online speaker 2026-07-24 11:30:34
+Con Google
+
+Online speaker 2026-07-24 11:30:36
+Aquí trono
+
+Online speaker 2026-07-24 11:30:38
+Esto ya funciona, pero trono
+
+Online speaker 2026-07-24 11:30:44
+Ah, es que no tiene los puntos destino.
+
+Online speaker 2026-07-24 11:30:46
+Cargados de veras, bueno, ahorita pasamos esa parte derecha.
+
+Online speaker 2026-07-24 11:30:51
+Este si tiene el punto de origen, si tiene coordenados, pero el destino no, entonces no, no le puedo cargar yo la ruta porque la cotización podríamos poner en cuanto tiempo este.
+
+Online speaker 2026-07-24 11:31:02
+Este mínimo llegaría
+
+Online speaker 2026-07-24 11:31:06
+Más 1 hora.
+
+Online speaker 2026-07-24 11:31:11
+¿O si el costo? Bueno, sí, no, ese nomás es para este no, no la vamos a incluir.
+
+Online speaker 2026-07-24 11:31:17
+Si no tiene el de punto destino sería por acá, entonces, como no, y pues no.
+
+Online speaker 2026-07-24 11:31:22
+Mapa ilustrativo, nada más
+
+Online speaker 2026-07-24 11:31:24
+Así, el el, el operador viene y dice, veamos más o menos por aquí, entonces
+
+Online speaker 2026-07-24 11:31:29
+Este posiblemente pague viajes
+
+Online speaker 2026-07-24 11:31:32
+Peajes entonces eso lo incluyo, no en los costos.
+
+Online speaker 2026-07-24 11:31:39
+Así está, vale, para eso es esta vista. Esta es una de las más importantes porque es un cotizador
+
+Online speaker 2026-07-24 11:31:44
+Y pues obviamente en en la en el PDF que baje.
+
+Online speaker 2026-07-24 11:31:49
+Toda esa esa información.
+
+Online speaker 2026-07-24 11:32:26
+Vale, OK, entonces, y ahora vamos a revisarlo
+
+Online speaker 2026-07-24 11:32:33
+Clientes
+
+Online speaker 2026-07-24 11:32:35
+A ver, ya está todo arriba, verdad
+
+Online speaker 2026-07-24 11:32:38
+Haz 6 partes de arriba y así los cambios este
+
+Online speaker 2026-07-24 11:32:43
+También con las nuevas villa con la nueva modificación de esta parte.
+
+Online speaker 2026-07-24 11:32:48
+A ver, tengo que volver a esperar a
+
+Online speaker 2026-07-24 11:32:50
+Dame cances, a ver, va ya no hacerte hago la de zonas, la agrupamiento para que no se muestre ahí
+
+Online speaker 2026-07-24 11:32:58
+Va, va, va
+
+Online speaker 2026-07-24 11:32:59
+Si quieres trabaja en lo del agrupamiento, en lo que libero esa esa ya no es agrupamiento ya por suerte las siguen rápido.
+
+Online speaker 2026-07-24 11:33:07
+Ujum, bueno, sí, es que.
+
+Online speaker 2026-07-24 11:33:09
+Lo que no me gusta es
+
+Online speaker 2026-07-24 11:33:12
+¿Ajá, ajá?
+
+Online speaker 2026-07-24 11:33:14
+Que hay veces que yo no sé si yo soy el menso o no sé si crees que
+
+Online speaker 2026-07-24 11:33:19
+Que hay unos cambios sencillos que tarda mucho cursos, pero hay otros cambios que los hace de volada, entonces no sé ahí que que se deba esa cosa.
+
+Local speaker 2026-07-24 11:33:27
+Que luego se cansa y agarra vuelo otra vez
+
+Online speaker 2026-07-24 11:33:29
+CC, ajá
+
+Online speaker 2026-07-24 11:33:31
+Y, por ejemplo, ayer una migración, creo en 5 minutos ya tenía el cambio.
+
+Online speaker 2026-07-24 11:33:36
+Pero navegaron modal se llevó 50 minutos. No manches, sí.
+
+Online speaker 2026-07-24 11:33:42
+Sí, pero.
+
+Online speaker 2026-07-24 11:33:44
+¿Pero vas a ver ahorita?
+
+Online speaker 2026-07-24 11:33:46
+Ahorita les digo, es que no sé qué onda con mi máquina o no sé si soy yo, pero ahorita veo.
+
+Online speaker 2026-07-24 11:33:52
+Pero si esta este ya queda de hacer, te pido los otros, a lo mejor ahorita me los tiene bien rápido
+
+Online speaker 2026-07-24 11:34:00
+Estaba sola
+
+Online speaker 2026-07-24 11:34:18
+Y ahorita le ahorita la la idea es de que les muestre el MVP
+
+Online speaker 2026-07-24 11:34:24
+¿Para qué? ¿Qué bueno ahorita les digo que necesitan ya cargo
+
+Online speaker 2026-07-24 11:34:34
+Es que con la tarifa que el el, el cotizador que tenemos.
+
+Online speaker 2026-07-24 11:34:38
+Con eso podemos validar bien fácil si el motor está funcionando correctamente cuando ya carguemos los los pedidos.
+
+Online speaker 2026-07-24 11:34:46
+Por eso es importante este que que esa parte quede quede bien, vale, pues a ver, vamos a tener, tenemos las zonas.
+
+Online speaker 2026-07-24 11:34:54
+Ajá y vemos que, por ejemplo, son una metropolitana, ya sigue teniendo ceros
+
+Online speaker 2026-07-24 11:35:01
+Cero cero destinos no esta parte también ya la
+
+Online speaker 2026-07-24 11:35:04
+La arreglamos.
+
+Online speaker 2026-07-24 11:35:10
+Esto
+
+Online speaker 2026-07-24 11:35:16
+Y ya de aquí bajaste clientes, no rechi
+
+Online speaker 2026-07-24 11:35:21
+Ajá, sí, ahí son puros clientes
+
+Online speaker 2026-07-24 11:35:25
+Pues vámonos con productos.
+
+Online speaker 2026-07-24 11:35:28
+A eso está perfecto.
+
+Online speaker 2026-07-24 11:35:33
+Todos.
+
+Online speaker 2026-07-24 11:35:39
+Ya está perfecto, esto ya esto ya funciona
+
+Online speaker 2026-07-24 11:35:42
+Esto está muy bien, así como tenemos esto de aquí
+
+Online speaker 2026-07-24 11:35:48
+Vale bien
+
+Online speaker 2026-07-24 11:35:49
+El sincronizar
+
+Online speaker 2026-07-24 11:35:51
+Ese esa está muy está muy bien el ejemplo, esto lo vamos a trabajar después. Este Rich, pero.
+
+Online speaker 2026-07-24 11:35:56
+Este así va tiene que funcionar, bien aquí en vez tendríamos que cambiar aquí sincronizar desde ERP.
+
+Online speaker 2026-07-24 11:36:04
+Vale, entonces vamos a picar.
+
+Online speaker 2026-07-24 11:36:06
+¿Esto por qué? Mira, se los voy a comparar versus lo que tenemos acá en
+
+Online speaker 2026-07-24 11:36:11
+Hala, ya lo cambiaste perfecto
+
+Online speaker 2026-07-24 11:36:14
+Sí, sí, es esta va.
+
+Online speaker 2026-07-24 11:36:18
+¿Entonces, cuál va a ser la idea de que yo voy a venir aquí y voy a agarrar, no? Los clientes miren aquí aquí sigue teniendo el bug
+
+Online speaker 2026-07-24 11:36:25
+De los clientes aquí van las compañías
+
+Online speaker 2026-07-24 11:36:30
+Vale, es decir, yo voy a venir aquí, voy a ver si sabes qué necesito bajar los productos de latamel. Antes el hijo Latam
+
+Online speaker 2026-07-24 11:36:38
+Ajá y le doy sincronizar, ejecutar.
+
+Online speaker 2026-07-24 11:36:41
+Vale este lo que haces cuando tú eliges el el, la compañía.
+
+Online speaker 2026-07-24 11:36:45
+Busca y cuenta aquí tendría que tener una conexión con p 8, Ahorita se va a quedar así pensando porque está tratando de conectar con Torre de control, pero pues no tenemos nada de eso, verdad
+
+Online speaker 2026-07-24 11:36:55
+Entonces por eso marqué ese error, pero haga de cuenta la tame
+
+Online speaker 2026-07-24 11:36:59
+Y trabaja por 700 productos.
+
+Online speaker 2026-07-24 11:37:03
+Vale y ya nos damos aquí el curar sincronización.
+
+Online speaker 2026-07-24 11:37:06
+Y va a ser lo mismo acá sincronizar de torre de control lo mismo vale
+
+Online speaker 2026-07-24 11:37:12
+La eligeccionamos el el, el cliente y demás va
+
+Online speaker 2026-07-24 11:37:16
+Y pues, por ende, esa recuperación de clientes.
+
+Online speaker 2026-07-24 11:37:20
+En cascadas se trae los destinos.
+
+Online speaker 2026-07-24 11:37:22
+Vale, o sea, ya en destinos no lo podemos sincronizar como tal
+
+Online speaker 2026-07-24 11:37:28
+Este porque vienen amarrados con los clientes.
+
+Online speaker 2026-07-24 11:37:31
+Vale, gracias a ver
+
+Online speaker 2026-07-24 11:37:35
+Ajá, sí, no manches. ¿Qué diferencia?
+
+Online speaker 2026-07-24 11:37:40
+Caudalín, oye, pero aquí le pico y no me salen bien.
+
+Online speaker 2026-07-24 11:37:45
+Entonces le hago eso, lo arreglo, es que eso no
+
+Online speaker 2026-07-24 11:37:48
+Salen y aquí sal
+
+Online speaker 2026-07-24 11:37:50
+Ah, no, ya vi porque este está mal, es un error de vista, es que 52 es el número de compañía, no la cantidad de clientes que tiene. Ah, sí, aquí sí.
+
+Online speaker 2026-07-24 11:38:03
+Hermes, sí, porque me hace pensar que tiene 51 clientes. Sí, así que me tocó
+
+Online speaker 2026-07-24 11:38:10
+Mira, pónselo así como tómenle foto a productos y dile quiero la cantidad de productos así, mira con el con el helpa
+
+Online speaker 2026-07-24 11:38:19
+Sí, sí, con el tontito.
+
+Online speaker 2026-07-24 11:38:24
+Bueno, así que tienes razón, el número que se aparece acá abajo es el número de este de compañía de la compañía.
+
+Online speaker 2026-07-24 11:38:31
+Pero este, por ejemplo, que no tiene clientes, Richard porque no tenemos aquí al a la compañía.
+
+Online speaker 2026-07-24 11:38:39
+¿Eh? No lo mas seguro es que la zona no
+
+Online speaker 2026-07-24 11:38:42
+No haya entrado ningún cliente porque no tengo su código postal asignado todavía a una zona
+
+Online speaker 2026-07-24 11:38:51
+No, pero aún así debería registrar
+
+Online speaker 2026-07-24 11:38:55
+El cloud
+
+Online speaker 2026-07-24 11:38:56
+A ver, deja veo la ingesta, aunque quede en huérfanos, o sea.
+
+Online speaker 2026-07-24 11:39:04
+Buena, es que eso es no, pero es que es que sí es obligatorio la la zona para no, pero para tu cliente no necesitamos.
+
+Online speaker 2026-07-24 11:39:13
+Se harta la radio, el destino.
+
+Online speaker 2026-07-24 11:39:18
+Las compañías 52
+
+Online speaker 2026-07-24 11:39:20
+¿Qué onda con sus RFCS? ¿No manches?
+
+Online speaker 2026-07-24 11:39:26
+Eso es lo que me está costando un de trabajo
+
+Online speaker 2026-07-24 11:39:30
+Compañías iguales, 52.
+
+Local speaker 2026-07-24 11:39:35
+El día que encontramos información concisa que esté bien.
+
+Online speaker 2026-07-24 11:39:37
+Aquí
+
+Local speaker 2026-07-24 11:39:40
+De Sinlat es para preocuparme
+
+Online speaker 2026-07-24 11:39:44
+Lo voy a revisar, es que la consola no ejecutó claudalid directamente, ahorita con el proceso de
+
+Online speaker 2026-07-24 11:39:53
+Sincronización.
+
+Online speaker 2026-07-24 11:39:59
+Me metieron a suburbia apodaca y le pusieron sub 20 24 como RFC.
+
+Online speaker 2026-07-24 11:40:14
+Su formación está es una porquería.
+
+Online speaker 2026-07-24 11:40:18
+No, Víctor dice que está bien organizada.
+
+Online speaker 2026-07-24 11:40:24
+Móvil, a ver, creo no entró claudalie, Chris porque este.
+
+Online speaker 2026-07-24 11:40:31
+Victor no nos cargó info de esa compañía en nuestro sandbox
+
+Online speaker 2026-07-24 11:40:36
+Hay que ponerle aquí el total para que nosotros podamos traer esa información.
+
+Online speaker 2026-07-24 11:40:46
+La compañía es Cristian, Dior y el cliente es Christian Dior, y este es el que ya tiene.
+
+Online speaker 2026-07-24 11:40:52
+5 puntos de entrega, no
+
+Online speaker 2026-07-24 11:40:56
+Pero como tiene diferentes este RFC
+
+Online speaker 2026-07-24 11:41:00
+Por eso lo lo creo 3 veces
+
+Online speaker 2026-07-24 11:41:05
+Pero ambas dicen que es compañía número 18
+
+Online speaker 2026-07-24 11:41:12
+El cliente es 123.
+
+Online speaker 2026-07-24 11:41:17
+Cliente 12 y 3
+
+Online speaker 2026-07-24 11:41:21
+Lo del día 52 ya, ya vi porque mira, es que este es Christian York, cuarentena
+
+Online speaker 2026-07-24 11:41:28
+Ese es el bueno, por así decirlo.
+
+Online speaker 2026-07-24 11:41:30
+Y esta discusión.
+
+Online speaker 2026-07-24 11:41:33
+Ah, ya dieron.
+
+Online speaker 2026-07-24 11:41:36
+O sea, al menos con esto nos funciona.
+
+Online speaker 2026-07-24 11:41:39
+Servieron
+
+Online speaker 2026-07-24 11:41:45
+Así, y por eso no, bueno
+
+Online speaker 2026-07-24 11:41:48
+Perdón, Christian Estate, te revisé la base de datos y si no tenemos ningún cliente de claudí por eso ni entró
+
+Online speaker 2026-07-24 11:41:56
+Agrégame ese para y ahorita mostrarle a Saúl y ahorita que vamos a tener Junta con ellos, decirle, mira, ya estamos clientes, pero sí necesitamos todos
+
+Online speaker 2026-07-24 11:42:05
+Porque para hacer aquí fue que me digas sabes que aquí encontramos 3.
+
+Online speaker 2026-07-24 11:42:11
+Para farmacéutica encontramos 1 que éste pasa directo.
+
+Online speaker 2026-07-24 11:42:15
+Forma, encontramos dos
+
+Online speaker 2026-07-24 11:42:29
+Grupo Alfa así para que.
+
+Online speaker 2026-07-24 11:42:32
+Muy bien
+
+Online speaker 2026-07-24 11:42:34
+Hubo bastante bien
+
+Online speaker 2026-07-24 11:42:37
+Si si te digo toda me falta hacer pruebas con la INFO, pero.
+
+Online speaker 2026-07-24 11:42:44
+Porque también este, según yo, ya también implementé lo de la geocodificación de Maps de la que vimos ayer
+
+Online speaker 2026-07-24 11:42:53
+Entonces eso también la tengo que probar ahí, lo que hace es de que hizo otro yo aparte independiente
+
+Online speaker 2026-07-24 11:43:00
+Primero que era los destinos.
+
+Online speaker 2026-07-24 11:43:02
+Y hay otra tarea que vuelve a traer esos destinos y ya intenta poner sus coordenadas.
+
+Online speaker 2026-07-24 11:43:10
+Pero eso es porque dice que es mejor para no acabarnos los usos de Google Maps, pero
+
+Online speaker 2026-07-24 11:43:16
+Pero no más lo hacemos una vez
+
+Online speaker 2026-07-24 11:43:18
+Sí, sí, De hecho, bueno, aquí tiene soporte de por si se llega a caer un día Maps, este no lo pasa sin ubicación, sino que lo pasa otra vez como o sea, tiene 3 intentos y ya no.
+
+Online speaker 2026-07-24 11:43:32
+Si no pasa, pues ya ni modo así lo guardamos, no, sí, ya el operador ya lo asigna manual.
+
+Online speaker 2026-07-24 11:43:48
+Aquí, por ejemplo, lo que estoy viendo que para editar.
+
+Online speaker 2026-07-24 11:43:53
+Ajá, no
+
+Online speaker 2026-07-24 11:43:55
+No me da la opción aquí en el mapita par
+
+Online speaker 2026-07-24 11:43:58
+Ponerle aquí la ubicación del Maps.
+
+Online speaker 2026-07-24 11:44:01
+Como cuando agrego nuevo
+
+Online speaker 2026-07-24 11:44:05
+Sería este, mire, por ejemplo.
+
+Online speaker 2026-07-24 11:44:08
+Avenida Paty así
+
+Online speaker 2026-07-24 11:44:11
+Ahí ya sería este.
+
+Online speaker 2026-07-24 11:44:14
+Vale, me ayudan a corregir eso acá en el editar
+
+Online speaker 2026-07-24 11:44:19
+Sí, hubiera.
+
+Online speaker 2026-07-24 11:44:22
+Aquí tendría que tener yo aquí este aquí para pegarlo
+
+Local speaker 2026-07-24 11:44:22
+Si
+
+Online speaker 2026-07-24 11:44:26
+YY sería así como acá.
+
+Online speaker 2026-07-24 11:44:28
+Pero digo, Ah, miren, es es
+
+Online speaker 2026-07-24 11:44:30
+Y ya con eso ya guard va
+
+Online speaker 2026-07-24 11:44:34
+Las cositas que
+
+Local speaker 2026-07-24 11:44:36
+Sí.
+
+Online speaker 2026-07-24 11:44:36
+¿Qué hay que checar
+
+Online speaker 2026-07-24 11:44:39
+Para que sean este
+
+Online speaker 2026-07-24 11:44:42
+Sí, porque ahorita no lo puedo yo editar.
+
+Online speaker 2026-07-24 11:44:47
+En ello que buscarlo bueno, no tengo forma de buscarlo, pues.
+
+Online speaker 2026-07-24 11:44:52
+Entonces, pero si lo cambio acá, por ejemplo, al Zapopan Guadalajara.
+
+Online speaker 2026-07-24 11:44:57
+Voy a poner aquí nada más para probar
+
+Online speaker 2026-07-24 11:45:06
+Sí, no, no, y tampoco me carga los
+
+Online speaker 2026-07-24 11:45:09
+2 puntos, miren, este se supone que ya lo guardó.
+
+Online speaker 2026-07-24 11:45:12
+Si ya lo guardo
+
+Online speaker 2026-07-24 11:45:16
+Pero este o selecciónalo, a lo mejor
+
+Online speaker 2026-07-24 11:45:20
+No, ni así.
+
+Online speaker 2026-07-24 11:45:22
+Sí, aquí tendré que mostrarme todos.
+
+Online speaker 2026-07-24 11:45:25
+Y cuando pico 1 ya mostrarme, obviamente el este seleccionado.
+
+Online speaker 2026-07-24 11:45:36
+Vale, ya vamos a ir chéquenme estos estos bugs.
+
+Online speaker 2026-07-24 11:45:40
+Va que ya
+
+Online speaker 2026-07-24 11:45:41
+Minuciosos
+
+Online speaker 2026-07-24 11:45:43
+¿Cuáles son pedidos perfecto?
+
+Online speaker 2026-07-24 11:45:45
+Muy bien Cristi, lo lo veo bastante bien.
+
+Online speaker 2026-07-24 11:45:48
+Salvo la información que llega así media pedorra, pero pues está bien.
+
+Local speaker 2026-07-24 11:45:56
+¿Entonces, Víctor dice que está bien su información
+
+Online speaker 2026-07-24 11:45:56
+Sí.
+
+Online speaker 2026-07-24 11:45:59
+Dice, no
+
+Local speaker 2026-07-24 11:46:00
+Para dan ganas de ahí mismo mostrarle a ver, este está bien.
+
+Online speaker 2026-07-24 11:46:01
+Tengo
+
+Online speaker 2026-07-24 11:46:05
+Así lo tienes con tu p 8
+
+Online speaker 2026-07-24 11:46:14
+Sí, para ver.
+
+Online speaker 2026-07-24 11:46:16
+Perfecto sea así como como como aquí.
+
+Online speaker 2026-07-24 11:46:19
+Ya, ya le estoy pidiendo ese cambio, ajá, ya la está haciendo.
+
+Online speaker 2026-07-24 11:46:23
+Hay aquí nada más este
+
+Online speaker 2026-07-24 11:46:25
+También para las compañías.
+
+Online speaker 2026-07-24 11:46:28
+Eso también se los se los pedí.
+
+Online speaker 2026-07-24 11:46:34
+Que tengamos aquí en el en el editar.
+
+Online speaker 2026-07-24 11:46:38
+Como la foto ajá
+
+Online speaker 2026-07-24 11:46:40
+Tengamos toda esta información que nos falta
+
+Online speaker 2026-07-24 11:46:45
+Vale aquí.
+
+Online speaker 2026-07-24 11:46:48
+Cumpleaños y quítenme eso de aquí.
+
+Online speaker 2026-07-24 11:46:52
+Este no este es un catálogo, no es proceso.
+
+Local speaker 2026-07-24 11:46:54
+Ese yo lo había quitado.
+
+Online speaker 2026-07-24 11:46:57
+¿Vale, para qué? Para que cuando tengamos aquí las compañías nos salgan aquí
+
+Online speaker 2026-07-24 11:47:02
+Los logos.
+
+Online speaker 2026-07-24 11:47:05
+Vale, este sí va a ser difícil en la en la de en la de clientes, va a ser difícil que le pongamos.
+
+Online speaker 2026-07-24 11:47:12
+Foto a todas las clientes de aquí no
+
+Online speaker 2026-07-24 11:47:15
+Va a ser difícil
+
+Online speaker 2026-07-24 11:47:17
+Bueno, en los que tienen 1 que otro, pues sí, ahí no tengo tema, pero seríamos uno por uno, no, y ya en general.
+
+Online speaker 2026-07-24 11:47:23
+Ahorita que que nos diga el total aquí cuántos, cuántos productos, cuántos productos, cuántos clientes son en total, pues sí tendríamos que ir uno por uno no.
+
+Online speaker 2026-07-24 11:47:33
+O al menos los que más, así como importantes, pero ahí no hay tanto tema.
+
+Online speaker 2026-07-24 11:47:37
+Nada más se muestra el logo cuando es el destino.
+
+Online speaker 2026-07-24 11:47:40
+Cuando ya tengo el periodo de que dices, sabes que va a ir decila
+
+Online speaker 2026-07-24 11:47:44
+A este
+
+Online speaker 2026-07-24 11:47:46
+A, por ejemplo, Palacio de Hierro, no, a lo mejor Liverpool.
+
+Online speaker 2026-07-24 11:47:51
+Ese sí
+
+Online speaker 2026-07-24 11:47:53
+Por eso sí los podríamos. Mire, eso es lo que te decía Richie.
+
+Online speaker 2026-07-24 11:47:58
+Es perfecto.
+
+Online speaker 2026-07-24 11:48:00
+Esto es lo que te decía, entonces ya puedo venir aquí.
+
+Online speaker 2026-07-24 11:48:06
+Vas para hacerla
+
+Online speaker 2026-07-24 11:48:09
+La tontería
+
+Online speaker 2026-07-24 11:48:20
+A Oliveriverol no es este el puerto de Liverpool.
+
+Online speaker 2026-07-24 11:48:56
+Como que de pronto desconocía el logo de Liverpool
+
+Online speaker 2026-07-24 11:49:02
+Dije a poco este es el lobo
+
+Online speaker 2026-07-24 11:49:05
+Ahí está
+
+Online speaker 2026-07-24 11:49:06
+Entonces
+
+Online speaker 2026-07-24 11:49:08
+Aquí yo ya como eso ya son clientes.
+
+Online speaker 2026-07-24 11:49:13
+Aquí puedo hacer
+
+Online speaker 2026-07-24 11:49:17
+O hacer esto
+
+Online speaker 2026-07-24 11:49:22
+Entonces, cuando llegue un envío.
+
+Online speaker 2026-07-24 11:49:25
+A Liverpool.
+
+Online speaker 2026-07-24 11:49:28
+Va a estar padre porque
+
+Online speaker 2026-07-24 11:49:30
+Llego a decir, Ah, sabes qué
+
+Online speaker 2026-07-24 11:49:33
+Es Liverpool, pero de Latam
+
+Online speaker 2026-07-24 11:49:35
+Liverpool de movado, Liverpool de TPLing.
+
+Online speaker 2026-07-24 11:49:42
+Voces manejar esa misma parte del Adobe
+
+Online speaker 2026-07-24 11:49:45
+De la compañía va
+
+Online speaker 2026-07-24 11:49:50
+Mhm
+
+Online speaker 2026-07-24 11:49:52
+Y obviamente, el contacto que tiene el cliente de Liverpool
+
+Online speaker 2026-07-24 11:49:57
+Vale, déjenme, voy aquí
+
+Online speaker 2026-07-24 11:50:02
+Este contacto, pues es
+
+Online speaker 2026-07-24 11:50:04
+Posiblemente sea el mismo, sí puede que sea el mismo
+
+Online speaker 2026-07-24 11:50:08
+Pero lo que sí cambia, por ejemplo, es de que si aquí tengo 120, esa eso es lo que te decía allí arrichie
+
+Online speaker 2026-07-24 11:50:14
+Por ejemplo, latamel venden 124 tiendas de Liverpool.
+
+Online speaker 2026-07-24 11:50:19
+Movados venden 220.
+
+Online speaker 2026-07-24 11:50:23
+Y TP link en 108, pero no imagínense que el Liverpool tiene 300 tiendas
+
+Online speaker 2026-07-24 11:50:30
+Entonces, estas de aquí
+
+Online speaker 2026-07-24 11:50:33
+YYY TP link vende en 108 tiendas.
+
+Online speaker 2026-07-24 11:50:36
+Que no necesariamente son las mismas que la tamen.
+
+Online speaker 2026-07-24 11:50:41
+Y movado vende en la mitad de donde se vende latamel
+
+Online speaker 2026-07-24 11:50:45
+Y la mitad a donde vende TPLing, entonces vamos a imaginar que yo los mando al al Liverpool de de de cerca de su casa.
+
+Online speaker 2026-07-24 11:50:53
+Y le digo, Oye, quiero que me traigas un Nintendo.
+
+Online speaker 2026-07-24 11:50:57
+Un reloj
+
+Online speaker 2026-07-24 11:50:58
+Y un router.
+
+Online speaker 2026-07-24 11:51:01
+A lo mejor va Richie dice,
+
+Online speaker 2026-07-24 11:51:04
+Este yo nada más encontré
+
+Online speaker 2026-07-24 11:51:06
+El Nintendo
+
+Online speaker 2026-07-24 11:51:07
+Y el router.
+
+Online speaker 2026-07-24 11:51:09
+Me dijeron que no venden relojes de movado, OK
+
+Online speaker 2026-07-24 11:51:13
+Va Bruno a su Liverpool de confianza
+
+Online speaker 2026-07-24 11:51:17
+Dice, Oye, qué crees como yo vivo en Punta Norte, cuyo sí encontré todo.
+
+Online speaker 2026-07-24 11:51:22
+Vale, yo sí encontré el router, yo sí encontré el reloj y yo sí encontré el Nintendo.
+
+Online speaker 2026-07-24 11:51:28
+Vale, iba este Michael y dice, Oye
+
+Online speaker 2026-07-24 11:51:31
+¿Qué crees? Yo no encontré nada en mi Liverpool o de mi casa no, no me dijeron que no venden nada de no venden Nintendos, no venden relojes, no venden este, no venden, te pelin, vale.
+
+Online speaker 2026-07-24 11:51:46
+A esto se refiere OK
+
+Online speaker 2026-07-24 11:51:52
+Y se entiende.
+
+Online speaker 2026-07-24 11:51:54
+Como aquí los puntos de entrega en realidad son las tiendas.
+
+Online speaker 2026-07-24 11:51:58
+Sí, sí, De hecho ahí es donde calla el pedido, no, ya directamente. Entonces, cuando se hacen pedidos de la Men y nos dicen, vas a entregar en estas tiendas.
+
+Local speaker 2026-07-24 11:52:00
+Si.
+
+Online speaker 2026-07-24 11:52:09
+Ajá, no puede ser la tienda de donde vive Bruno la tiende por donde vive Richie, a lo mejor en la de Michael no, por eso en en su tienda de él no tienen el producto.
+
+Online speaker 2026-07-24 11:52:21
+Vale, así funciona, vale, pero por eso está distribuido por por pobreza, aparece 3 veces Liverpool
+
+Online speaker 2026-07-24 11:52:29
+Porque este Liverpool son todos los clientes del Liverpool. Bueno, todo el todas las tiendas de Liverpool, pero donde solamente vende la tamel
+
+Online speaker 2026-07-24 11:52:38
+A lo mejor por política dices, sabes que yo no vendo en Liverpool de cierta zona
+
+Online speaker 2026-07-24 11:52:43
+Y no manda producto ahí.
+
+Online speaker 2026-07-24 11:52:45
+Vale, pero ya es propio de de este, de este, de este
+
+Online speaker 2026-07-24 11:52:51
+De esta compañía vale
+
+Online speaker 2026-07-24 11:52:54
+Está está perfecto
+
+Online speaker 2026-07-24 11:52:58
+Muy bien
+
+Online speaker 2026-07-24 11:53:01
+Vale y vámonos a los puntos de entrega.
+
+Online speaker 2026-07-24 11:53:11
+¿Tú sabes a qué hora también me falta, por qué no te trae todos de trancazo? No, no tiene orden esa vista, nunca lo vemos ahora. ¿Qué le podemos corregir?
+
+Online speaker 2026-07-24 11:53:26
+Sí, entonces, aquí cuál sería el filtro Richie
+
+Online speaker 2026-07-24 11:53:29
+Puntos de entrega por compañía por cliente, no, no, y después por cliente así lo quieres filtrar, o sea, por compañía todos los puntos de entrega de la compañía y después todos los puntos de entrega por un cliente sería en específico
+
+Online speaker 2026-07-24 11:53:44
+Vale, y el mapa, en teoría, tendría que que poner todos estos puntos dependiendo el el del cliente.
+
+Online speaker 2026-07-24 11:53:54
+Aquí también ayúdame a poner ese filtro porque imagínense cargar aquí ya están todos, supongo los 79007 1494 puntos, sí está pesado.
+
+Online speaker 2026-07-24 11:54:10
+Vale o ponerle en vez de este mapa, ponerle aquí
+
+Local speaker 2026-07-24 11:54:12
+De cl
+
+Online speaker 2026-07-24 11:54:14
+Yo creo que aquí podríamos agruparlos por por cliente.
+
+Online speaker 2026-07-24 11:54:21
+Y ya ahí poner el mapa.
+
+Online speaker 2026-07-24 11:54:24
+Para ver este el mapa de de entrega de cada cliente
+
+Online speaker 2026-07-24 11:54:30
+Vale para no cargar todos, porque si no este
+
+Online speaker 2026-07-24 11:54:36
+Y este
+
+Online speaker 2026-07-24 11:54:37
+Y ya esta vista de todas formas la tenemos.
+
+Online speaker 2026-07-24 11:54:43
+Aca
+
+Online speaker 2026-07-24 11:54:46
+En tarifas
+
+Online speaker 2026-07-24 11:54:50
+Ya ya la quité porque ya no, ya no pega. A ver, espéreme.
+
+Online speaker 2026-07-24 11:54:57
+Social logísticos esto que
+
+Online speaker 2026-07-24 11:55:01
+¿OK, socios logísticos? Ah, aquí importante.
+
+Online speaker 2026-07-24 11:55:04
+Esociado logísticos.
+
+Online speaker 2026-07-24 11:55:06
+Les mandé, bueno, no les mandé, publiqué aquí este
+
+Online speaker 2026-07-24 11:55:11
+En el
+
+Online speaker 2026-07-24 11:55:17
+En esta parte.
+
+Online speaker 2026-07-24 11:55:18
+Vale varios documentos.
+
+Online speaker 2026-07-24 11:55:24
+¿Qué es esta de transportes?
+
+Online speaker 2026-07-24 11:55:30
+Vale, ya nos mandaron
+
+Online speaker 2026-07-24 11:55:33
+Porque ya vieron este cuando les mostré la demo de los de los clientes.
+
+Online speaker 2026-07-24 11:55:38
+Ya nos mandaron las placas.
+
+Local speaker 2026-07-24 11:55:40
+¿Ajá, OK?
+
+Online speaker 2026-07-24 11:55:40
+Pero vean como como 1 la mandaron
+
+Online speaker 2026-07-24 11:55:47
+Yo creo que con un claudíazo
+
+Online speaker 2026-07-24 11:55:50
+Traemos la información.
+
+Local speaker 2026-07-24 11:55:53
+Sí
+
+Online speaker 2026-07-24 11:55:53
+Tengo la inserta, no
+
+Online speaker 2026-07-24 11:55:55
+Bueno, se escucha muy raro eso, pero.
+
+Local speaker 2026-07-24 11:55:57
+Si
+
+Online speaker 2026-07-24 11:55:58
+Que nos agregue la información, vale
+
+Local speaker 2026-07-24 11:56:01
+Sí, si quieres ese lo reviso.
+
+Online speaker 2026-07-24 11:56:04
+Ya está todo aquí
+
+Online speaker 2026-07-24 11:56:05
+De hecho, hay hay más información que nos mandaban.
+
+Local speaker 2026-07-24 11:56:06
+Va
+
+Local speaker 2026-07-24 11:56:09
+Gracias
+
+Online speaker 2026-07-24 11:56:10
+Está esto que que cen
+
+Online speaker 2026-07-24 11:56:12
+Bueno, esto es una dictadura, no este este sí es otra cosa.
+
+Local speaker 2026-07-24 11:56:16
+Porque esta tienen los operadores, no en el de abajo
+
+Online speaker 2026-07-24 11:56:20
+¿Es que dice versión 1 y versión dos, entonces hay que que claro revisa esta carpeta?
+
+Local speaker 2026-07-24 11:56:25
+Sí, sí, ahorita le bueno, le digo
+
+Local speaker 2026-07-24 11:56:29
+Para ir
+
+Local speaker 2026-07-24 11:56:30
+Que se ve así
+
+Online speaker 2026-07-24 11:56:31
+Es que es una imagen cuentas
+
+Online speaker 2026-07-24 11:56:35
+Ya saben que.
+
+Online speaker 2026-07-24 11:56:39
+Ahí está.
+
+Online speaker 2026-07-24 11:56:42
+Es que es un PNG.
+
+Local speaker 2026-07-24 11:56:45
+Pero para texto
+
+Online speaker 2026-07-24 11:56:46
+Mira
+
+Online speaker 2026-07-24 11:56:48
+Sí, sí, no, es que tengo
+
+Online speaker 2026-07-24 11:56:51
+Ay, ya, ya no salió, me río.
+
+Local speaker 2026-07-24 11:56:55
+Pero información sinlatada.
+
+Online speaker 2026-07-24 11:56:59
+Plantas
+
+Online speaker 2026-07-24 11:57:00
+Entonces pichi.
+
+Online speaker 2026-07-24 11:57:03
+Va mucho que ver con lo del tema de los pedidos.
+
+Online speaker 2026-07-24 11:57:08
+A este nomás que creo yo no tengo acceso a esta carpeta Cris, creo o sí
+
+Online speaker 2026-07-24 11:57:14
+O sea, es que se julio, ya lo perdí, les compartí toda esta gente cierto, sí, sí, ya me acordé. Ah, por eso esta es la ruta, esta sí y transportes ajá.
+
+Online speaker 2026-07-24 11:57:25
+Ustedes tienen acceso a toda la carpeta de Axon, Eh, a toda a toda todo
+
+Online speaker 2026-07-24 11:57:32
+¿Vale
+
+Online speaker 2026-07-24 11:57:33
+Y aquí vean aquí aquí, ahorita nosotros deberíamos estar validando ya todo el tema de la conciliación
+
+Online speaker 2026-07-24 11:57:43
+16 de julio al 22
+
+Online speaker 2026-07-24 11:57:48
+Empezar conciliación.
+
+Online speaker 2026-07-24 11:57:50
+Estamos en esta semana
+
+Online speaker 2026-07-24 11:57:52
+Del 23, Saye. Esta es nuestra segunda semana. Entonces aquí ya tenemos una semana de retraso porque esta no se trabaja
+
+Online speaker 2026-07-24 11:57:59
+Bueno, no, no lo hemos empezado a validar.
+
+Online speaker 2026-07-24 11:58:03
+Entonces tendríamos que recorrer esta Pack
+
+Online speaker 2026-07-24 11:58:06
+Pero este esto lo vamos a trabajar entre Richie y yo, porque es todo el tema de los pedidos.
+
+Online speaker 2026-07-24 11:58:12
+Vale
+
+Online speaker 2026-07-24 11:58:13
+¿Qué es lo importante aquí
+
+Online speaker 2026-07-24 11:58:17
+Empezar a revisar todo lo de las citas que ya ahorita les enseño lo del MVP.
+
+Online speaker 2026-07-24 11:58:21
+Porque ahí ya está mucha parte hecha
+
+Online speaker 2026-07-24 11:58:25
+Y un rediseño de de las vistas.
+
+Online speaker 2026-07-24 11:58:29
+Para agrupar mejor la información.
+
+Online speaker 2026-07-24 11:58:33
+Vale, entonces este asignación de transporte, esto es parte de los pedidos.
+
+Online speaker 2026-07-24 11:58:38
+La licitación, esto este
+
+Online speaker 2026-07-24 11:58:43
+Esto lo vamos a lo voy a poner yo en rojo porque esto ya no nos va a dar tiempo
+
+Online speaker 2026-07-24 11:58:48
+Flujo de recolección con evidencia. Esto ya es ya es el proceso.
+
+Online speaker 2026-07-24 11:58:52
+Vale el manifiesto, esto ya lo generamos fue los de recolecciones.
+
+Online speaker 2026-07-24 11:58:56
+Esto tambi
+
+Online speaker 2026-07-24 11:58:57
+Va en rojo
+
+Online speaker 2026-07-24 11:58:59
+Porque todavía no hemos trabajado recolecciones
+
+Online speaker 2026-07-24 11:59:01
+Arturo de vivencias, yo de rechazos y cancelaciones dictámen y responsabilidad.
+
+Online speaker 2026-07-24 11:59:06
+Esto más o menos
+
+Online speaker 2026-07-24 11:59:08
+Y motor de cierre de, es decir, toda la entrega.
+
+Online speaker 2026-07-24 11:59:13
+En el portal del transportista, pues deben ver bandejas de viajes para aceptar con qué se con que lo aceptemos
+
+Online speaker 2026-07-24 11:59:21
+Confirmación, asignación de vehículo. Eso ya ya lo tienen ustedes evidencia, esto ya está técnicamente.
+
+Online speaker 2026-07-24 11:59:27
+Vale, nada más falta lo de la confirmación.
+
+Online speaker 2026-07-24 11:59:31
+Esto de
+
+Online speaker 2026-07-24 11:59:32
+Consulta de tarifas y participación de licitaciones, esto es lo que vamos AA revalidar.
+
+Online speaker 2026-07-24 11:59:38
+Y ya empezamos nuestros periodos de de pruebas.
+
+Online speaker 2026-07-24 11:59:42
+Vale, entonces este hay muchas cosas de aquí que ya están, pero no están cerradas 100%. Vale, ahorita les explico qué partes.
+
+Online speaker 2026-07-24 11:59:52
+¿Y qué es lo que necesito que me ayuden
+
+Online speaker 2026-07-24 11:59:55
+A trabajar, revalidar.
+
+Online speaker 2026-07-24 11:59:57
+Y ver en el MVP vale, hay muchas cosas que yo lo vi en el MVP.
+
+Online speaker 2026-07-24 12:00:02
+Pero este
+
+Online speaker 2026-07-24 12:00:06
+No, no, este falta pasarlos de este lado, vale, entonces ahorita como ya está, salvo las esta parte de las vistas que vamos a mejorar para filtrar y demás.
+
+Online speaker 2026-07-24 12:00:18
+Todo lo demás ya está prácticamente bien ingestado
+
+Online speaker 2026-07-24 12:00:21
+Sale, Ah, ya.
+
+Online speaker 2026-07-24 12:00:23
+Ahorita ya subí ese cambio a Cris por si al rato lo quieres enseñar con cine.
+
+Online speaker 2026-07-24 12:00:29
+Sí, no, ahorita la voy a ver con Saúl, le voy a mostrar
+
+Online speaker 2026-07-24 12:00:33
+Canadá bien nerviosa
+
+Online speaker 2026-07-24 12:00:35
+Porque quería que tuviéramos hoy los pedidos y le dije, no, pues es que.
+
+Online speaker 2026-07-24 12:00:40
+No, pues sí.
+
+Online speaker 2026-07-24 12:00:42
+Y siga trase ayer me quedé un rato en la noche.
+
+Online speaker 2026-07-24 12:00:48
+Sí, porque si no lo hubiera hecho yo creo hasta las 5 hubiera acabado.
+
+Online speaker 2026-07-24 12:00:54
+Vale, a ver, deja correr la habitación.
+
+Online speaker 2026-07-24 12:01:31
+A ver.
+
+Online speaker 2026-07-24 12:01:32
+Clientes
+
+Online speaker 2026-07-24 12:01:36
+Ah caray, me dice cero.
+
+Online speaker 2026-07-24 12:01:42
+Este no tenía
+
+Online speaker 2026-07-24 12:01:43
+Ah, perdón, perdón, perdón, es que me faltó desplegar lápiz.
+
+Online speaker 2026-07-24 12:01:47
+Ah, sí, es que se cambió algunos controladores.
+
+Online speaker 2026-07-24 12:01:51
+Sí, dame una
+
+Online speaker 2026-07-24 12:01:55
+Sí, ya vi tu cambio, si tiene cambios en API, entonces este lo que no cambia
+
+Online speaker 2026-07-24 12:02:01
+Cierto, está liberando la piel nuestro Server también para.
+
+Online speaker 2026-07-24 12:02:11
+Sí, cuando hice
+
+Online speaker 2026-07-24 12:02:12
+La demo tuve que levantar mi local.
+
+Online speaker 2026-07-24 12:02:17
+Ah, sí, porque es que no, sí
+
+Online speaker 2026-07-24 12:02:20
+¿Quieres? No sé cómo le está haciendo, no quiero ni tocar la base de datos, lo decía
+
+Online speaker 2026-07-24 12:02:28
+No, y si este a ver espérenme, es que es
+
+Online speaker 2026-07-24 12:02:32
+Posibilidades se acalló y sí me esperaron como 5 minutos
+
+Online speaker 2026-07-24 12:02:43
+Ay
+
+Online speaker 2026-07-24 12:02:51
+Ay, no me van a meter a una reunión
+
+Online speaker 2026-07-24 12:02:56
+Consen latibal
+
+Online speaker 2026-07-24 12:03:13
+Ahorita me conecto a chavos, vale, vayan revisando esos puntos
+
+Online speaker 2026-07-24 12:03:17
+Ahorita nos vemos, vale, ahorita nos vemos
+
+Local speaker 2026-07-24 12:03:19
+Sí, sí
+
+Local speaker 2026-07-24 12:03:24
+Híjole, me metieron a una reunión también.
+
+Online speaker 2026-07-24 12:03:26
+¿Vale?
+
+Online speaker 2026-07-24 12:03:28
+Ay, a mí también.
+
+Local speaker 2026-07-24 12:03:29
+Se llama Ceme, la reunión se llama, se me antojaron unas vacaciones, la siguiente semana.
+
+Online speaker 2026-07-24 12:03:38
+Deja el cloud ahí chambeando.
