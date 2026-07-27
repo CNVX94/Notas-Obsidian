@@ -1,0 +1,2816 @@
+Online speaker 2026-07-24 13:26:52
+Pero es técnicamente lo que quieren
+
+Online speaker 2026-07-24 13:26:57
+A enviar
+
+Online speaker 2026-07-24 13:27:01
+Y bien y mucho viene del.
+
+Online speaker 2026-07-24 13:27:06
+De lo que estamos viendo y revisando.
+
+Online speaker 2026-07-24 13:27:09
+El flujo tal cual.
+
+Online speaker 2026-07-24 13:27:18
+Rápido
+
+Online speaker 2026-07-24 13:27:20
+Y ahorita nos pasamos
+
+Online speaker 2026-07-24 13:27:23
+Pues mire.
+
+Online speaker 2026-07-24 13:27:26
+Técnicamente, nosotros vamos a llegar.
+
+Online speaker 2026-07-24 13:27:28
+Desde aquí
+
+Online speaker 2026-07-24 13:27:30
+Hasta acá.
+
+Online speaker 2026-07-24 13:27:31
+Sale en el punto 1 al punto 9
+
+Online speaker 2026-07-24 13:27:35
+Vale, y voy a esa actividad aquí concentradas.
+
+Online speaker 2026-07-24 13:27:39
+Dejendar aro del Excel, te veo un poquito mejor
+
+Local speaker 2026-07-24 13:27:42
+Sí, sí, ahorita no los pasos, verdad o está dentro de la carpeta de
+
+Online speaker 2026-07-24 13:27:44
+Ya, ya se lo ya se lo.
+
+Online speaker 2026-07-24 13:27:48
+Que ya me llegó.
+
+Local speaker 2026-07-24 13:27:49
+Ah, no me sale.
+
+Online speaker 2026-07-24 13:27:56
+Se ve igual.
+
+Online speaker 2026-07-24 13:27:59
+Nunca es una imagen.
+
+Online speaker 2026-07-24 13:28:03
+Puedes descargar.
+
+Local speaker 2026-07-24 13:28:06
+La oreja cierro Outlook porque no me llega.
+
+Online speaker 2026-07-24 13:28:14
+Haces una imagen también.
+
+Local speaker 2026-07-24 13:28:16
+Ya, ya me llegó.
+
+Online speaker 2026-07-24 13:28:19
+Ahí está.
+
+Online speaker 2026-07-24 13:28:20
+Vale, entonces técnicamente nosotros nos vamos a concentrar
+
+Online speaker 2026-07-24 13:28:24
+En estos 9 puntos en esta primera etapa.
+
+Online speaker 2026-07-24 13:28:29
+Vale, entonces vamos a ir recapitulando
+
+Online speaker 2026-07-24 13:28:31
+Percepción de pedidos es lo que está trabajando Rich. Bueno, vamos a empezar a trabajar, no Richie
+
+Online speaker 2026-07-24 13:28:37
+Sí, algunos maestros, reglas de negocio. Estas están
+
+Online speaker 2026-07-24 13:28:41
+Implícitas técnicamente la estamos trabajando ahí, que son justamente esos tipos de pedido
+
+Online speaker 2026-07-24 13:28:48
+Eso quiero del lado de p 8.
+
+Online speaker 2026-07-24 13:28:50
+Porque ahí es donde tenemos que amasar esa información y distribuirla en función de las reglas. Vale, entonces el sistema tiene soporte para ya varios tipos de pedido, incluidos los de Market tace. Vale ahorita ahorita me paso al al al MVT, que es donde quiero mostrarles todo el flujo va
+
+Online speaker 2026-07-24 13:29:07
+Validación de la información, clientes, productos peso, volumen, dimensiones, ventanas de entrega, restricciones. Esto prácticamente ya lo tenemos, vale.
+
+Online speaker 2026-07-24 13:29:17
+Entonces con si la consolidación automática, agrupación de pedidos por cliente y destino cubicaje YY utilización de capacidad, cumplimiento de reglas del negocio.
+
+Online speaker 2026-07-24 13:29:26
+Esto, pues prácticamente es este al momento en que nosotros ya tenemos los pedidos del lado de axon
+
+Online speaker 2026-07-24 13:29:34
+Y este se empiezan a agrupar por cliente, por destino, por tipo, inclusive nos lo podemos definir por tipo ajá y este
+
+Online speaker 2026-07-24 13:29:43
+Y sí, hasta ya está confirmado aquí es muy importante tener mucha conexión con p 8 porque esa es la que nos está, nos va a indicar los estatus en los que se encuentra dentro de sin lat vale, eso es importante.
+
+Online speaker 2026-07-24 13:29:57
+Entonces aquí hay 33 puntos que encontramos ahorita.
+
+Online speaker 2026-07-24 13:30:02
+Tenemos 3 estatus realmente importantes, te lo platico para que cuando.
+
+Online speaker 2026-07-24 13:30:07
+Veamos los pedidos o los ventes a trabajar
+
+Online speaker 2026-07-24 13:30:10
+Trates de encontrar ese patrón que existan 1 es el pedido nuevo que ya vimos que es cuando.
+
+Online speaker 2026-07-24 13:30:17
+Que aquí es al revés, no cuando no, cuando viene blanco es porque ya está listo para embarque, me parece.
+
+Online speaker 2026-07-24 13:30:23
+Ah, ya ya ya más atrás, sí que es al revés, acá bueno
+
+Online speaker 2026-07-24 13:30:27
+Sí, o sea, acá sería el ese el pedido, ese no, el ese es el que no se considera.
+
+Online speaker 2026-07-24 13:30:34
+A ver, déjame ver, esto lo tengo acá
+
+Online speaker 2026-07-24 13:30:38
+A ver, vamos a retomar esta parte porque sí es importante.
+
+Online speaker 2026-07-24 13:30:41
+Mira en la Junta que tuvimos con Víctor, bueno, estoy haciendo un un paréntesis.
+
+Online speaker 2026-07-24 13:30:47
+OK, tenemos todo este tema de los tipos de periodo como llegan, que es AMPYK va
+
+Online speaker 2026-07-24 13:30:54
+Y tenemos los tipos de pedido en el estatus.
+
+Online speaker 2026-07-24 13:31:00
+Mira el estatus blanco ya fue transmitido operaciones, pero este status blanco, o sea, y ahora ya entiendo por qué en su torre de control le ponen ahí blanco, ves que cuando depositamos una guía le ponemos blanco, punto PDF.
+
+Online speaker 2026-07-24 13:31:18
+Sí, no, ya ya, ya empecé a cuadrar, le dije, pues porque le pondría un blanco, no, o sea, fácil es ponerle
+
+Online speaker 2026-07-24 13:31:25
+O sea, literal, dejar el campo en vacío, no blanco, o sea, es porque para ellos el estatus blanco es porque no tiene nada, o sea.
+
+Online speaker 2026-07-24 13:31:35
+Va a ser.
+
+Online speaker 2026-07-24 13:31:36
+Ajá, para nosotros es un vacío, ajá, no es un null, es un vacío.
+
+Online speaker 2026-07-24 13:31:41
+Vale, entonces, cuando ya está en estatus blancos, quiere decir que ya has procesado para operaciones.
+
+Online speaker 2026-07-24 13:31:48
+Vale entonces
+
+Online speaker 2026-07-24 13:31:51
+Y estatus 1
+
+Online speaker 2026-07-24 13:31:53
+Ajá, estatus UIOR es porque ya está terminado.
+
+Online speaker 2026-07-24 13:31:58
+Y ya está facturado, vale que este es
+
+Online speaker 2026-07-24 13:32:03
+Este es el el, el, el, el, el, el pre, es lo que tenemos que definir cuál vamos a tomar primero los que están en YORO, los que están en estatus blanco no, o sea, los que están en estatus blanco, que esto es lugar
+
+Online speaker 2026-07-24 13:32:18
+Vacío
+
+Online speaker 2026-07-24 13:32:19
+Vale o n
+
+Online speaker 2026-07-24 13:32:22
+No sé cómo lo tome el el campo este
+
+Online speaker 2026-07-24 13:32:27
+Ajá, vacío que es técnicamente de yo lo tomo, sería esto
+
+Online speaker 2026-07-24 13:32:31
+Sí, pero yo pensaba usar un string enti, el de un dolor anti inolorable, ajá.
+
+Online speaker 2026-07-24 13:32:39
+OK, va, sí puede ser los dos, pero
+
+Online speaker 2026-07-24 13:32:44
+¿Te esas aromadas?
+
+Online speaker 2026-07-24 13:32:45
+Se lo voy a ver acá de este lado. Exacto, aquí yo puse, mira, no se toman ese porque son.
+
+Online speaker 2026-07-24 13:32:51
+Son pedidos que no sé saber si se va a surtir
+
+Online speaker 2026-07-24 13:32:54
+Al cliente se pueden cancelar todavía entonces los que vamos a tomar.
+
+Online speaker 2026-07-24 13:33:00
+Son los flancos
+
+Online speaker 2026-07-24 13:33:03
+Sí, De hecho, es los blancos y vamos a estar actualizando ahí. R esos blancos no cuando ellos ya los empaquen y ya los empiecen a facturar. Aquí lo que tenemos va a ayudar, cierto es cuando ya está.
+
+Online speaker 2026-07-24 13:33:16
+Para embarcar
+
+Online speaker 2026-07-24 13:33:18
+Aunque el pedido ya está terminado, o sea, ya está procesado
+
+Online speaker 2026-07-24 13:33:24
+En en sí, o sea, procesado
+
+Online speaker 2026-07-24 13:33:28
+O sea, ya ya está.
+
+Online speaker 2026-07-24 13:33:30
+Ajá, sí, ahí tendría encajonado, por así decirlo, no, sí tendría que ver su interfaz de embarques en teoría
+
+Online speaker 2026-07-24 13:33:39
+Cuando ya esté en IR, el pedido ya tiene que aparecer en embarque el pedido, sino no tiene que salir ahí, tendría que estar en.
+
+Online speaker 2026-07-24 13:33:48
+El pedido normal, pero
+
+Online speaker 2026-07-24 13:33:53
+Vale esto, esto lo puede revisar.
+
+Online speaker 2026-07-24 13:33:55
+Este con el SCT
+
+Online speaker 2026-07-24 13:33:57
+Porque esos estatutos los maneja el SCT
+
+Online speaker 2026-07-24 13:34:01
+Para para poderlos definir ahí, échale 111 investigada con clau para que que te valide esta información, no, o sea, porque sí. O sea, para nosotros necesitamos 3 estatus para el pedido 1, cuando es nuevo
+
+Online speaker 2026-07-24 13:34:15
+Es decir
+
+Online speaker 2026-07-24 13:34:17
+Este llega nuevo a llega nuevo de p 8 y aún el pedido no
+
+Online speaker 2026-07-24 13:34:26
+Este no
+
+Online speaker 2026-07-24 13:34:29
+Comenzado
+
+Online speaker 2026-07-24 13:34:30
+A trabajar, es decir
+
+Online speaker 2026-07-24 13:34:33
+Todavía no se tiene este nada, o sea, solamente
+
+Online speaker 2026-07-24 13:34:38
+Solicitud
+
+Online speaker 2026-07-24 13:34:40
+Vale, le he pedido.
+
+Online speaker 2026-07-24 13:34:42
+Después tenemos el pedido, que es
+
+Online speaker 2026-07-24 13:34:47
+Este ya ha trabajado.
+
+Online speaker 2026-07-24 13:34:52
+Y aquí no sé qué, qué le podemos poner estatus, o sea, lo que quiero es que me me comprendan el el concepto es cuando ya se tiene.
+
+Online speaker 2026-07-24 13:35:01
+En cajas ya está pesado.
+
+Online speaker 2026-07-24 13:35:04
+Ajá y ya está
+
+Online speaker 2026-07-24 13:35:07
+En Parima
+
+Online speaker 2026-07-24 13:35:08
+Vale, qué es lo que vimos allá en cinla richi, que estaba vez que estaban ya ahí en con una hojita de de todo eso, ahí está amontonados, no
+
+Online speaker 2026-07-24 13:35:16
+Y el otro estatus, que es este ya en patio.
+
+Online speaker 2026-07-24 13:35:22
+Parembarque
+
+Online speaker 2026-07-24 13:35:25
+Vale
+
+Online speaker 2026-07-24 13:35:27
+Es el que necesitamos tener, porque prácticamente este pedido ya está físicamente.
+
+Online speaker 2026-07-24 13:35:35
+En el patio.
+
+Online speaker 2026-07-24 13:35:38
+Para subir a la al transporte.
+
+Online speaker 2026-07-24 13:35:41
+O se está esperando para subir al transporte, vale
+
+Online speaker 2026-07-24 13:35:48
+Con estos 3 pedidos, vale
+
+Online speaker 2026-07-24 13:35:50
+Entonces válida esto dentro del SCT
+
+Online speaker 2026-07-24 13:35:54
+El proyecto es CCT
+
+Online speaker 2026-07-24 13:36:00
+Sí, Cris.
+
+Online speaker 2026-07-24 13:36:03
+Si no tenemos nosotros estos estatus
+
+Online speaker 2026-07-24 13:36:06
+De nuestro lado hay que tratar de definir qué qué eso funciona, vale, entonces justamente eso es esto
+
+Online speaker 2026-07-24 13:36:14
+Presignación de transporte, eso ya lo tenemos.
+
+Online speaker 2026-07-24 13:36:17
+Vale Ivan, aquí está la información que se necesita generar.
+
+Online speaker 2026-07-24 13:36:21
+Manifiestos, cantaporte, etiquetas, instrucciones de entrega, órdenes de cita
+
+Online speaker 2026-07-24 13:36:29
+Lo que sí no
+
+Online speaker 2026-07-24 13:36:31
+Revisamos, Richie, y eso es importante también.
+
+Online speaker 2026-07-24 13:36:34
+Cada vez que se bajan los pedidos
+
+Online speaker 2026-07-24 13:36:36
+¿Trae algo que se llama?
+
+Online speaker 2026-07-24 13:36:40
+Información de esto no es mi son mismo, estoy
+
+Online speaker 2026-07-24 13:36:49
+¿Y te acuerdas la como el ciento?
+
+Online speaker 2026-07-24 13:37:04
+Estaba estaba hablando, se me fue, se me fue el hilo
+
+Online speaker 2026-07-24 13:37:09
+La de que que hay que revisar de los pedidos algo, sí, sí, cuando caen los pedidos.
+
+Online speaker 2026-07-24 13:37:17
+Mencionaron algo que viene con una instrucción de trabajo
+
+Online speaker 2026-07-24 13:37:26
+En los pedidos
+
+Online speaker 2026-07-24 13:37:28
+¿Y si me da sentido eso? Porque acá.
+
+Online speaker 2026-07-24 13:37:33
+Nos entregaron un un documento.
+
+Online speaker 2026-07-24 13:37:44
+Este el IP interna
+
+Online speaker 2026-07-24 13:37:49
+Que si ustedes lo abren
+
+Online speaker 2026-07-24 13:37:51
+Este es un luego, luego se ve que esto es un documento hecho por p 8.
+
+Online speaker 2026-07-24 13:37:57
+Cómo lo sé, porque está hecho con caligrafía de matriz de puntos para imprimirse en hojas de matriz de puntos.
+
+Online speaker 2026-07-24 13:38:05
+Vale, pero ve
+
+Online speaker 2026-07-24 13:38:08
+Esta es la instrucción de trabajo
+
+Local speaker 2026-07-24 13:38:21
+Miércoles
+
+Online speaker 2026-07-24 13:38:29
+Lo que ahí nada más, porque esto es lo que tenemos que que colocar dentro de de la bitácora del pedido.
+
+Local speaker 2026-07-24 13:38:29
+Ajá
+
+Online speaker 2026-07-24 13:38:37
+A ver, se trasladar esta información.
+
+Online speaker 2026-07-24 13:38:40
+Es como si yo les dijera a ver, hazme un pedido.
+
+Online speaker 2026-07-24 13:38:43
+Nosotros lo podemos meter en notas.
+
+Online speaker 2026-07-24 13:38:45
+Vale, si nosotros nos venimos acá a pedido.
+
+Online speaker 2026-07-24 13:38:50
+Aquí y creamos un nuevo pedido.
+
+Online speaker 2026-07-24 13:38:53
+Podemos meter aquí en
+
+Online speaker 2026-07-24 13:38:56
+Ah, no tengo verdad, campo de notas.
+
+Online speaker 2026-07-24 13:38:59
+Es que creo si hasta que se creó el pedido, o sea, ahí no está
+
+Online speaker 2026-07-24 13:39:02
+Pero ya cuando lo creas y abres la vista de detalle, creo ahí es donde ya puedes agregar notas
+
+Local speaker 2026-07-24 13:39:05
+De si tiene las notas
+
+Online speaker 2026-07-24 13:39:09
+Ah, no sé si está, si estaba abajo.
+
+Online speaker 2026-07-24 13:39:12
+No pedido.
+
+Online speaker 2026-07-24 13:39:15
+Atributos notas es que son colapsos
+
+Local speaker 2026-07-24 13:39:18
+Está ayer rubita, ajá
+
+Online speaker 2026-07-24 13:39:19
+¿Ah, sí, es cierto
+
+Online speaker 2026-07-24 13:39:21
+Sí va, sí es cierto, aquí está sería colocarlo aquí
+
+Online speaker 2026-07-24 13:39:25
+Entonces va
+
+Online speaker 2026-07-24 13:39:28
+Sí, sí, De hecho creo ahorita bueno, la ingesta que trabajé toda mal ya hacía eso de que ya traía esas notas ahí.
+
+Online speaker 2026-07-24 13:39:36
+Ah, perfecto vientos, OK.
+
+Online speaker 2026-07-24 13:39:40
+Entonces, esa es la información que nos que nos mandaron, OK
+
+Online speaker 2026-07-24 13:39:45
+Tenemos esto, liberación de carga, salida de unidades, comunicación con operador, confirmación de inicio de ruta.
+
+Online speaker 2026-07-24 13:39:51
+Vale que eso es parte del tracking, OK, porque eso se hace desde la APP
+
+Online speaker 2026-07-24 13:39:56
+O se podría hacer desde el inicio de viaje desde la desde
+
+Online speaker 2026-07-24 13:40:01
+El tracken y los peores
+
+Online speaker 2026-07-24 13:40:03
+Vale que ya la entrega final, las fotografías y demás se dan cuenta nosotros dentro del proceso o dentro del COP ya se tiene la mayor parte trabajada.
+
+Online speaker 2026-07-24 13:40:11
+Hace falta definir algunas documentos, como por ejemplo la Carta Port, esto esto es para importaciones.
+
+Online speaker 2026-07-24 13:40:18
+No sé por qué lo meten aquí, a ver de ver acá.
+
+Online speaker 2026-07-24 13:40:23
+Es una carta a tope.
+
+Online speaker 2026-07-24 13:40:35
+Un formato electrónico del mundo por la Secretaria de Infresente para realizar y amparar el traslado de mercancías. Ah, no, sí
+
+Online speaker 2026-07-24 13:40:43
+OK, supongo que esto nada más se tiene que subir porque eso eso está firmado con un CFDI
+
+Online speaker 2026-07-24 13:40:57
+El transporte, ejemplo.
+
+Online speaker 2026-07-24 13:41:00
+En México.
+
+Online speaker 2026-07-24 13:41:07
+Entrega destinatario transportista, mercancía.
+
+Online speaker 2026-07-24 13:41:13
+A ver, diferencia.
+
+Online speaker 2026-07-24 13:41:16
+Entre manifiesto y cartaporte
+
+Online speaker 2026-07-24 13:41:30
+Confundir el manifiesto de carga de Cartoposicamente fiscal.
+
+Online speaker 2026-07-24 13:41:33
+Aunque hagamos documentos de tren en la mercancía que
+
+Online speaker 2026-07-24 13:41:36
+Espero que tengo jurídico operativos y además completamente diferentes, manifiesto es un documento de carácter inminente aduanero internacional, se genera con el propósito de amparar el transporte de mercancías ante las distintas autoridades en operaciones de importación y exportación, función principal es una declaración oficial que recopila de manera general toda la carga transbordeza en medio de transportes OK.
+
+Online speaker 2026-07-24 13:42:00
+Enfoque conciben múltiples envíos en una sola lista colectiva de la información global con una de Bluetooth, ajá.
+
+Online speaker 2026-07-24 13:42:09
+Medios digitales de transmite más dentro del que trae una herramienta digitales como las quiero mexicanas.
+
+Online speaker 2026-07-24 13:42:15
+Exacto, porque
+
+Online speaker 2026-07-24 13:42:16
+Es una prespaña como un contrato de transporte y documento de control fiscal interno.
+
+Online speaker 2026-07-24 13:42:25
+Sí, mira, es lo único que tiene
+
+Local speaker 2026-07-24 13:42:27
+Si del CFD, si es más para impuestos
+
+Online speaker 2026-07-24 13:42:29
+CFDI
+
+Online speaker 2026-07-24 13:42:38
+Naturaleza, declaración algunera global, contrato de transporte y congrolación fiscal.
+
+Online speaker 2026-07-24 13:42:45
+¿Cómo es el exterior Cruz en fronteras? Tánsito localosa punto B.
+
+Online speaker 2026-07-24 13:42:51
+Esta masiva entre los contenedores o bultos totales que llevan delico de transporte de té y la recuperador.
+
+Online speaker 2026-07-24 13:42:59
+Bueno, es que
+
+Online speaker 2026-07-24 13:43:00
+Yo también entrego esta información aquí en el manifiesto.
+
+Online speaker 2026-07-24 13:43:05
+Autoridades aduanas, dirigidas fiscales como la cual
+
+Online speaker 2026-07-24 13:43:11
+Texas.
+
+Online speaker 2026-07-24 13:43:13
+Creo que va.
+
+Online speaker 2026-07-24 13:43:19
+¿Ok?
+
+Online speaker 2026-07-24 13:43:30
+Fue el tema de las citas. Ah, bueno, este conciliación automático cúbica, capacidad de cumplimiento de reglas, optimización de rutas.
+
+Online speaker 2026-07-24 13:43:37
+Ja, que eso es lo de cuando se hace ruta lechera que nos muestre cuál es la mejor ruta más óptima, capacidad de discutir disponibilidad de los transportes, ventanas de entrega, costos y tiempos selec prioridades.
+
+Online speaker 2026-07-24 13:43:48
+Esto estos dos este costos nada más y toman.
+
+Online speaker 2026-07-24 13:43:53
+Asignación de transporte, selección automática de transporte, que es lo de
+
+Online speaker 2026-07-24 13:43:57
+El cubikage.
+
+Online speaker 2026-07-24 13:43:59
+Unidad operador y cita y horario.
+
+Online speaker 2026-07-24 13:44:02
+X generación automática manifiesto cartupo de etiquetas
+
+Online speaker 2026-07-24 13:44:06
+No lo tengo claras opciones de entrega, que es lo que vemos que vienen a los pedidos, orden necesites
+
+Online speaker 2026-07-24 13:44:12
+Vienen
+
+Online speaker 2026-07-24 13:44:14
+En este despacho ejecución, liberación de carga, salida de unidades, comunicación con con operador, confirmación de inicio de ruta.
+
+Online speaker 2026-07-24 13:44:28
+Vale, entonces este.
+
+Online speaker 2026-07-24 13:44:33
+Les voy a mostrar qué es lo que necesitamos ahora
+
+Online speaker 2026-07-24 13:44:37
+Empezar a validar dentro de
+
+Online speaker 2026-07-24 13:44:40
+Del PMS me voy a ir al MPI
+
+Online speaker 2026-07-24 13:44:44
+Tuvieron cambios
+
+Online speaker 2026-07-24 13:44:46
+Así, yo todavía tengo más, pero ahorita lo subo. ¿Qué te falta a ti de cerrar richy para el tema del techo?
+
+Local speaker 2026-07-24 13:44:50
+Sí, sí, yo también
+
+Online speaker 2026-07-24 13:44:55
+Hoy estás trabajando pedidos.
+
+Online speaker 2026-07-24 13:44:57
+No, ahorita estoy este con los únicos cambios que vimos de zona este y ya
+
+Online speaker 2026-07-24 13:45:04
+O sea, nada más me quedaría acabar de de ingestar todos los clientes que queda
+
+Online speaker 2026-07-24 13:45:09
+Con sus puntos de entrega y ya acabo
+
+Online speaker 2026-07-24 13:45:12
+OK, va ahorita cuando acabes ya este
+
+Online speaker 2026-07-24 13:45:17
+Para empezar a revisarlo de los pedidos
+
+Online speaker 2026-07-24 13:45:24
+Supongo que debo desplegar la vida
+
+Online speaker 2026-07-24 13:45:35
+Hola.
+
+Online speaker 2026-07-24 13:45:40
+No le veo fin a esto
+
+Online speaker 2026-07-24 13:45:46
+Sí salen más cosas nuevas y más emocional.
+
+Online speaker 2026-07-24 13:45:49
+Sí, pero pues ya más o menos siento que tenemos contexto del 80% de lo que se quiere.
+
+Online speaker 2026-07-24 13:45:59
+Saludos ya dimensionado.
+
+Online speaker 2026-07-24 13:46:04
+Pero de ahí en fuera este si falta.
+
+Online speaker 2026-07-24 13:46:07
+Trabajarlo, claro.
+
+Online speaker 2026-07-24 13:46:09
+Y validar que lo que tenemos funcione
+
+Online speaker 2026-07-24 13:46:17
+¿Crees que el problema fue de que firmaron 100% que todo lo tenemos
+
+Online speaker 2026-07-24 13:46:23
+Pero eso fue Eli, no la que lo puso. Ah, sí, sí, sí, lo tenemos.
+
+Local speaker 2026-07-24 13:46:32
+El tiempo extra, no.
+
+Online speaker 2026-07-24 13:46:36
+Al tiempo extraes un este accesorio.
+
+Local speaker 2026-07-24 13:46:39
+Es decir, que
+
+Online speaker 2026-07-24 13:46:41
+Entonces la la hora extra, por ejemplo, tú la puedes cobrar en 100 pesos.
+
+Online speaker 2026-07-24 13:46:45
+Entonces, el porteador te puede decir, Oye, ya entré a tu pedido, pero ahí en Cedy estuve parado 2 horas
+
+Online speaker 2026-07-24 13:46:51
+Las va a cobrar.
+
+Online speaker 2026-07-24 13:46:56
+Entonces ya te te dice, son 2 horas extras.
+
+Online speaker 2026-07-24 13:47:01
+Eso es que obviamente, cuando a mí me entregaron, me entregaron mi escuela más
+
+Online speaker 2026-07-24 13:47:08
+¿Ir a la mano?
+
+Online speaker 2026-07-24 13:47:10
+Y es que, por ejemplo, vienen cosas muy propias de de vecina.
+
+Online speaker 2026-07-24 13:47:15
+Mhm, por ejemplo, custodia, o sea, aquí viene como custodias y maniobras.
+
+Online speaker 2026-07-24 13:47:20
+Y operadores.
+
+Online speaker 2026-07-24 13:47:22
+Vale, pero no fueron explícitos, aquí debieron haber puesto.
+
+Online speaker 2026-07-24 13:47:26
+Proveedor de maniobras, proveedor de custodias.
+
+Online speaker 2026-07-24 13:47:34
+Estoy de tarifas.
+
+Online speaker 2026-07-24 13:47:36
+Autorizadas, tipo de oportunidades y destinos. Eso está conjunto ya veo y los destinos es en función de lo de p 8. Aquí debe haber p 8.
+
+Online speaker 2026-07-24 13:47:51
+Maniobras, peajes tipo estos son accesorios.
+
+Online speaker 2026-07-24 13:47:55
+Los planes son logística de Estado de tiempos.
+
+Online speaker 2026-07-24 13:48:00
+¿Qué tránsito y listado de opciones de ruta?
+
+Online speaker 2026-07-24 13:48:03
+Este de tiempos de tránsito, esto no sé qué sea
+
+Online speaker 2026-07-24 13:48:06
+Pero lo tú lo cubrimos.
+
+Online speaker 2026-07-24 13:48:08
+Y este delitado de opciones de ruta es justamente lo que.
+
+Online speaker 2026-07-24 13:48:16
+Este más bien esto se hace con Google Maps, se dan cuenta.
+
+Online speaker 2026-07-24 13:48:21
+Es cuando vimos lo de las rutas.
+
+Online speaker 2026-07-24 13:48:25
+Que de veras eso no lo hemos validado
+
+Online speaker 2026-07-24 13:48:27
+De que nosotros podemos redefinir
+
+Online speaker 2026-07-24 13:48:31
+Es que está complejo porque para cada ruta, para cada destino, ven que teníamos hay un disco motor.
+
+Online speaker 2026-07-24 13:48:37
+Que nos iba a decir
+
+Online speaker 2026-07-24 13:48:40
+¿Qué? ¿Qué ruta estaba ya autorizada?
+
+Local speaker 2026-07-24 13:48:44
+Ajá, sí, pero ya fue la parte que te decía que no podemos mandar exactamente todos los puntos que aún así Maps lo recalcula cuando ya lo lo abres, entonces una opción era
+
+Online speaker 2026-07-24 13:48:56
+Sí.
+
+Local speaker 2026-07-24 13:48:56
+Este abrir Maps, pero con el aviso de que la ruta no es 100% la que se definió o que se vea desde la aplicación a ese recorrido
+
+Local speaker 2026-07-24 13:49:04
+Entonces, ahí seguimos teniendo esos detalles
+
+Online speaker 2026-07-24 13:49:08
+Sí, eso es lo del monitorio viene en fase dos, es lo bueno
+
+Online speaker 2026-07-24 13:49:12
+Vamos a dejarlo de que tú lo hagas
+
+Online speaker 2026-07-24 13:49:15
+YY que la ruta se la digan así a mano, no, o al menos en las instrucciones del viaje.
+
+Local speaker 2026-07-24 13:49:16
+Sí
+
+Online speaker 2026-07-24 13:49:21
+Que se anoten ahí la ruta que debes tomar, no como nota
+
+Online speaker 2026-07-24 13:49:25
+Ya si la quieres seguir el transportista, pues AO se va a usar la ruta de su GPS.
+
+Online speaker 2026-07-24 13:49:31
+Está bien, no, no tengo tema
+
+Online speaker 2026-07-24 13:49:33
+Pero vemos como, o sea, no es un no es un factor que influya en el proceso.
+
+Online speaker 2026-07-24 13:49:39
+Sale, pero sí, pero sí lo necesitamos.
+
+Online speaker 2026-07-24 13:49:42
+O sea, ya tenemos nosotros la la línea trazada en función del para el cómo se llama
+
+Online speaker 2026-07-24 13:49:51
+Para la geoserca, no
+
+Online speaker 2026-07-24 13:49:53
+Para eso no sirve.
+
+Local speaker 2026-07-24 13:49:58
+Ajá
+
+Online speaker 2026-07-24 13:49:59
+OK, mire
+
+Online speaker 2026-07-24 13:50:01
+¿Quién es les voy a ir apuntando aquí en el chat?
+
+Online speaker 2026-07-24 13:50:05
+Ponme la la necesidad que empecemos a trabajar
+
+Online speaker 2026-07-24 13:50:09
+1 se los voy a poner aquí.
+
+Online speaker 2026-07-24 13:50:12
+1 hacer un repacto completo de la aplicación.
+
+Online speaker 2026-07-24 13:50:18
+Para ordenar reordenar
+
+Online speaker 2026-07-24 13:50:21
+Los módulos.
+
+Online speaker 2026-07-24 13:50:24
+Ajá, hay que identificar 33 partes.
+
+Online speaker 2026-07-24 13:50:28
+Flujo
+
+Online speaker 2026-07-24 13:50:30
+Portales.
+
+Online speaker 2026-07-24 13:50:33
+Herramientas, así como lo tengo yo aquí.
+
+Online speaker 2026-07-24 13:50:36
+Vale, déjen, les mando esto.
+
+Online speaker 2026-07-24 13:50:40
+Dos ahora
+
+Online speaker 2026-07-24 13:50:42
+¿Cuáles son estos estos estas diferencias? Lo que ustedes ven aquí en el MVP vean el flujo.
+
+Online speaker 2026-07-24 13:50:48
+¿Es esto que tengo aquí?
+
+Online speaker 2026-07-24 13:50:54
+Ajá. Este de tracking.
+
+Online speaker 2026-07-24 13:50:56
+Vale, no confundir con el monitoreo, aquí me faltan los portales, me falta el el monitoreo donde sale el mapa y vemos ahí los los, los carritos ahí moviéndose y todo eso.
+
+Online speaker 2026-07-24 13:51:08
+El el portal de monitoreo vale, eso es muy importante porque va aquí
+
+Online speaker 2026-07-24 13:51:14
+OK, no lo tengo porque yo no tengo una integración, entonces lo lo único que igual que me falta aquí es el monitoreo va
+
+Local speaker 2026-07-24 13:51:20
+Sí, en el MVP
+
+Online speaker 2026-07-24 13:51:23
+Este herramientas
+
+Online speaker 2026-07-24 13:51:25
+Aquí hay varias herramientas, bueno, herramientas aquí estos aquí ustedes lo pueden definir como catálogos. Este sí va catálogos, déjense los pongo aquí.
+
+Online speaker 2026-07-24 13:51:36
+A ver
+
+Online speaker 2026-07-24 13:51:37
+Flujo
+
+Online speaker 2026-07-24 13:51:39
+Ajá, después
+
+Online speaker 2026-07-24 13:51:43
+En flujo.
+
+Online speaker 2026-07-24 13:51:46
+Vamos a tener un este
+
+Online speaker 2026-07-24 13:51:50
+El flujo vamos a ver, déjense, los pongo flujo.
+
+Online speaker 2026-07-24 13:51:53
+A ver 1 punto y voy a ponerle hasta flujo.
+
+Online speaker 2026-07-24 13:51:58
+Pedidos
+
+Online speaker 2026-07-24 13:52:00
+Vale que de aquí tenemos dos, dos partes pedidos.
+
+Online speaker 2026-07-24 13:52:07
+Este
+
+Online speaker 2026-07-24 13:52:08
+Inesta.
+
+Online speaker 2026-07-24 13:52:10
+Mi tabla de pedidos vale
+
+Online speaker 2026-07-24 13:52:13
+Crear.
+
+Online speaker 2026-07-24 13:52:16
+Yo aquí
+
+Online speaker 2026-07-24 13:52:17
+Tengo los los para crear, o sea, lo tengo aquí directamente. Bueno, el mío es pedidos crear, vale, ahorita creamos unos unos pedidos.
+
+Online speaker 2026-07-24 13:52:27
+Y tenemos pedidos
+
+Online speaker 2026-07-24 13:52:31
+Crear.
+
+Online speaker 2026-07-24 13:52:33
+Y tabla.
+
+Online speaker 2026-07-24 13:52:34
+¿Qué pedidos vale?
+
+Online speaker 2026-07-24 13:52:37
+Agrupados.
+
+Online speaker 2026-07-24 13:52:39
+Por tipo
+
+Online speaker 2026-07-24 13:52:49
+Changos se movió esto
+
+Online speaker 2026-07-24 13:52:53
+A ver, es que mejor lo hago en un Exe.
+
+Online speaker 2026-07-24 13:53:00
+A ver en la parte del flujo.
+
+Online speaker 2026-07-24 13:53:07
+Se bloqueó mi inserts of frame.
+
+Online speaker 2026-07-24 13:53:14
+Activado porque no puedo moverse unas flechas.
+
+Online speaker 2026-07-24 13:53:22
+Ha estado bloqueada mis flechas
+
+Online speaker 2026-07-24 13:53:24
+OK, en mi flujo tengo
+
+Online speaker 2026-07-24 13:53:27
+Pedidos vale y de aquí de los pedidos tengo crear
+
+Online speaker 2026-07-24 13:53:31
+Y tengo
+
+Online speaker 2026-07-24 13:53:33
+Listar.
+
+Online speaker 2026-07-24 13:53:37
+OK, que
+
+Online speaker 2026-07-24 13:53:38
+Estas dos partes.
+
+Online speaker 2026-07-24 13:53:42
+Crear pedido.
+
+Online speaker 2026-07-24 13:53:44
+Aquí están todos los pedidos que que vamos creando, vale y vean aquí hay un snapshot.
+
+Online speaker 2026-07-24 13:53:50
+Este en snapshot es este de aquí.
+
+Online speaker 2026-07-24 13:53:55
+Este snapchat operativo.
+
+Online speaker 2026-07-24 13:53:58
+Es un kanban donde agrupa los pedidos.
+
+Online speaker 2026-07-24 13:54:02
+En función de su
+
+Online speaker 2026-07-24 13:54:05
+De su estatus.
+
+Online speaker 2026-07-24 13:54:07
+Vale, ahorita ahorita van a ver cómo se se ve, esto lo vamos a ver un poquito mejor.
+
+Online speaker 2026-07-24 13:54:12
+Cuando ya tenga a Richie
+
+Online speaker 2026-07-24 13:54:14
+Este la ingesta completa
+
+Online speaker 2026-07-24 13:54:16
+Pero nosotros podemos empezar a cre
+
+Online speaker 2026-07-24 13:54:18
+Un pedido entonces voy a esperarle aquí canmar, le voy a poner kanbar
+
+Online speaker 2026-07-24 13:54:23
+Canvas, perdón, canvas
+
+Online speaker 2026-07-24 13:54:25
+Hay pedidos, vale, ahorita vemos cómo trabaja
+
+Online speaker 2026-07-24 13:54:31
+Después, ya que tengo el pedido.
+
+Online speaker 2026-07-24 13:54:33
+Tengo un flujo, déjenme, le digo a codex.
+
+Online speaker 2026-07-24 13:54:40
+Puedes mostrarme el flu
+
+Online speaker 2026-07-24 13:54:43
+De tipo de pedido que hiciste la vez pasada.
+
+Online speaker 2026-07-24 13:54:49
+Pero en formato canvas, canvas
+
+Online speaker 2026-07-24 13:54:52
+Para poder visualizar el
+
+Online speaker 2026-07-24 13:54:55
+Diagrama de ambos.
+
+Online speaker 2026-07-24 13:54:58
+Gracias
+
+Online speaker 2026-07-24 13:55:00
+Y el flujo que toma cada 1.
+
+Online speaker 2026-07-24 13:55:08
+Mire, ese es un canvas.
+
+Online speaker 2026-07-24 13:55:10
+Aquí es donde dice lo de las
+
+Online speaker 2026-07-24 13:55:13
+Las tarifas
+
+Online speaker 2026-07-24 13:55:15
+Ahorita que lo haga y se los explico mejor vale
+
+Online speaker 2026-07-24 13:55:18
+Pero bueno, después tenemos empaquetar
+
+Online speaker 2026-07-24 13:55:22
+Para poner aquí.
+
+Online speaker 2026-07-24 13:55:34
+Está empaquetar
+
+Online speaker 2026-07-24 13:55:36
+En empaquetar.
+
+Online speaker 2026-07-24 13:55:38
+Viene todo el tema de las este
+
+Online speaker 2026-07-24 13:55:43
+Del del del packing
+
+Online speaker 2026-07-24 13:55:48
+Vamos viendo el flujo en función de lo que tenemos, vale y vamos a ir mostrando los diferentes este.
+
+Online speaker 2026-07-24 13:55:55
+Portal
+
+Online speaker 2026-07-24 13:55:56
+En aquí en programas de embarque, Ah, mira, y ahorita queda bien porque no tenemos nada de pedidos.
+
+Online speaker 2026-07-24 13:56:01
+Está perfec
+
+Local speaker 2026-07-24 13:56:01
+Sí, sí, sí
+
+Online speaker 2026-07-24 13:56:04
+Sale, entonces vean.
+
+Online speaker 2026-07-24 13:56:08
+A ver, espérame un tantito que
+
+Online speaker 2026-07-24 13:56:10
+Marcando
+
+Local speaker 2026-07-24 13:56:13
+Sí
+
+Online speaker 2026-07-24 13:57:02
+Ya, ya vine, Eh, perdón.
+
+Online speaker 2026-07-24 13:57:07
+OK, entonces vea.
+
+Online speaker 2026-07-24 13:57:08
+Voy a crear dos tipos de pedido
+
+Online speaker 2026-07-24 13:57:11
+Un pedido de Marketplace ajá y un pedido.
+
+Online speaker 2026-07-24 13:57:15
+Vamos a llamarle pedido inteligente, v
+
+Online speaker 2026-07-24 13:57:19
+Sí entiendo la la diferencia a nivel conceptual.
+
+Online speaker 2026-07-24 13:57:23
+Sí, si quieres
+
+Online speaker 2026-07-24 13:57:24
+Sí, Michael, sí
+
+Local speaker 2026-07-24 13:57:25
+Sí
+
+Online speaker 2026-07-24 13:57:27
+Sí va.
+
+Online speaker 2026-07-24 13:57:29
+Primero voy a crear un pedido inteligente, vean
+
+Online speaker 2026-07-24 13:57:32
+El el wetube este richy
+
+Online speaker 2026-07-24 13:57:35
+Dependiendo cómo clasifiquemos los vídeos en p 8, tú ya le vas a definir este tipo desde la ingesta vale, eso es muy importante.
+
+Online speaker 2026-07-24 13:57:43
+Entonces vamos a crear un pedido inteligente, o sea, esto no lo vamos a asignar nosotros de este lado ya debe de de autoasignarse, por así decirlo.
+
+Local speaker 2026-07-24 13:57:52
+Haz de una aplicación, pero no le le di que no ignórenlo.
+
+Online speaker 2026-07-24 13:57:54
+Ah
+
+Online speaker 2026-07-24 13:57:57
+No, si quieres este meterla para que te haga tu tu transcripción, está bien
+
+Local speaker 2026-07-24 13:57:57
+La move
+
+Local speaker 2026-07-24 13:58:02
+Es que ya tengo una de Lenovo, pero ese es que este la tenía, pero leí por accidente.
+
+Local speaker 2026-07-24 13:58:10
+La quería quitar, pero no sé si si le quieren que la agregue, pero de todas formas este ya con Michael le hicimos un repo para las notas justamente.
+
+Online speaker 2026-07-24 13:58:10
+Ah, sí, sin problema.
+
+Online speaker 2026-07-24 13:58:18
+A OK, vale.
+
+Online speaker 2026-07-24 13:58:19
+Porque ahorita les voy a explicar flujo importante.
+
+Local speaker 2026-07-24 13:58:21
+Sí, sí, sí, sí.
+
+Online speaker 2026-07-24 13:58:22
+Entonces, si quieren de tomar nota con ir adelante, es no tengo ningún tema al contrario, está bien.
+
+Local speaker 2026-07-24 13:58:25
+Sí, ahí llegamos las dos
+
+Online speaker 2026-07-24 13:58:29
+¿Ah, OK, vamos a crear entonces un pedido bituble
+
+Online speaker 2026-07-24 13:58:33
+Bueno, me voy a enfocar primero por 1 de paquetería, que es el más sencillo de comprender, vale
+
+Local speaker 2026-07-24 13:58:39
+Ajá, sí.
+
+Online speaker 2026-07-24 13:58:39
+Entonces vean
+
+Online speaker 2026-07-24 13:58:41
+La la, si yo le doy aquí en el en el, en la paquetería.
+
+Online speaker 2026-07-24 13:58:45
+Se dan cuenta que no que me arroja ya las paqueterías que ya están aquí filtradas, ya vieron
+
+Online speaker 2026-07-24 13:58:51
+Entonces, obviamente, cuando yo tengo el pedido
+
+Online speaker 2026-07-24 13:58:53
+Yo lo que si sabes qué lo vas a mandar por esta zeta y el número de de guía va a ser
+
+Online speaker 2026-07-24 13:58:59
+STF
+
+Online speaker 2026-07-24 13:59:01
+Por ejemplo
+
+Online speaker 2026-07-24 13:59:03
+Este 123456789 y cero va, ese va a ser mi número de guía.
+
+Online speaker 2026-07-24 13:59:10
+Obviamente yo le tengo que decir a qué compañía. Ah, es que no tenemos clientes, verdad.
+
+Local speaker 2026-07-24 13:59:18
+No, si ya hay, pero no todos, no, no sea la asociación.
+
+Online speaker 2026-07-24 13:59:23
+Agréguenme
+
+Online speaker 2026-07-24 13:59:26
+Agréguenme este
+
+Online speaker 2026-07-24 13:59:29
+Al agredienme AA la compañía GST.
+
+Online speaker 2026-07-24 13:59:34
+Ajá, nada más para fines de
+
+Online speaker 2026-07-24 13:59:37
+Las pruebas
+
+Online speaker 2026-07-24 13:59:39
+Ajá. Agreguenle dos clientes.
+
+Online speaker 2026-07-24 13:59:42
+Que sea este daikin y werfen
+
+Online speaker 2026-07-24 13:59:48
+Ajá, sí, quieres.
+
+Online speaker 2026-07-24 13:59:50
+YY obviamente agréguenle productos a
+
+Online speaker 2026-07-24 13:59:54
+Unos productos lo que ustedes quieran, que pesen entre 3 kg, 3.5 kg.
+
+Online speaker 2026-07-24 14:00:02
+Imagino que lo puedo agregar aquí en el MVP, déjenme
+
+Online speaker 2026-07-24 14:00:07
+A ver, compañías, sí, mire, aquí vamos a agregar la francy
+
+Online speaker 2026-07-24 14:00:11
+A ver, vamos a ponerle ST
+
+Local speaker 2026-07-24 14:00:12
+Ah
+
+Online speaker 2026-07-24 14:00:15
+Nombre.
+
+Online speaker 2026-07-24 14:00:17
+Es EST.
+
+Online speaker 2026-07-24 14:00:19
+Network
+
+Online speaker 2026-07-24 14:00:20
+RFCGST 001 F 1
+
+Online speaker 2026-07-24 14:00:25
+Código externo de P 8. Vamos a ponerle el 25
+
+Online speaker 2026-07-24 14:00:29
+No tenemos 25, no vamos a ponerle el el 150.
+
+Online speaker 2026-07-24 14:00:37
+Ahí está la compañía
+
+Online speaker 2026-07-24 14:00:40
+Después tenemos vámonos atrás a los catálogos.
+
+Online speaker 2026-07-24 14:00:43
+Vamos a los clientes.
+
+Online speaker 2026-07-24 14:00:47
+150
+
+Online speaker 2026-07-24 14:00:51
+Vale, no tiene, entonces vamos AA ese sí, ayúdenme a crear clientes, no tengo un club de clientes aquí
+
+Online speaker 2026-07-24 14:01:06
+Ah, no, si tengo el perfecto.
+
+Online speaker 2026-07-24 14:01:09
+A ver, vamos a agregar el código de cliente.
+
+Online speaker 2026-07-24 14:01:12
+Es de P 8
+
+Online speaker 2026-07-24 14:01:14
+Vamos a agregarle el 1 y el dos va
+
+Online speaker 2026-07-24 14:01:17
+Nombre, vamos a ponerle di
+
+Online speaker 2026-07-24 14:01:22
+De que DKN es de 0105.
+
+Online speaker 2026-07-24 14:01:28
+ABC
+
+Online speaker 2026-07-24 14:01:29
+Cadena de P 8 cadena de venta vamos a ponerle el el el 20.
+
+Online speaker 2026-07-24 14:01:36
+Cada comercial es vamos a ponerle.
+
+Online speaker 2026-07-24 14:01:41
+Dais
+
+Online speaker 2026-07-24 14:01:45
+Vamos a ponerle dieting igual aceptor, esto no, este no
+
+Online speaker 2026-07-24 14:01:52
+Ahí está y vamos a crear otro.
+
+Online speaker 2026-07-24 14:01:55
+Va a ser huérfano
+
+Online speaker 2026-07-24 14:01:58
+Tenemos
+
+Online speaker 2026-07-24 14:01:59
+Esto fue el número dos
+
+Online speaker 2026-07-24 14:02:04
+Pues ven
+
+Online speaker 2026-07-24 14:02:05
+WEF, pero eso sí, ABCD.
+
+Online speaker 2026-07-24 14:02:11
+Cadena externa de P 8.
+
+Online speaker 2026-07-24 14:02:14
+Le pusimos aquí el 20, esto va a ser el 21.
+
+Online speaker 2026-07-24 14:02:18
+Cada comercial.
+
+Online speaker 2026-07-24 14:02:21
+Puerpe
+
+Online speaker 2026-07-24 14:02:22
+Y listo
+
+Online speaker 2026-07-24 14:02:24
+Va
+
+Online speaker 2026-07-24 14:02:25
+Me voy aquí y me voy a los productos.
+
+Online speaker 2026-07-24 14:02:29
+CST
+
+Online speaker 2026-07-24 14:02:31
+Entrar no tengo ni 1.
+
+Online speaker 2026-07-24 14:02:33
+SkU vamos a ponerle.
+
+Online speaker 2026-07-24 14:02:38
+Este a ver.
+
+Online speaker 2026-07-24 14:02:43
+¿Cómo son, tienes que tener casi
+
+Online speaker 2026-07-24 14:02:48
+Quieren comprar
+
+Online speaker 2026-07-24 14:02:50
+Vamos a meter laptops.
+
+Online speaker 2026-07-24 14:02:53
+La laptop bien esto
+
+Online speaker 2026-07-24 14:02:55
+Sólo dos productos, vamos a meter
+
+Online speaker 2026-07-24 14:02:58
+Aquí.
+
+Online speaker 2026-07-24 14:03:01
+Ah, aquí no me muestran ese caos.
+
+Online speaker 2026-07-24 14:03:06
+Voy a agarrar el no, no, tampoco tengo número de parte
+
+Online speaker 2026-07-24 14:03:14
+Vamos a ponerle ese k 1, ese KU guión 1.
+
+Online speaker 2026-07-24 14:03:20
+Pues ponerle este nombre.
+
+Online speaker 2026-07-24 14:03:24
+Unidad de medida pieza
+
+Online speaker 2026-07-24 14:03:28
+¿Eso cuánto pesará esta tableta?
+
+Online speaker 2026-07-24 14:03:31
+Como 1 kg y medio, verdad
+
+Online speaker 2026-07-24 14:03:35
+Dale 1.5
+
+Online speaker 2026-07-24 14:03:37
+Largo vamos a ponerle 30 cm ancho, vamos a ponerle 10.
+
+Online speaker 2026-07-24 14:03:43
+Y de alto
+
+Online speaker 2026-07-24 14:03:47
+Ajá.
+
+Online speaker 2026-07-24 14:03:51
+Reproducto.
+
+Online speaker 2026-07-24 14:03:53
+Está, vamos a crear SkU guión, dos
+
+Online speaker 2026-07-24 14:03:57
+Y aquí tengo otro producto
+
+Online speaker 2026-07-24 14:04:04
+HP pieza.
+
+Online speaker 2026-07-24 14:04:08
+Es solitario, vamos a ponerle una laptop si pesa como 3.5 kg, no vamos a poner.
+
+Online speaker 2026-07-24 14:04:14
+Largo, vas a ponerle 45 cm ancho.
+
+Online speaker 2026-07-24 14:04:21
+10 y de alto vamos a ponerle 30 va.
+
+Local speaker 2026-07-24 14:04:26
+30.
+
+Local speaker 2026-07-24 14:04:28
+Que se llama Pela Motochu
+
+Online speaker 2026-07-24 14:04:29
+Archivo 1.
+
+Online speaker 2026-07-24 14:04:31
+No le puse ese Ku dos.
+
+Local speaker 2026-07-24 14:04:37
+Los bor
+
+Online speaker 2026-07-24 14:04:47
+Las unidades unidades medidas pieza.
+
+Online speaker 2026-07-24 14:04:53
+Peso 3.5 lo habíamos puesto
+
+Online speaker 2026-07-24 14:04:55
+Largo 45 anchos, 10.
+
+Local speaker 2026-07-24 14:04:59
+10 y 30.
+
+Online speaker 2026-07-24 14:05:00
+¿Cuanto
+
+Online speaker 2026-07-24 14:05:03
+Ahí está, ya están mis dos productos, vale, entonces ya está todo aquí, vean, ya vieron así. Ah, YY esa es la clasificación de los catálogos
+
+Online speaker 2026-07-24 14:05:13
+Este este innovación de aquí
+
+Online speaker 2026-07-24 14:05:17
+¿Vale, entonces vamos a crear un pedido
+
+Online speaker 2026-07-24 14:05:20
+El periodo va a
+
+Online speaker 2026-07-24 14:05:22
+Por Estafeta entonces habíamos dicho que iba a ser
+
+Online speaker 2026-07-24 14:05:25
+Este for DHL, vamos a ponerle.
+
+Online speaker 2026-07-24 14:05:29
+Este etiqueta vas a ponerle MX.
+
+Online speaker 2026-07-24 14:05:33
+MX de HLY un buen de números, no, ese es ese
+
+Online speaker 2026-07-24 14:05:38
+Ese es el número de guía.
+
+Online speaker 2026-07-24 14:05:40
+¿Vale, de qué Grupo GST
+
+Online speaker 2026-07-24 14:05:44
+AA Dike y no se lo vamos a vender a diky
+
+Online speaker 2026-07-24 14:05:47
+Y Código Postal
+
+Online speaker 2026-07-24 14:05:49
+11000
+
+Online speaker 2026-07-24 14:05:51
+Dirección de entrega destino, vas a ponerle aquí.
+
+Online speaker 2026-07-24 14:05:57
+Este riondo, fíjense aquí la importancia.
+
+Online speaker 2026-07-24 14:06:02
+De de esta parte
+
+Online speaker 2026-07-24 14:06:04
+Rion 12 y San Miguel Hidalgo, Cdmx.
+
+Online speaker 2026-07-24 14:06:08
+Vale, si se dan cuenta esta dirección se va a almacenar, pero no va a ser un punto de entrega.
+
+Online speaker 2026-07-24 14:06:13
+¿Por qué? Porque está hecho para
+
+Online speaker 2026-07-24 14:06:19
+Está hecho para que éste.
+
+Online speaker 2026-07-24 14:06:22
+No se almacene porque así vamos a recibir, imagínense 500 pedidos que se van a ir a diferentes zonas, entonces aquí es, por ejemplo, una un destino, pero no es un punto de venta, es una entrega de.
+
+Online speaker 2026-07-24 14:06:34
+De este de una casa, por ejemplo, una oficina.
+
+Online speaker 2026-07-24 14:06:39
+Vale la del chat.
+
+Online speaker 2026-07-24 14:07:03
+Entonces todo esto va a salir de sin lag vale.
+
+Online speaker 2026-07-24 14:07:06
+Aquí, número de pedido, vamos a ponerle
+
+Online speaker 2026-07-24 14:07:10
+CSP no vamos a ponerle ORD.
+
+Online speaker 2026-07-24 14:07:13
+Guión cero
+
+Online speaker 2026-07-24 14:07:15
+123401, va a ser mi primera orden.
+
+Online speaker 2026-07-24 14:07:18
+Y pues obviamente no necesito yo esto porque va a depender mucho de aquí aquí
+
+Online speaker 2026-07-24 14:07:24
+Aquí viene lo de las instrucciones de entrega, vale.
+
+Online speaker 2026-07-24 14:07:27
+Pegar no vamos a poner aquí pedido.
+
+Online speaker 2026-07-24 14:07:31
+Tuve paquetería va
+
+Online speaker 2026-07-24 14:07:34
+Ahora sí, SK 1.
+
+Online speaker 2026-07-24 14:07:36
+El SK 1. Acuérdense que la tableta nos vamos a poner.
+
+Local speaker 2026-07-24 14:07:38
+La tablet sí
+
+Online speaker 2026-07-24 14:07:39
+Vamos a ponerle una pieza.
+
+Online speaker 2026-07-24 14:07:42
+A lo mejor compraron una
+
+Online speaker 2026-07-24 14:07:45
+Y una no
+
+Online speaker 2026-07-24 14:07:46
+O sea, es un esto es un pedido de Marketplace
+
+Online speaker 2026-07-24 14:07:49
+No vienen cosas, no vienen cosas.
+
+Online speaker 2026-07-24 14:07:51
+Muy, muy grande, cantidades. Exacto, porque pues imagínense que lo compramos para que Richie lo ocupara, no entre un nuevo integrante al al equipo, necesitamos comprarle su tablet y todo ahí está va.
+
+Online speaker 2026-07-24 14:08:04
+Entonces generamos el pedido.
+
+Online speaker 2026-07-24 14:08:10
+Entonces ya está aquí el pedido.
+
+Online speaker 2026-07-24 14:08:15
+Perfil de entrega es el tipo de pedido ahí no sería el
+
+Online speaker 2026-07-24 14:08:20
+¿Dónde dice eso
+
+Online speaker 2026-07-24 14:08:23
+Aja forma exacto, mira que avise y commerce
+
+Online speaker 2026-07-24 14:08:27
+Vale esto de aquí se dan cuenta, ya está bien
+
+Online speaker 2026-07-24 14:08:31
+Afinado cómo debe de ser
+
+Online speaker 2026-07-24 14:08:36
+Y ahí, por ejemplo, en ese pedido, la parte de la guía y eso
+
+Online speaker 2026-07-24 14:08:41
+Es que eso no lo tenemos en nuestro, en nuestro NBC.
+
+Online speaker 2026-07-24 14:08:46
+NVG todavía, ajá.
+
+Online speaker 2026-07-24 14:08:49
+Y en el MPP sí está ahorita, no es ese que es este MXDHL
+
+Online speaker 2026-07-24 14:08:55
+Ese este es el número del que le puse. Sí, ese es el que le puse, entonces es el que tendría.
+
+Online speaker 2026-07-24 14:09:02
+Vamos fácil para cuando yo recupere estos pedidos B to be
+
+Online speaker 2026-07-24 14:09:07
+Tengo que recuperar su guía en el archivo que nos dio victoria, es que es otro archivo aparte, la guía es otro archivo que justamente cuando tú detectas el tipo tienes que ir a buscarle la guía.
+
+Online speaker 2026-07-24 14:09:19
+¿Y tú obtienes el las primeras 3 columnas, los primeros 3 campos para definir cuál es la paquetería, porque dice, Eh
+
+Online speaker 2026-07-24 14:09:27
+Dice FER, dice Mail, dice UP, dice UPS, dice, etcétera. No, o sea, sí está bien mal hechos, o sea, no hay un campo que nos diga paquetería tal cual.
+
+Online speaker 2026-07-24 14:09:39
+No, que yo se lo extrende la
+
+Online speaker 2026-07-24 14:09:41
+Pues de la guía, entonces tú ahí lo vas a hardcore, vas a decir, Sabes qué cuando yo recupere DHL, pues es DHL, no, no pasa nada, son 3 letras, pero qué pasa, por ejemplo, si es
+
+Online speaker 2026-07-24 14:09:51
+PQT
+
+Online speaker 2026-07-24 14:09:53
+Conoce como venga, eso es lo que hay que validar. Mercado envió
+
+Online speaker 2026-07-24 14:09:58
+Ajá.
+
+Online speaker 2026-07-24 14:09:59
+Yo creo también habría como hace como los códigos postales, no de si se registra una guía no identificada, yo puedo decidir si registrar o nueva paquetería o ligar ese prefijo a una de las que ya están, no, yo creo sería eso, ya lo tienes en en alias.
+
+Online speaker 2026-07-24 14:10:13
+Tienen arriba el el, el, el aplicativo, el NBC.
+
+Online speaker 2026-07-24 14:10:18
+Es sí, pero no está actualizado. Ah, no importa
+
+Local speaker 2026-07-24 14:10:20
+Nada, si quieres lo libero, bueno, se libra rápido, pues lápiz tarda un ratito más, pero el MVP el ítems se libra rápido.
+
+Online speaker 2026-07-24 14:10:23
+Sí, como quién
+
+Online speaker 2026-07-24 14:10:25
+Si quieren
+
+Online speaker 2026-07-24 14:10:29
+A ver
+
+Online speaker 2026-07-24 14:10:31
+Es que 192
+
+Online speaker 2026-07-24 14:10:34
+Es este
+
+Online speaker 2026-07-24 14:10:36
+No seas el axon, el normal, pues
+
+Local speaker 2026-07-24 14:10:37
+5
+
+Online speaker 2026-07-24 14:10:41
+No salía lo que quiero es este entrar al al MVC, porque mire aquí.
+
+Local speaker 2026-07-24 14:10:44
+Sí
+
+Local speaker 2026-07-24 14:10:46
+Una de esa me trabó bueno.
+
+Online speaker 2026-07-24 14:10:48
+Se van ustedes a paqueterías.
+
+Online speaker 2026-07-24 14:10:51
+Ya está esa parte trabajada, richy mira.
+
+Online speaker 2026-07-24 14:10:56
+Ah, ya ya ya va, cree, ya tienes ese reconocimiento, ese motor ya está hecho.
+
+Online speaker 2026-07-24 14:11:01
+Porque así era como yo empezaba a ingestar los pedidos de torre de control.
+
+Online speaker 2026-07-24 14:11:06
+Y este y detecté, por ejemplo, que coppel express
+
+Online speaker 2026-07-24 14:11:09
+Es igual a coppel Express BI es igual a Coppel
+
+Online speaker 2026-07-24 14:11:13
+¿Entonces, qué? ¿Qué daría de este lado?
+
+Online speaker 2026-07-24 14:11:16
+Si tú tienes esto y tú y tú vas a detectar.
+
+Online speaker 2026-07-24 14:11:20
+Este vamos a poner al inicio, esto vas a detectar de Ah perdón, leyescape era Pepe
+
+Online speaker 2026-07-24 14:11:28
+Tú vas a detectar
+
+Online speaker 2026-07-24 14:11:30
+Que viene.
+
+Online speaker 2026-07-24 14:11:32
+PE así
+
+Online speaker 2026-07-24 14:11:35
+Es una funda así, mira
+
+Online speaker 2026-07-24 14:11:41
+Vale, y mira, p
+
+Online speaker 2026-07-24 14:11:43
+Es el que tú vas a tomar.
+
+Online speaker 2026-07-24 14:11:45
+Sería
+
+Online speaker 2026-07-24 14:11:49
+Mel
+
+Online speaker 2026-07-24 14:11:50
+Sería este
+
+Online speaker 2026-07-24 14:11:51
+Es que también lo abre
+
+Online speaker 2026-07-24 14:11:55
+Mercado aquí.
+
+Online speaker 2026-07-24 14:11:56
+Bueno, aquí está Mel, mire, ya vieron
+
+Online speaker 2026-07-24 14:12:01
+¿Entonces, tú en tu en
+
+Online speaker 2026-07-24 14:12:02
+Ahí no me acuerdo en qué campo.
+
+Online speaker 2026-07-24 14:12:04
+Pero eso donde te viste técnicamente en la paquetería.
+
+Online speaker 2026-07-24 14:12:10
+Pero esos días de Pedro.
+
+Online speaker 2026-07-24 14:12:11
+Solo si tú dices, oye, búscamelo por el tipo de de alias.
+
+Online speaker 2026-07-24 14:12:15
+¿Y dime quién es, ya te va a decir, Ah, es mercado envíos
+
+Online speaker 2026-07-24 14:12:21
+Va, ese estaba
+
+Online speaker 2026-07-24 14:12:24
+Va va a crecer
+
+Online speaker 2026-07-24 14:12:26
+Yo creo que ya
+
+Online speaker 2026-07-24 14:12:28
+Así es como tú lo vas a defectar, vamos a crear el otro pedido.
+
+Online speaker 2026-07-24 14:12:32
+El de tipo inteligente.
+
+Online speaker 2026-07-24 14:12:34
+Para que vean la diferencia, vamos a imaginar
+
+Online speaker 2026-07-24 14:12:37
+Otra vez este mismo cliente
+
+Online speaker 2026-07-24 14:12:39
+Ahora vamos a vender la URF
+
+Online speaker 2026-07-24 14:12:41
+Ah, me falta un punto de entrega de huérfel. A ver, vamos a ver si lo podemos agregar acá
+
+Online speaker 2026-07-24 14:12:46
+Zonas
+
+Online speaker 2026-07-24 14:12:49
+carriles tarifas, puntos de entrega.
+
+Online speaker 2026-07-24 14:12:55
+Wirefred
+
+Online speaker 2026-07-24 14:12:58
+Tengo.
+
+Online speaker 2026-07-24 14:12:59
+Vamos a sacarle 1, vamos a ponerle.
+
+Online speaker 2026-07-24 14:13:04
+Huérfel
+
+Online speaker 2026-07-24 14:13:06
+El código era que tú cómo lo pones de bichi con el código número de tienda verdad
+
+Online speaker 2026-07-24 14:13:13
+Ajá, pero
+
+Online speaker 2026-07-24 14:13:16
+Ese sería
+
+Online speaker 2026-07-24 14:13:19
+Sí, no.
+
+Online speaker 2026-07-24 14:13:21
+Sí, híjole, a ver, dame un código postal donde se de que ya tengas ahí este mapeado, vale que caiga en la zona.
+
+Online speaker 2026-07-24 14:13:33
+A ver.
+
+Local speaker 2026-07-24 14:13:34
+A ver acá
+
+Online speaker 2026-07-24 14:13:34
+Pues que no quiere levantar esta cosa.
+
+Online speaker 2026-07-24 14:13:39
+Se recargo, híjole, ya son las
+
+Online speaker 2026-07-24 14:13:44
+Vamos a tener que retomar esta.
+
+Online speaker 2026-07-24 14:13:47
+Junto después de comer, ahorita 2:30 H, Vale
+
+Online speaker 2026-07-24 14:13:52
+Paquevince de la agrupación
+
+Online speaker 2026-07-24 14:14:01
+Pues que se manda, es que haz de cuenta que levanta el NBC y se me crashea el el visual que me manda este error, pero quién sabe.
+
+Local speaker 2026-07-24 14:14:10
+El ser republicando en el Server
+
+Online speaker 2026-07-24 14:14:14
+Hola.
+
+Local speaker 2026-07-24 14:14:17
+A ver, Ah
+
+Online speaker 2026-07-24 14:14:19
+Ah, no, no, no, esa yo la publiqué ahorita hace como 10 minutos, pues no.
+
+Local speaker 2026-07-24 14:14:23
+No, el huevo
+
+Local speaker 2026-07-24 14:14:34
+También logro acá
+
+Local speaker 2026-07-24 14:14:36
+Que no me dejas levantarlo en lo que se publica.
+
+Local speaker 2026-07-24 14:14:43
+Operador, aquí
+
+Online speaker 2026-07-24 14:14:44
+Prueba la zona de Polanco de estar mafeada, no.
+
+Online speaker 2026-07-24 14:14:49
+A ver, por ejemplo.
+
+Local speaker 2026-07-24 14:14:51
+A ver, son las 1:00 H
+
+Online speaker 2026-07-24 14:14:52
+Esta de Monterrey a ver
+
+Online speaker 2026-07-24 14:14:56
+Ver otro cuideos postales.
+
+Online speaker 2026-07-24 14:15:02
+Se me truena el en bici, me truena el visual.
+
+Local speaker 2026-07-24 14:15:08
+Abre este de lo que se estaba llenando de
+
+Local speaker 2026-07-24 14:15:12
+Cobertura no del nuevo model
+
+Online speaker 2026-07-24 14:15:14
+Sí, tienes que abrir la nueva vista, ajá
+
+Local speaker 2026-07-24 14:15:18
+A
+
+Local speaker 2026-07-24 14:15:19
+Espérame, ya no me carga
+
+Online speaker 2026-07-24 14:15:20
+Y darle a Cris a un código postal que ya esté mapeado, nada más que cuando yo intento abrir un modal o algo se me craché, me muestra ese error
+
+Local speaker 2026-07-24 14:15:25
+Riever
+
+Local speaker 2026-07-24 14:15:28
+Espérame, por ejemplo, acá con Culiacán
+
+Online speaker 2026-07-24 14:15:32
+Nada.
+
+Local speaker 2026-07-24 14:15:32
+Es que ya están todas
+
+Local speaker 2026-07-24 14:15:38
+A veces de Culiacán.
+
+Local speaker 2026-07-24 14:15:44
+A ver, Guanajuato. Bueno, León.
+
+Online speaker 2026-07-24 14:15:46
+Agarraste el 816.
+
+Local speaker 2026-07-24 14:15:49
+Sí, los que estoy pasando ya están, es que ya todos están, están mapeados menos zona metropolitana.
+
+Online speaker 2026-07-24 14:15:52
+En las zonas
+
+Online speaker 2026-07-24 14:15:56
+Pero tiene tarifas, por ejemplo, Culiacán.
+
+Local speaker 2026-07-24 14:16:01
+A
+
+Local speaker 2026-07-24 14:16:02
+Si mejor me dio por el tarifas
+
+Local speaker 2026-07-24 14:16:06
+Historiario
+
+Online speaker 2026-07-24 14:16:10
+Así
+
+Local speaker 2026-07-24 14:16:12
+Culiacán.
+
+Local speaker 2026-07-24 14:16:14
+Culi
+
+Local speaker 2026-07-24 14:16:15
+No si todavía vas a ver, espérame.
+
+Local speaker 2026-07-24 14:16:18
+Esto no tiene
+
+Online speaker 2026-07-24 14:16:18
+Mira, pásame, por ejemplo, 1 que ya aquí me salen las zonas
+
+Local speaker 2026-07-24 14:16:20
+Colima
+
+Online speaker 2026-07-24 14:16:24
+Por ejemplo, para más fácil 1 de
+
+Online speaker 2026-07-24 14:16:29
+De aquí, de Ciudad de México
+
+Local speaker 2026-07-24 14:16:37
+Sí voy
+
+Online speaker 2026-07-24 14:16:40
+O sea, yo ya no voy a ubicar dentro de de una zona
+
+Local speaker 2026-07-24 14:16:49
+Por ejemplo, Álvaro Borregón.
+
+Online speaker 2026-07-24 14:16:58
+A ver.
+
+Local speaker 2026-07-24 14:17:01
+Más calientes aquí
+
+Online speaker 2026-07-24 14:17:06
+Sí, ya sé.
+
+Online speaker 2026-07-24 14:17:09
+¿Te gusta
+
+Local speaker 2026-07-24 14:17:22
+Tenemos aguas calientes
+
+Online speaker 2026-07-24 14:17:25
+Trico.
+
+Local speaker 2026-07-24 14:17:29
+Pues no solo de la ciudad
+
+Online speaker 2026-07-24 14:17:34
+Sí, llegaste de aquí a ver.
+
+Online speaker 2026-07-24 14:17:36
+Vas a la Ciudad de México
+
+Local speaker 2026-07-24 14:17:42
+Ajá
+
+Online speaker 2026-07-24 14:17:42
+¿Ir?
+
+Online speaker 2026-07-24 14:17:44
+Cargando puntos, ahí está a ver, por ejemplo, eso que quería hacer me dieron la vista.
+
+Online speaker 2026-07-24 14:17:51
+Esto ahí está 11530.
+
+Online speaker 2026-07-24 14:17:55
+Con esto
+
+Online speaker 2026-07-24 14:17:59
+Dirección, vamos a ponerle a ver hasta dónde es
+
+Online speaker 2026-07-24 14:18:02
+Avenida ferrocarril de Combaquin.
+
+Online speaker 2026-07-24 14:18:07
+Pero carril de Cuernavaca.
+
+Online speaker 2026-07-24 14:18:09
+Sin número esta
+
+Online speaker 2026-07-24 14:18:11
+Ciudad de México va
+
+Online speaker 2026-07-24 14:18:16
+Listo, ya quedó.
+
+Online speaker 2026-07-24 14:18:17
+Ahora sí que es un refresco.
+
+Online speaker 2026-07-24 14:18:20
+Período inteligente.
+
+Online speaker 2026-07-24 14:18:23
+De este cliente.
+
+Online speaker 2026-07-24 14:18:25
+Huérfel
+
+Online speaker 2026-07-24 14:18:26
+Y este punto de entrega.
+
+Online speaker 2026-07-24 14:18:27
+Vale Ciudad de México.
+
+Online speaker 2026-07-24 14:18:31
+Vale, he pedido, vamos a ponerle ORDINT por dentro inteligente, cero u va.
+
+Online speaker 2026-07-24 14:18:38
+Fecha de solicitud ahorita tipo de entrega, ahorita solamente tengo validado el directo.
+
+Online speaker 2026-07-24 14:18:45
+Falta validar el consolidado, el centralizado.
+
+Online speaker 2026-07-24 14:18:49
+Del muy disparada va, esos son los tipos de pedidos que
+
+Online speaker 2026-07-24 14:18:53
+Que tenemos Richard también el el de Marketplaceba, por eso es muy importante definirlos
+
+Online speaker 2026-07-24 14:18:59
+¿Aquí en la vista?
+
+Online speaker 2026-07-24 14:19:00
+Obviamente no me muestra el de Marketplace porque este lo tengo cuando registro un tipo de Marketplace acá
+
+Online speaker 2026-07-24 14:19:08
+Ajá, sí
+
+Online speaker 2026-07-24 14:19:09
+Fecha de hora comprometida, esto es cuando se tiene cita o no se tiene cita.
+
+Online speaker 2026-07-24 14:19:13
+Vale, esto también viene en el pedido
+
+Online speaker 2026-07-24 14:19:15
+¿Vas a ponerle que lo vamos a entregar mañana 25 del 07?
+
+Online speaker 2026-07-24 14:19:20
+2026.
+
+Online speaker 2026-07-24 14:19:22
+A las 0:01 h cero cero va
+
+Online speaker 2026-07-24 14:19:25
+Y fecha de la cita, pues vamos a poner la misma 25072026
+
+Online speaker 2026-07-24 14:19:32
+A las 13:00 H
+
+Online speaker 2026-07-24 14:19:36
+Vale, o sea, este es un rango de exitas. Normalmente siempre ese va a ser más 1 hora
+
+Online speaker 2026-07-24 14:19:40
+Lo puedes poner automático
+
+Online speaker 2026-07-24 14:19:43
+Pero sí, eso es más que nada para los KPIS
+
+Online speaker 2026-07-24 14:19:45
+Sé que serían a las
+
+Online speaker 2026-07-24 14:19:47
+A las 14
+
+Online speaker 2026-07-24 14:19:49
+Precio de las 14
+
+Online speaker 2026-07-24 14:19:51
+Aquí notas especiales, aquí sí viene lo que viene de P 8
+
+Online speaker 2026-07-24 14:19:55
+Otra desp 8 con instrucciones
+
+Online speaker 2026-07-24 14:19:58
+Se entrega, vale.
+
+Online speaker 2026-07-24 14:20:00
+Entregar
+
+Online speaker 2026-07-24 14:20:05
+150 nos.
+
+Online speaker 2026-07-24 14:20:07
+Este 10 cajas.
+
+Online speaker 2026-07-24 14:20:12
+Sin produc
+
+Online speaker 2026-07-24 14:20:14
+Ah, algo así dice
+
+Online speaker 2026-07-24 14:20:16
+Vamos a mandarle aquí que que aquí nos piden 100.
+
+Online speaker 2026-07-24 14:20:19
+Vale bien, ya subió aquí a 150 kg porque este pesa
+
+Online speaker 2026-07-24 14:20:29
+Vale, le puse 1 kg a la Lenovo
+
+Local speaker 2026-07-24 14:20:33
+No habían sido como 3
+
+Online speaker 2026-07-24 14:20:34
+Ah, no, sí, está bien.
+
+Online speaker 2026-07-24 14:20:35
+No, no sé si está bien porque le puse 100 y aquí son 150.
+
+Online speaker 2026-07-24 14:20:41
+Y 100 de estas, ahí está.
+
+Online speaker 2026-07-24 14:20:44
+Vale, aquí me falta sumar el total, pero aquí podemos ver que claramente son 450 kg, están de acuerdo, no sé.
+
+Online speaker 2026-07-24 14:20:51
+No serían 500
+
+Online speaker 2026-07-24 14:20:55
+Ah, sí, tienes razón, 500.
+
+Local speaker 2026-07-24 14:20:56
+C 3, cuatro y 5 y 5.
+
+Online speaker 2026-07-24 14:20:59
+Vamos a ponerles 101 y 101 cada cada
+
+Online speaker 2026-07-24 14:21:03
+Máquina.
+
+Online speaker 2026-07-24 14:21:05
+Para que no aceptan exacto, no se ponerle
+
+Online speaker 2026-07-24 14:21:08
+12 productos de esto
+
+Online speaker 2026-07-24 14:21:12
+Y 115 productos de esto
+
+Online speaker 2026-07-24 14:21:15
+Ya para que nos marcas algo más más realista, no
+
+Online speaker 2026-07-24 14:21:21
+Listo dudas de los dos tipos de pedidos.
+
+Online speaker 2026-07-24 14:21:33
+No, no
+
+Local speaker 2026-07-24 14:21:33
+No.
+
+Online speaker 2026-07-24 14:21:34
+Bueno, Cris, todo bien. Entonces vea
+
+Online speaker 2026-07-24 14:21:37
+Si nosotros dejen cerrar esto
+
+Online speaker 2026-07-24 14:21:41
+Si nosotros comparamos.
+
+Online speaker 2026-07-24 14:21:45
+Tengo el periodo de Marketplace.
+
+Online speaker 2026-07-24 14:21:50
+Y tengo el pedido inteligente.
+
+Online speaker 2026-07-24 14:21:56
+Es que me lo me lo detecta cuando yo entro al detalle del pedido.
+
+Online speaker 2026-07-24 14:22:00
+Ahí me dice que este pedido ya ya es 111 pedido de Marketplace, ya verán hasta dice.
+
+Online speaker 2026-07-24 14:22:07
+Ah, la acción de entrega es paquetería LLTL. Esa es la guía y la paquetería.
+
+Online speaker 2026-07-24 14:22:12
+Ya vieron
+
+Online speaker 2026-07-24 14:22:16
+Y dice que es la ingesta, la guía, la aprobación, falta aquí y todo eso es todo. Esto es la el el
+
+Online speaker 2026-07-24 14:22:23
+Seguimiento que debe tener cada pedido, pero vean.
+
+Online speaker 2026-07-24 14:22:26
+Aquí viene el seguimiento
+
+Online speaker 2026-07-24 14:22:30
+Ajá, aquí viene la paquetería, en este caso, y viene manifiesto que todavía no creamos.
+
+Online speaker 2026-07-24 14:22:35
+Ahora de este lado que dice pedido directa a tienda, aquí ya me está diciendo en el emity
+
+Online speaker 2026-07-24 14:22:41
+Que va a proceder, vale
+
+Online speaker 2026-07-24 14:22:44
+Tenemos esto y aquí dice, bueno, aquí es un tema de riesgo porque este sí trae una fecha de de de entrega.
+
+Online speaker 2026-07-24 14:22:51
+Vale, pero ven la diferencia, paquetería, guía.
+
+Online speaker 2026-07-24 14:22:55
+Transporte asignado vale, eso es muy importante porque
+
+Online speaker 2026-07-24 14:22:59
+Va a ir una camioneta de VDHLA recoger y la otra, nosotros tenemos que decir cuál transporte se va a ocupar, va
+
+Online speaker 2026-07-24 14:23:09
+Mhm va.
+
+Local speaker 2026-07-24 14:23:10
+Sí, sí, también de la de bueno esa paquetería es este igual de las que llegaban así, sin cita, no que es este
+
+Online speaker 2026-07-24 14:23:15
+Aquí
+
+Online speaker 2026-07-24 14:23:16
+Exacto
+
+Local speaker 2026-07-24 14:23:17
+Este cuál era el Walking no
+
+Online speaker 2026-07-24 14:23:17
+Si sin cita a FedEx
+
+Online speaker 2026-07-24 14:23:20
+Ajá, exactamente.
+
+Local speaker 2026-07-24 14:23:21
+Sí que es como ya llegó esta unidad, a ver, deja veo donde te asigno el lugar.
+
+Local speaker 2026-07-24 14:23:26
+Ah, pues pásate este anden.
+
+Online speaker 2026-07-24 14:23:28
+Mhm, exacto.
+
+Online speaker 2026-07-24 14:23:31
+Entonces, aquí esta distribución de paqueterías debería ser de forma automática.
+
+Online speaker 2026-07-24 14:23:38
+Vale, es decir, yo aquí necesito crear.
+
+Online speaker 2026-07-24 14:23:41
+Una caja.
+
+Online speaker 2026-07-24 14:23:42
+Por default porque es un pedido
+
+Online speaker 2026-07-24 14:23:46
+Aquí en el proceso es una caja por pedido
+
+Online speaker 2026-07-24 14:23:51
+Vale, entonces vean si ya veo aquí la distribución de cajas, pues ya sé que es una caja que trae dos cosas, ya
+
+Online speaker 2026-07-24 14:24:00
+Pero acá
+
+Online speaker 2026-07-24 14:24:03
+En el pedido inteligente.
+
+Online speaker 2026-07-24 14:24:06
+Aquí me faltan ver la nota, no por ejemplo.
+
+Online speaker 2026-07-24 14:24:10
+No, no la tengo impresa aquí
+
+Online speaker 2026-07-24 14:24:12
+Pero ya se guardó
+
+Online speaker 2026-07-24 14:24:15
+Entonces, aquí en el tema de Del Cubikage.
+
+Online speaker 2026-07-24 14:24:18
+Pues me dijeron que son.
+
+Online speaker 2026-07-24 14:24:21
+¿Cuántas piezas?
+
+Online speaker 2026-07-24 14:24:27
+Este de Estas son 150.
+
+Online speaker 2026-07-24 14:24:32
+Y 212.
+
+Online speaker 2026-07-24 14:24:34
+Vale, cuando tú richi.
+
+Online speaker 2026-07-24 14:24:38
+¿Tú vas a colocar
+
+Online speaker 2026-07-24 14:24:49
+Muchas veces a lo mejor te dicen, Oye, quiero 200 piezas y así llega el pedido, no
+
+Online speaker 2026-07-24 14:24:55
+La la realidad es que te van a surtir físicamente 150
+
+Online speaker 2026-07-24 14:25:00
+Entonces el pedido que nosotros recuperamos ya debería actualizar 150.
+
+Online speaker 2026-07-24 14:25:08
+Vale, porque es lo que vamos a embarcar.
+
+Online speaker 2026-07-24 14:25:14
+Crear un caja.
+
+Local speaker 2026-07-24 14:25:14
+Crear una caja
+
+Local speaker 2026-07-24 14:25:17
+¿Verdad?
+
+Online speaker 2026-07-24 14:25:24
+Bien este en cualquier, en cualquier parte del proceso, o sea, no hay un un flujo, pero esto de aquí que estoy haciendo técnicamente lo tiene que hacer. Richie de forma automática
+
+Online speaker 2026-07-24 14:25:37
+Vale, entonces vamos AA generar.
+
+Online speaker 2026-07-24 14:25:40
+10 cajas
+
+Online speaker 2026-07-24 14:25:42
+Entonces yo lo voy a poner así
+
+Online speaker 2026-07-24 14:25:46
+10 y los voy a poner así
+
+Online speaker 2026-07-24 14:25:49
+Porque así me decía el pedido no, entonces vean, aquí va a ser una dispersión automática.
+
+Online speaker 2026-07-24 14:25:58
+Esto me hizo la mitad, la mitad de la mitad, la mitad, la mitad
+
+Online speaker 2026-07-24 14:26:21
+Bueno, pero si esto es más este allá ya regreso, entonces esta distribución es la que yo ya voy a recuperar de p 8, no la ajá, pero estás de acuerdo Richie, que esto ya es en la segunda fase, cuando tú ya recuperas el pedido trabajado.
+
+Local speaker 2026-07-24 14:26:22
+Ya, ya regresé
+
+Local speaker 2026-07-24 14:26:24
+Ya es que
+
+Online speaker 2026-07-24 14:26:37
+Porque ya obtienes la caja, yo obtienes el peso de la caja.
+
+Online speaker 2026-07-24 14:26:42
+Que, por ejemplo, aquí vamos a ponerle 62 kg, vamos a ponerle 2 kg extras.
+
+Online speaker 2026-07-24 14:26:47
+32. Aquí vamos a ponerle 60 y 60.5.
+
+Online speaker 2026-07-24 14:26:56
+60.5.
+
+Online speaker 2026-07-24 14:26:58
+60.5.
+
+Online speaker 2026-07-24 14:27:01
+Aquí 58 kg donde se pone así 58
+
+Online speaker 2026-07-24 14:27:08
+Ah, espéreme, no me deja, es que tengo que ir aquí uno por uno.
+
+Online speaker 2026-07-24 14:27:14
+OK, tengo que ir 1 por 1
+
+Online speaker 2026-07-24 14:27:20
+Esa es una diferencia de un emipíba
+
+Online speaker 2026-07-24 14:27:22
+Y aquí voy pasito a pasito
+
+Online speaker 2026-07-24 14:27:25
+Pero con esto yo compruebo flujo, están de acuerdo.
+
+Online speaker 2026-07-24 14:27:31
+Cuenta 62,60 60.5
+
+Online speaker 2026-07-24 14:27:42
+Entonces 60 más acá
+
+Online speaker 2026-07-24 14:27:47
+60.5.
+
+Online speaker 2026-07-24 14:27:56
+60.5.
+
+Online speaker 2026-07-24 14:28:06
+571.
+
+Online speaker 2026-07-24 14:28:16
+57.
+
+Online speaker 2026-07-24 14:28:18
+Ya se acabó
+
+Online speaker 2026-07-24 14:28:24
+55
+
+Online speaker 2026-07-24 14:28:28
+Amor.
+
+Online speaker 2026-07-24 14:28:30
+No tantas vender.
+
+Online speaker 2026-07-24 14:28:33
+Nada
+
+Online speaker 2026-07-24 14:28:35
+¿Cómo estás?
+
+Online speaker 2026-07-24 14:28:37
+¿Son tapás
+
+Online speaker 2026-07-24 14:28:40
+Lista, ya quedó va
+
+Online speaker 2026-07-24 14:28:42
+Entonces, fíjense de aquí ya me dice que el 100% ya está packing completo, va
+
+Online speaker 2026-07-24 14:28:49
+Y aquí vamos a dejarle
+
+Online speaker 2026-07-24 14:28:51
+Los 5 kg
+
+Online speaker 2026-07-24 14:28:56
+Hacer
+
+Online speaker 2026-07-24 14:28:57
+Pero kilos 100% para quien este también se se tiene que hacer automáticamente. Richie vale.
+
+Online speaker 2026-07-24 14:29:05
+Aquí tenemos esto.
+
+Online speaker 2026-07-24 14:29:07
+Aquí tenemos este aquí no parece que sí pareciera que no cambió nada, efectivamente no cambió nada, pero siguen en borrador.
+
+Online speaker 2026-07-24 14:29:14
+Vale, nosotros no vamos a guardar los pedidos en borrador, REACH, nos vamos a crear confirmados y aprobados, ahorita paso a esa parte.
+
+Online speaker 2026-07-24 14:29:23
+Confirmado es de que yo lo paso de borrador Luis aquí, aquí podría yo borrarlo.
+
+Online speaker 2026-07-24 14:29:28
+Vale, pero una vez confirmado el pedido ya no lo borro, entonces lo voy a pasar de aquí acá va y ya
+
+Online speaker 2026-07-24 14:29:35
+Confirmó éste.
+
+Online speaker 2026-07-24 14:29:37
+Confirmo esto
+
+Online speaker 2026-07-24 14:29:39
+Vale, ahí está.
+
+Online speaker 2026-07-24 14:29:42
+Pues bien
+
+Online speaker 2026-07-24 14:29:43
+Acá el proceso es
+
+Online speaker 2026-07-24 14:29:45
+Aprobado, déjenlo lo lo valido.
+
+Online speaker 2026-07-24 14:29:48
+Ya está probado.
+
+Online speaker 2026-07-24 14:29:49
+Ese también está probado, miren
+
+Online speaker 2026-07-24 14:29:53
+De vieron, aquí está
+
+Online speaker 2026-07-24 14:29:55
+Ya está, ya está en packing
+
+Online speaker 2026-07-24 14:30:00
+Mhm
+
+Online speaker 2026-07-24 14:30:04
+Y aquí hay algo que importante que me dice aquí
+
+Online speaker 2026-07-24 14:30:10
+Que he aprobado confirmado aprobación
+
+Online speaker 2026-07-24 14:30:16
+Y listo aprobado, esto lo hace de forma automática
+
+Online speaker 2026-07-24 14:30:21
+Sí, desde p 8
+
+Online speaker 2026-07-24 14:30:23
+No sé, es fija.
+
+Online speaker 2026-07-24 14:30:24
+Ya están, ya están los pedidos aquí.
+
+Online speaker 2026-07-24 14:30:28
+Vale, este es 1. Este es otro, están confirmados.
+
+Online speaker 2026-07-24 14:30:33
+Ya hemos están aprobados.
+
+Online speaker 2026-07-24 14:30:35
+Estatus confirmado ya cuando yo le de aquí hizo ahí la la IA, ya los autoconfirmófirmó, vale cuando ya los confirmó acá.
+
+Online speaker 2026-07-24 14:30:42
+Es como si yo los confirmara de P 8 va.
+
+Online speaker 2026-07-24 14:30:47
+Ahora sí
+
+Online speaker 2026-07-24 14:30:48
+Ya vemos el detalle y todo eso
+
+Online speaker 2026-07-24 14:30:50
+Me voy a quedar con él, vamos a ver el snapchat.
+
+Online speaker 2026-07-24 14:30:54
+¿Cómo
+
+Online speaker 2026-07-24 14:30:55
+Snapshot
+
+Online speaker 2026-07-24 14:30:57
+¿Qué tengo aquí? Los dos pedidos.
+
+Online speaker 2026-07-24 14:31:00
+1
+
+Online speaker 2026-07-24 14:31:01
+Ya 1 ya tiene paquetería asignada.
+
+Online speaker 2026-07-24 14:31:03
+Y el otro fue acá
+
+Online speaker 2026-07-24 14:31:05
+Ya vieron, pero están los dos aquí
+
+Online speaker 2026-07-24 14:31:07
+Este es un snapchat
+
+Online speaker 2026-07-24 14:31:09
+Aquí está separado por cliente.
+
+Online speaker 2026-07-24 14:31:12
+Está separado por destino, los que son pedidos de marketing no guardan destino, por eso aquí dice sin destino
+
+Online speaker 2026-07-24 14:31:19
+Vale y por tipo de entrega, vale esta vista, sí me gustaría tenerla ya vale
+
+Online speaker 2026-07-24 14:31:25
+Vamos a ver
+
+Local speaker 2026-07-24 14:31:26
+Sí, lo de snapshot que
+
+Online speaker 2026-07-24 14:31:27
+El control de tráfico.
+
+Online speaker 2026-07-24 14:31:30
+Vean en el control de tráfico.
+
+Online speaker 2026-07-24 14:31:33
+Aparece el pedido aquí aquí no defino por tipo de pedido.
+
+Local speaker 2026-07-24 14:31:35
+Ajá
+
+Online speaker 2026-07-24 14:31:38
+Vale, me falta agregar esto aquí en el control de tráfico.
+
+Online speaker 2026-07-24 14:31:42
+Perdón en el control operativo.
+
+Online speaker 2026-07-24 14:31:45
+Aquí es por pedido, aquí me falta.
+
+Online speaker 2026-07-24 14:31:47
+Agregar, déjenlo, lo agrego
+
+Online speaker 2026-07-24 14:31:52
+Porque necesito saber, por ejemplo, si es un tipo de pedido b to be.
+
+Online speaker 2026-07-24 14:31:58
+En control
+
+Online speaker 2026-07-24 14:31:59
+Operativo no visual uso si el pedido.
+
+Online speaker 2026-07-24 14:32:04
+Es de paquetería inteligente
+
+Online speaker 2026-07-24 14:32:08
+Y además, si es directo.
+
+Online speaker 2026-07-24 14:32:13
+¿Oh, oh, cómo es la forma de enviar?
+
+Online speaker 2026-07-24 14:32:16
+Podemos arreglar
+
+Online speaker 2026-07-24 14:32:19
+Esta vista MVP.
+
+Online speaker 2026-07-24 14:32:23
+Entonces pone a trabajar, recibe explicando, vean.
+
+Online speaker 2026-07-24 14:32:27
+Este control operativo aquí me voy a mostrar todos los los pedidos.
+
+Online speaker 2026-07-24 14:32:32
+Están ahorita este.
+
+Online speaker 2026-07-24 14:32:34
+Trabajándose los cerrados ya no me interesan
+
+Online speaker 2026-07-24 14:32:39
+Solamente estos
+
+Online speaker 2026-07-24 14:32:44
+A ver, espérame tantito
+
+Online speaker 2026-07-24 14:32:46
+Mhm Mhm
+
+Online speaker 2026-07-24 14:33:16
+Gary, perdone
+
+Online speaker 2026-07-24 14:33:19
+Entonces, este este les digo esta pista, si me gustaría ir, por eso les digo que aquí es este 111 herramienta de control operativo va
+
+Online speaker 2026-07-24 14:33:28
+Entonces ya ya ahorita ya está trabajando ahí en esta parte para mostrarles este mejor esta vista va.
+
+Online speaker 2026-07-24 14:33:34
+Pero es prácticamente eso, mira si se dan cuenta, tenemos estos dos tipos de pedidos y vean el pedido de Marketplace ya me dice que no tiene bloqueos.
+
+Online speaker 2026-07-24 14:33:43
+Pero el otro día me dice que que no tiene un programa de embarques
+
+Online speaker 2026-07-24 14:33:47
+Vale, y esa es la parte importante que se quieren, revisamos, ahorita regresando de comer como bueno
+
+Online speaker 2026-07-24 14:33:53
+Vale, hasta aquí todo, todo bien, no tienen alguna duda.
+
+Online speaker 2026-07-24 14:34:00
+¿No crees? Creo bueno, yo todo bien.
+
+Online speaker 2026-07-24 14:34:02
+Pero donde nos mover a pelear es de donde consigo esto de P 8, pero sí, sí entiendo cómo tiene que estar aquí, es que lo que tenemos que que que ver justamente vamos a la mitad del del proceso, ahorita esto es pura ingesta
+
+Online speaker 2026-07-24 14:34:16
+Vale ingesta y clasificación de tipo de pedido YY forma de entrega
+
+Local speaker 2026-07-24 14:34:18
+Sí.
+
+Online speaker 2026-07-24 14:34:23
+Va
+
+Online speaker 2026-07-24 14:34:25
+Y en toda la información extraña
+
+Local speaker 2026-07-24 14:34:27
+Sí.
+
+Online speaker 2026-07-24 14:34:28
+Ahorita vemos los de tracking, lo de la detacora, etcétera.
+
+Online speaker 2026-07-24 14:34:33
+¿Vale?
+
+Online speaker 2026-07-24 14:34:34
+Ustedes si quieren, ahorita lo validamos.
+
+Online speaker 2026-07-24 14:34:39
+Y ese es el tipo de esa es la
+
+Online speaker 2026-07-24 14:34:43
+El el flujo vale, vean un flujo B to B.
+
+Online speaker 2026-07-24 14:34:46
+Y un flujo de de paquetería.
+
+Online speaker 2026-07-24 14:34:51
+Vale, este también se lo subo ahorita.
+
+Online speaker 2026-07-24 14:34:54
+A que lo tenga hoy menciona un cambio
+
+Online speaker 2026-07-24 14:34:58
+Ah, sí, y es que ya quedó lo de la agrupación de zona y todo ahorita la chequeamos
+
+Online speaker 2026-07-24 14:35:04
+Pues es que es lo que qué es lo que quiero, yo que se lleven para que empecemos a trabajar.
+
+Online speaker 2026-07-24 14:35:10
+Estas vistas lo que vamos a empezar a trabajar los pedidos
+
+Online speaker 2026-07-24 14:35:13
+Entonces, con esto vamos a poder tener visión de todo y nos vamos a ir a los a poder ir a los siguientes procesos, vale entonces ahorita
+
+Online speaker 2026-07-24 14:35:22
+Este el exterminado de explicar esos dos periodos que tenemos aquí, ahorita no metan ningún pedido para no ensuciar la información
+
+Online speaker 2026-07-24 14:35:31
+Y este y espéreme vamos AA revisar esta parte, vale.
+
+Online speaker 2026-07-24 14:35:34
+Entonces yo les yo les marco.
+
+Online speaker 2026-07-24 14:35:36
+Va vámonos vámonos vámonos a comer porque ya es tardecito también.
+
+Online speaker 2026-07-24 14:35:42
+Sí, sí.
+
+Local speaker 2026-07-24 14:35:42
+Si ahorita nos vemos.
+
+Online speaker 2026-07-24 14:35:44
+Vale, ya nos vemos.
+
+Online speaker 2026-07-24 14:35:46
+Vale, gracias igual, ahorita los demos.
+
+Local speaker 2026-07-24 14:35:46
+Sí, buen provecho.
+
+Local speaker 2026-07-24 14:35:51
+A ver
