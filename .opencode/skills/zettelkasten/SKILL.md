@@ -63,6 +63,18 @@ Archivo el contenido activo moviendo `Inbox/`, `Input/`, `Journal/`, `Output/` a
 
 Detalles: `scripts/Archive-VaultIteration.ps1`.
 
+## Clean Transcript Command (`/clean-transcript`)
+
+Limpieza MECANICA de transcripciones crudas de Teams en `Input/` (`.txt` -> `.md`): fusiona turnos consecutivos del mismo hablante, descarta turnos de puro relleno (`si`, `aja`, `ok`), corta parrafos cada 2 min para conservar timestamps, colapsa frases repetidas. Tipico: 726 bloques -> 99 turnos, -40% bytes.
+
+- `/clean-transcript` — todos los `.txt` de `Input/`.
+- `/clean-transcript "archivo.txt"` — uno solo.
+- `/clean-transcript force` — sobreescribe el `.md`.
+
+El `.txt` crudo nunca se borra (es la fuente). **Nunca sintetizar leyendo el `.txt`** — limpiar primero, sintetizar sobre el `.md`. No resume: la sintesis es un paso aparte.
+
+Detalles: `scripts/Clean-Transcript.ps1`. Ver `AGENTS.md` seccion 8.
+
 ## Git Sync Command (`/git-full`)
 
 `git add -A` + `commit` + `push`. Setup interactivo si no hay `origin`. Mensaje default: `vault sync YYYY-MM-DD HH:mm`, override con `/git-full "mi mensaje"`.

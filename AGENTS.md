@@ -131,10 +131,39 @@ En Claude Code (vía `mcp-obsidian`) los nombres de herramienta son `obsidian_*`
 
 ---
 
-## 8. Comandos / referencias rápidas
+## 8. Comando `/clean-transcript`
+
+Teams deja la transcripción cruda en `Input/` como `.txt`: un bloque `Local|Online speaker YYYY-MM-DD HH:MM:SS` + una línea de texto **por cada frase** (~730 bloques por hora de junta). El 40% del archivo son cabeceras.
+
+`/clean-transcript` lo convierte en un `.md` compacto — **limpieza mecánica, sin resumir**:
+
+1. Fusiona turnos consecutivos del mismo hablante en un párrafo.
+2. Descarta turnos de puro relleno (`sí`, `ajá`, `mhm`, `ok`, `claro`…). Solo si **todas** las palabras del turno son relleno, así que datos cortos que sí importan (`71002`, un folio, una cifra) se conservan.
+3. Corta el párrafo cada 2 min (`-MaxMergeMinutes`) para no perder los timestamps de un monólogo largo — son los que permiten cruzar la junta con las capturas del daily.
+4. Colapsa frases repetidas contiguas (tartamudeo del reconocedor).
+
+Resultado típico: **726 bloques → 99 turnos, −40% bytes**, y lo que queda es contenido.
+
+### Uso
+- `/clean-transcript` — todos los `.txt` de `Input/`.
+- `/clean-transcript "Destino y entrega.txt"` — uno solo.
+- `/clean-transcript force` — sobreescribe el `.md` existente.
+
+### Reglas
+- El `.txt` crudo **nunca se borra**: es la fuente. El `.md` limpio es el que se lee para sintetizar.
+- **Nunca** sintetizar leyendo el `.txt`. Primero limpiar, luego sintetizar sobre el `.md`.
+- `Online speaker` agrupa a **todos** los remotos — Teams no los separa. Si en la síntesis importa quién dijo qué, se deduce del contenido y se marca como inferencia, no como dato.
+- Ajustar nombres: `-Speakers @{Local='Michael';Online='Cris/Bruno'}`.
+
+Detalles: `scripts/Clean-Transcript.ps1` (self-test: `-SelfTest`).
+
+---
+
+## 9. Comandos / referencias rápidas
 
 - `/archive-vault` — ver sección 5.
 - `/git-full` o `/git-full "mensaje"` — ver sección 6.
+- `/clean-transcript` — ver sección 8.
 - Guía activa del vault: `_Archivo/migration.md` (se actualiza al archivar).
 - Skill del vault: `.opencode/skills/zettelkasten/SKILL.md`.
 - MCP Obsidian: ver sección 7.
