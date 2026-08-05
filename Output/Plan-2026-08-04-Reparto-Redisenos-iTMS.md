@@ -159,6 +159,18 @@ Su ingesta alimenta el Programa:
 - Archivos: `Views/Pedidos/` (modal + tabla), `pedidos.js`.
 - Fuente: Sintesis §6 · Michael 2026-08-04 L185-186.
 
+> **Contexto — bugs conocidos de la ruta lechera (CORE / backend, los ve Chris; NO es tarea de Richi).**
+> Solo para que estés al tanto si te cruzas con el flujo de consolidación/lechera al hacer R1/R4. Documentados 04-08 (Sintesis §8 · Michael L160):
+> - La **secuencia de paradas** se pierde.
+> - Toma el **cliente del primer pedido** (si mezclas clientes, mete todo bajo ese cliente).
+> - **No valida** si un pedido ya está en otro viaje.
+> - **No considera las medidas del vehículo** (cubicaje — puede que no quepa).
+> - **"Optimizar con Google"** funciona intermitente.
+> - Elige transportista solo (el **más barato aunque no quepa / no cotice / no autorice la unidad**).
+> - **Destinos sin zona** rompen la cotización por zona (se cruza con tu ingesta).
+>
+> El itinerario **RutaLechera** del iTMS (vista, Bruno) ya esquiva algunos a nivel UI; el fondo es CORE. No los ataques directo — coordinar con Chris/Bruno si alguno te bloquea.
+
 ---
 
 ## Dependencia de datos
