@@ -4,7 +4,7 @@ tipo: plan
 proyecto: CINLAT iTMS Axon
 tags: [axon, plan, reparto, redisenos, mvc, ejecucion]
 ---
-
+	 
 #Apunte #axon
 
 # Plan de reparto — Rediseños iTMS (post revalidación 2026-08-04)
