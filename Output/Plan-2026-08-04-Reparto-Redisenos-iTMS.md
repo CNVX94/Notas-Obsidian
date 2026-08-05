@@ -26,7 +26,7 @@ tags: [axon, plan, reparto, redisenos, mvc, ejecucion]
 
 **Compartido / coordinado:** **poda segura** · **ruta lechera CORE** (backend/Chris).
 
-> **Richi** sigue en **ingesta P8** (backend), la dependencia que alimenta el Programa. Su ayuda en vistas se define después.
+> **Richi** sigue en **ingesta P8** (backend), la dependencia que alimenta el Programa. **Front definido (05-08-2026) → ver [Richi — Front](#front-definido-05-08-2026).**
 
 ---
 
@@ -120,7 +120,44 @@ Su ingesta alimenta el Programa:
 - **Barrido** sobre todos los pedidos (3 días), fecha embarque nula = pendiente.
 - Arreglar **destinos sin zona** (rompe la cotización del Programa).
 - Agregar **cadena** (tienda/sucursal) y campos **largo/corto** de Joaquín.
-- Su ayuda en **vistas: se define después**.
+- **Front: definido abajo (05-08-2026).**
+
+### Front (definido 05-08-2026)
+
+> Entra a front **una vez cerrada su ingesta** (cita `embarquecita`/SC020 + destinos sin zona), que es la dependencia del Programa de Bruno (deadline fin de agosto). No arrancar front full si el Programa aún se quedaría sin datos.
+> Orden: **R1** arranque limpio y self-contained, **R2** el bloque grande, **R3/R4** rellenos cortos.
+
+#### R1. Modal Recolección + Nodos  *(era Bruno #3)*
+
+- Agregar **"recolección"** al select de tipo en el modal de **Nuevo Pedido**.
+- Cuando es **recolección**: el **ORIGEN** carga los **nodos de recolección del cliente** (ej. Hermes / Plaza Mazaryk), **no** los orígenes normales; el **DESTINO** = punto de entrega (ej. CINLAT CEDIS). En pedido inteligente normal, el origen carga solo puntos de origen + crossdock.
+- Hoy está **invertido** (llena las listas equivocadas) → arreglar **qué lista se llena según el flujo** (entrega vs recolección).
+- **Nodo ≠ Punto de entrega:** el tipo de nodo se define en **NODOS** (un nodo puede recolectar/origen, patio, transferir, aceptar devoluciones). No confundir aunque sea la misma tienda física.
+- Archivos: `Views/Pedidos/` (modal), `pedidos.js`, `NodesController`.
+- Fuente: Reparto #3 · Sintesis §5 · Michael 2026-08-04 L214-217.
+
+#### R2. Vistas de precio (candado + Cotizador + Tarifario)
+
+- **Candado (lock) de tarifa:** al **aprobar el contrato**, las tarifas pasan a verde/usable y quedan **bloqueadas** (respetan precio fecha-a-fecha, no se modifican ni reabriendo contrato). **Reponer el candadito** (se quitó). "Sin contrato" también bloqueado. Cada tarifa lleva su **estatus propio**.
+- Contratos contemporáneos: un contrato nuevo puede coexistir con el vigente si cuadran fechas de vigencia; en revisión = amarillo, se sigue cotizando con la tarifa anterior.
+- **Switch on/off por carril por transportista:** al bajar la matriz (Excel), solo salen los carriles que el transportista trabaja (apagados hasta abajo/excluidos).
+- **Cotizador:** usar **solo tarifas aprobadas y vigentes** (hoy muestra todas por pruebas). Arreglar **"imprimir vista previa"** (no funciona directo). Cotizaciones guardadas = **read-only**.
+- **Tarifario:** vista **más simple** (no confundir con Cotizador); mostrar **matriz completa sin scroll vertical** (agrandar tabla/espacio); **puede** mostrar pre-aprobadas pero **debe señalarlo**.
+- Archivos: `Cotizador`, `Tarifario`, `Contratos`, `Carriles` (+ css/js).
+- Fuente: Sintesis §7 · Michael 2026-08-04 L168-199, L221.
+
+#### R3. Rutas de riesgo — Editar / Evitar
+
+- El **"Editar" no sirve** → arreglar. Las rutas de riesgo **sugieren** custodio, **no bloquean**. La opción **"evitar"** tampoco sirve, arreglarla.
+- Archivos: `RutasRiesgo` (+ css/js).
+- Fuente: Sintesis §6 · Michael 2026-08-04 L192.
+
+#### R4. Bug crear-pedido: dedicado / no-consolidar
+
+- Al **crear pedido**, respetar la **regla del cliente** (dedicado / no quiere consolidar): preseleccionar dedicado + **warning**. La regla de dedicado también debe **verse en la tabla de pedidos** (como en el detalle).
+- La regla vive a nivel **cliente-compañía** (con vigencia + zonas). **Coordinar con Bruno** (es su modal de pedido).
+- Archivos: `Views/Pedidos/` (modal + tabla), `pedidos.js`.
+- Fuente: Sintesis §6 · Michael 2026-08-04 L185-186.
 
 ---
 
